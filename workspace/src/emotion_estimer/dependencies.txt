@@ -1,0 +1,11 @@
+tensorflow-model-optimization
+opencv-python
+tflite
+tensorflow
+numpy
+keras
+tf_keras
+platformdirs
+pysqlite3
+sqlite-vec
+webrtcvad

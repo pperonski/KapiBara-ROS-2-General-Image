@@ -1,0 +1,26 @@
+services:
+  robot:
+    container_name: kapibara_one_prod
+    network_mode: host
+    image: kapibara_one_prod
+
+    privileged: true
+    tty: true
+    build:
+      dockerfile: ./Docker/Dockerfile.prod
+      context: .
+    stop_signal: SIGINT
+    stop_grace_period: 30m
+    env_file:
+      - ./env/prod
+    volumes:
+      - ./entrypoints/entrypoint.prod.sh:/entrypoint.sh:rwx
+      - ./workspace:/app/:rw
+      - /sys:/sys
+      - /etc/udev:/etc/udev
+      - /run/udev:/run/udev
+      - /run/dbus/:/run/dbus
+      - /dev:/dev
+
+    group_add:
+      - dialout
