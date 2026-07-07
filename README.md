@@ -1,6 +1,6 @@
-# Becard Dron ROS2 container
+# KapiBara ROS2 container
 
-Container with ROS2 code for Becard dron. It handles development and retail container for deployment on real hardware.
+Container with ROS2 code for KapiBara robot. It handles development and retail container for deployment on real hardware.
 
 ## Development containter
 
@@ -52,3 +52,8 @@ for development container and **prod** holds variables for production container.
 ## Workspace 
 
 It is a workspace folder in which every ROS 2 packages go.
+
+TODO:
+
+- execute simulation, create a proper config file
+- move ros2 mujoco control node to seperate container for portability

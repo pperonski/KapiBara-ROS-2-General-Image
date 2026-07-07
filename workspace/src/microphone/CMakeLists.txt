@@ -35,7 +35,7 @@ ament_python_install_package(${PROJECT_NAME})
 # )
 
 install(PROGRAMS
-  scripts/mic.py
+  scripts/mic.py .venv
   DESTINATION lib/${PROJECT_NAME}
 )
 ament_package()
