@@ -1,0 +1,3 @@
+[submodule "workspace/src/kapibara"]
+	path = workspace/src/kapibara
+	url = git@github.com:pperonski/KapiBara-ROS-2-Package.git
