@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.000151] (kapibara_interfaces) JobQueued: {'identifier': 'kapibara_interfaces', 'dependencies': OrderedDict()}
+[0.000179] (kinect_ros2) JobQueued: {'identifier': 'kinect_ros2', 'dependencies': OrderedDict()}
+[0.000200] (sample_package) JobQueued: {'identifier': 'sample_package', 'dependencies': OrderedDict()}
+[0.000224] (emotion_estimer) JobQueued: {'identifier': 'emotion_estimer', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000250] (kapibara) JobQueued: {'identifier': 'kapibara', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000283] (microphone) JobQueued: {'identifier': 'microphone', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000308] (modus_board_interfaces) JobQueued: {'identifier': 'modus_board_interfaces', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000330] (mqtt_bridge) JobQueued: {'identifier': 'mqtt_bridge', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000360] (vel_saltis_drive) JobQueued: {'identifier': 'vel_saltis_drive', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000378] (vel_saltis_ears) JobQueued: {'identifier': 'vel_saltis_ears', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000436] (vel_saltis_services) JobQueued: {'identifier': 'vel_saltis_services', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000500] (kapibara_twingo_bridge) JobQueued: {'identifier': 'kapibara_twingo_bridge', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces'), ('vel_saltis_services', '/app/install/vel_saltis_services')])}
+[0.000529] (kapibara_vel_saltis_bridge) JobQueued: {'identifier': 'kapibara_vel_saltis_bridge', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces'), ('vel_saltis_services', '/app/install/vel_saltis_services')])}
+[0.000547] (modus_board) JobQueued: {'identifier': 'modus_board', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces'), ('modus_board_interfaces', '/app/install/modus_board_interfaces')])}
+[0.000563] (start_sequence) JobQueued: {'identifier': 'start_sequence', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces'), ('modus_board_interfaces', '/app/install/modus_board_interfaces'), ('vel_saltis_services', '/app/install/vel_saltis_services')])}
+[0.000579] (kapibara_interfaces) JobStarted: {'identifier': 'kapibara_interfaces'}
+[0.018336] (kinect_ros2) JobStarted: {'identifier': 'kinect_ros2'}
+[0.020490] (sample_package) JobStarted: {'identifier': 'sample_package'}
+[0.023212] (kapibara_interfaces) JobProgress: {'identifier': 'kapibara_interfaces', 'progress': 'cmake'}
+[0.023562] (kapibara_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/app/src/kapibara_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/app/install/kapibara_interfaces'], 'cwd': '/app/build/kapibara_interfaces', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/kapibara_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.036677] (kinect_ros2) JobProgress: {'identifier': 'kinect_ros2', 'progress': 'cmake'}
+[0.037142] (kinect_ros2) Command: {'cmd': ['/usr/bin/cmake', '/app/src/kinect_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/app/install/kinect_ros2'], 'cwd': '/app/build/kinect_ros2', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/kinect_ros2'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039529] (sample_package) JobProgress: {'identifier': 'sample_package', 'progress': 'cmake'}
+[0.040035] (sample_package) Command: {'cmd': ['/usr/bin/cmake', '/app/src/sample_package', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/app/install/sample_package'], 'cwd': '/app/build/sample_package', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/sample_package'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099458] (-) TimerEvent: {}
+[0.199997] (-) TimerEvent: {}
+[0.211690] (kinect_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.212131] (sample_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.212414] (kapibara_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299942] (-) TimerEvent: {}
+[0.320687] (sample_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.321114] (kapibara_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.321644] (kinect_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.332212] (sample_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.332377] (kinect_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.332504] (kapibara_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400045] (-) TimerEvent: {}
+[0.401024] (sample_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.401403] (kapibara_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.401509] (kinect_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.406170] (sample_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.406483] (kinect_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.406601] (kapibara_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.406688] (kinect_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.406761] (sample_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.406860] (kapibara_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.407721] (kapibara_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.407822] (kinect_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.407895] (sample_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.412640] (kinect_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.412833] (sample_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.412960] (kapibara_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.495640] (kapibara_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.495890] (kinect_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.495997] (sample_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.500117] (-) TimerEvent: {}
+[0.500686] (kapibara_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.500951] (kapibara_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.501298] (kapibara_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.503196] (kinect_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.503525] (kinect_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.503711] (sample_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.504019] (sample_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.504065] (kinect_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.504571] (sample_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.507834] (sample_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.507961] (kinect_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.508008] (kapibara_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600269] (-) TimerEvent: {}
+[0.631107] (kinect_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.631875] (kapibara_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.639517] (sample_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.703460] (-) TimerEvent: {}
+[0.732666] (kinect_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.732892] (sample_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.732962] (kapibara_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.781080] (sample_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.781250] (kapibara_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.781305] (kinect_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.785902] (kapibara_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.795031] (kapibara_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.803570] (-) TimerEvent: {}
+[0.836485] (sample_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.842458] (sample_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.848612] (kapibara_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.851059] (kinect_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.851162] (sample_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.855687] (kinect_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.863554] (kinect_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.868706] (sample_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.874139] (kinect_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.881779] (sample_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.884269] (kinect_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.903671] (-) TimerEvent: {}
+[0.939592] (sample_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.943615] (sample_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.955384] (kinect_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.959268] (kinect_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.003759] (-) TimerEvent: {}
+[1.052491] (kinect_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.052711] (sample_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.088370] (sample_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.088543] (kinect_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.103854] (-) TimerEvent: {}
+[1.139227] (kinect_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.140637] (sample_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.154126] (kinect_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.154350] (sample_package) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.163571] (kapibara_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.203964] (-) TimerEvent: {}
+[1.229809] (kinect_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.230061] (sample_package) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.230124] (kinect_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.230349] (sample_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.292875] (sample_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.293295] (kinect_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.293810] (sample_package) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.294311] (kinect_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.304079] (-) TimerEvent: {}
+[1.311496] (kapibara_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.356867] (sample_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.370194] (kinect_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:17 (find_package):\n'}
+[1.370442] (kinect_ros2) StderrLine: {'line': b'  By not providing "Findlibfreenect.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.370537] (kinect_ros2) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.370614] (kinect_ros2) StderrLine: {'line': b'  "libfreenect", but CMake did not find one.\n'}
+[1.370688] (kinect_ros2) StderrLine: {'line': b'\n'}
+[1.370763] (kinect_ros2) StderrLine: {'line': b'  Could not find a package configuration file provided by "libfreenect" with\n'}
+[1.370846] (kinect_ros2) StderrLine: {'line': b'  any of the following names:\n'}
+[1.370929] (kinect_ros2) StderrLine: {'line': b'\n'}
+[1.371010] (kinect_ros2) StderrLine: {'line': b'    libfreenectConfig.cmake\n'}
+[1.371091] (kinect_ros2) StderrLine: {'line': b'    libfreenect-config.cmake\n'}
+[1.371152] (kinect_ros2) StderrLine: {'line': b'\n'}
+[1.371210] (kinect_ros2) StderrLine: {'line': b'  Add the installation prefix of "libfreenect" to CMAKE_PREFIX_PATH or set\n'}
+[1.371265] (kinect_ros2) StderrLine: {'line': b'  "libfreenect_DIR" to a directory containing one of the above files.  If\n'}
+[1.371316] (kinect_ros2) StderrLine: {'line': b'  "libfreenect" provides a separate development package or SDK, be sure it\n'}
+[1.371365] (kinect_ros2) StderrLine: {'line': b'  has been installed.\n'}
+[1.371422] (kinect_ros2) StderrLine: {'line': b'\n'}
+[1.371478] (kinect_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.371526] (kinect_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.371584] (kinect_ros2) StdoutLine: {'line': b'See also "/app/build/kinect_ros2/CMakeFiles/CMakeOutput.log".\n'}
+[1.378377] (kinect_ros2) CommandEnded: {'returncode': 1}
+[1.404199] (-) TimerEvent: {}
+[1.405857] (kinect_ros2) JobEnded: {'identifier': 'kinect_ros2', 'rc': 1}
+[1.432604] (sample_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.432765] (sample_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /app/src/sample_package/include\n'}
+[1.432812] (sample_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.433317] (sample_package) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.433834] (sample_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.434287] (sample_package) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.435046] (sample_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.435123] (sample_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.435539] (sample_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.437289] (sample_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.445470] (sample_package) StdoutLine: {'line': b'-- Generating done\n'}
+[1.447897] (sample_package) StdoutLine: {'line': b'-- Build files have been written to: /app/build/sample_package\n'}
+[1.454672] (sample_package) JobEnded: {'identifier': 'sample_package', 'rc': 'SIGINT'}
+[1.484705] (kapibara_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.498509] (kapibara_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.500809] (kapibara_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.504269] (-) TimerEvent: {}
+[1.517622] (kapibara_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.517790] (kapibara_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.517832] (kapibara_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.517867] (kapibara_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.529902] (kapibara_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.601084] (kapibara_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.604347] (-) TimerEvent: {}
+[1.625275] (kapibara_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.626537] (kapibara_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.629162] (kapibara_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.679888] (kapibara_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.689427] (kapibara_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /app/build/kapibara_interfaces\n'}
+[1.698953] (kapibara_interfaces) JobEnded: {'identifier': 'kapibara_interfaces', 'rc': 'SIGINT'}
+[1.704447] (-) TimerEvent: {}
+[1.709538] (emotion_estimer) JobSkipped: {'identifier': 'emotion_estimer'}
+[1.709612] (kapibara) JobSkipped: {'identifier': 'kapibara'}
+[1.709629] (microphone) JobSkipped: {'identifier': 'microphone'}
+[1.709643] (modus_board_interfaces) JobSkipped: {'identifier': 'modus_board_interfaces'}
+[1.709655] (mqtt_bridge) JobSkipped: {'identifier': 'mqtt_bridge'}
+[1.709667] (vel_saltis_drive) JobSkipped: {'identifier': 'vel_saltis_drive'}
+[1.709680] (vel_saltis_ears) JobSkipped: {'identifier': 'vel_saltis_ears'}
+[1.709692] (vel_saltis_services) JobSkipped: {'identifier': 'vel_saltis_services'}
+[1.709704] (kapibara_twingo_bridge) JobSkipped: {'identifier': 'kapibara_twingo_bridge'}
+[1.709716] (kapibara_vel_saltis_bridge) JobSkipped: {'identifier': 'kapibara_vel_saltis_bridge'}
+[1.709728] (modus_board) JobSkipped: {'identifier': 'modus_board'}
+[1.709741] (start_sequence) JobSkipped: {'identifier': 'start_sequence'}
+[1.709755] (-) EventReactorShutdown: {}

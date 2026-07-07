@@ -1,0 +1,35 @@
+Built target ament_cmake_python_symlink_microphone
+running egg_info
+writing microphone.egg-info/PKG-INFO
+writing dependency_links to microphone.egg-info/dependency_links.txt
+writing top-level names to microphone.egg-info/top_level.txt
+reading manifest file 'microphone.egg-info/SOURCES.txt'
+writing manifest file 'microphone.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_microphone_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /app/install/microphone/share/microphone/environment/pythonpath.sh
+-- Up-to-date symlink: /app/install/microphone/share/microphone/environment/pythonpath.dsv
+-- Up-to-date symlink: /app/install/microphone/local/lib/python3.10/dist-packages/microphone-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /app/install/microphone/local/lib/python3.10/dist-packages/microphone-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /app/install/microphone/local/lib/python3.10/dist-packages/microphone-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /app/install/microphone/local/lib/python3.10/dist-packages/microphone-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /app/install/microphone/local/lib/python3.10/dist-packages/microphone/__init__.py
+-- Up-to-date symlink: /app/install/microphone/lib/microphone/mic.py
+-- Up-to-date symlink: /app/install/microphone/lib/microphone/.venv
+-- Up-to-date symlink: /app/install/microphone/share/ament_index/resource_index/package_run_dependencies/microphone
+-- Up-to-date symlink: /app/install/microphone/share/ament_index/resource_index/parent_prefix_path/microphone
+-- Up-to-date symlink: /app/install/microphone/share/microphone/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /app/install/microphone/share/microphone/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /app/install/microphone/share/microphone/environment/path.sh
+-- Up-to-date symlink: /app/install/microphone/share/microphone/environment/path.dsv
+-- Up-to-date symlink: /app/install/microphone/share/microphone/local_setup.bash
+-- Up-to-date symlink: /app/install/microphone/share/microphone/local_setup.sh
+-- Up-to-date symlink: /app/install/microphone/share/microphone/local_setup.zsh
+-- Up-to-date symlink: /app/install/microphone/share/microphone/local_setup.dsv
+-- Symlinking: /app/install/microphone/share/microphone/package.dsv
+-- Up-to-date symlink: /app/install/microphone/share/ament_index/resource_index/packages/microphone
+-- Up-to-date symlink: /app/install/microphone/share/microphone/cmake/microphoneConfig.cmake
+-- Up-to-date symlink: /app/install/microphone/share/microphone/cmake/microphoneConfig-version.cmake
+-- Up-to-date symlink: /app/install/microphone/share/microphone/package.xml
+Listing '/app/install/microphone/local/lib/python3.10/dist-packages/microphone'...

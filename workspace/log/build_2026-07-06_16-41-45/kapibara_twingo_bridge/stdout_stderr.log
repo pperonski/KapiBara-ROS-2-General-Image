@@ -1,0 +1,19 @@
+[100%] Built target bridge
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/lib/kapibara_twingo_bridge/bridge
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/share/ament_index/resource_index/package_run_dependencies/kapibara_twingo_bridge
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/share/ament_index/resource_index/parent_prefix_path/kapibara_twingo_bridge
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/environment/path.sh
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/environment/path.dsv
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/local_setup.bash
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/local_setup.sh
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/local_setup.zsh
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/local_setup.dsv
+-- Symlinking: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/package.dsv
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/share/ament_index/resource_index/packages/kapibara_twingo_bridge
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/cmake/kapibara_twingo_bridgeConfig.cmake
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/cmake/kapibara_twingo_bridgeConfig-version.cmake
+-- Up-to-date symlink: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/package.xml

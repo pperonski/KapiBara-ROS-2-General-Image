@@ -1,3 +1,0 @@
-chromadb
-sqlite3
-open3d

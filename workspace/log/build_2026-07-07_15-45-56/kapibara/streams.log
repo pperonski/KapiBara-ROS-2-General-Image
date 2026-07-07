@@ -1,0 +1,130 @@
+[0.063s] Invoking command in '/app/build/kapibara': CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/app/install/start_sequence:/app/install/kapibara_vel_saltis_bridge:/app/install/kapibara_twingo_bridge:/app/install/vel_saltis_services:/app/install/vel_saltis_ears:/app/install/vel_saltis_drive:/app/install/sample_package:/app/install/mqtt_bridge:/app/install/modus_board:/app/install/modus_board_interfaces:/app/install/microphone:/app/install/kapibara:/app/install/emotion_estimer:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:/app/install/vel_saltis_services/lib:/app/install/vel_saltis_ears/lib:/app/install/vel_saltis_drive/lib:/app/install/modus_board_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /app/build/kapibara -- -j12 -l12
+[0.118s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.431s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.485s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.593s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.598s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.609s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.710s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.714s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.965s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.071s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[1.072s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.112s] -- Found kapibara_interfaces: 0.8.0 (/app/install/kapibara_interfaces/share/kapibara_interfaces/cmake)
+[1.123s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.143s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.668s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.668s] -- Configured cppcheck include dirs: /app/src/kapibara/include
+[3.668s] -- Configured cppcheck exclude dirs and/or files: 
+[3.956s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.510s] -- Added test 'lint_cmake' to check CMake code style
+[4.807s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.039s] -- Added test 'uncrustify' to check C / C++ code style
+[7.040s] -- Configured uncrustify additional arguments: 
+[7.329s] -- Added test 'xmllint' to check XML markup files
+[7.331s] -- Configuring done
+[7.349s] -- Generating done
+[7.355s] -- Build files have been written to: /app/build/kapibara
+[7.387s] [35m[1mConsolidate compiler generated dependencies of target atractor[0m
+[7.410s] [  0%] Built target ament_cmake_python_symlink_kapibara
+[7.418s] [100%] Built target atractor
+[7.580s] running egg_info
+[7.582s] writing kapibara.egg-info/PKG-INFO
+[7.582s] writing dependency_links to kapibara.egg-info/dependency_links.txt
+[7.582s] writing top-level names to kapibara.egg-info/top_level.txt
+[7.585s] reading manifest file 'kapibara.egg-info/SOURCES.txt'
+[7.586s] writing manifest file 'kapibara.egg-info/SOURCES.txt'
+[7.629s] [100%] Built target ament_cmake_python_build_kapibara_egg
+[7.646s] Invoked command in '/app/build/kapibara' returned '0': CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/app/install/start_sequence:/app/install/kapibara_vel_saltis_bridge:/app/install/kapibara_twingo_bridge:/app/install/vel_saltis_services:/app/install/vel_saltis_ears:/app/install/vel_saltis_drive:/app/install/sample_package:/app/install/mqtt_bridge:/app/install/modus_board:/app/install/modus_board_interfaces:/app/install/microphone:/app/install/kapibara:/app/install/emotion_estimer:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:/app/install/vel_saltis_services/lib:/app/install/vel_saltis_ears/lib:/app/install/vel_saltis_drive/lib:/app/install/modus_board_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /app/build/kapibara -- -j12 -l12
+[7.648s] Invoking command in '/app/build/kapibara': CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/app/install/start_sequence:/app/install/kapibara_vel_saltis_bridge:/app/install/kapibara_twingo_bridge:/app/install/vel_saltis_services:/app/install/vel_saltis_ears:/app/install/vel_saltis_drive:/app/install/sample_package:/app/install/mqtt_bridge:/app/install/modus_board:/app/install/modus_board_interfaces:/app/install/microphone:/app/install/kapibara:/app/install/emotion_estimer:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:/app/install/vel_saltis_services/lib:/app/install/vel_saltis_ears/lib:/app/install/vel_saltis_drive/lib:/app/install/modus_board_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /app/build/kapibara
+[7.656s] -- Install configuration: ""
+[7.657s] -- Execute custom install script
+[7.657s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/description/camera.xacro
+[7.657s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/description/imu.xacro
+[7.657s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/description/inertial_macros.xacro
+[7.657s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/description/kapibara.urdf.xacro
+[7.657s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/description/lasers_def.xacro
+[7.657s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/description/lasers_joints.xacro
+[7.658s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/description/robot_core.xacro
+[7.658s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/description/ros2_control.xacro
+[7.658s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/meshes/Bottom.stl
+[7.658s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/meshes/Top.stl
+[7.658s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/meshes/Top1.stl
+[7.658s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/meshes/Top3.stl
+[7.658s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/meshes/Wing.stl
+[7.658s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/meshes/Wing1.stl
+[7.659s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/meshes/Wing2.stl
+[7.659s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/config/gazebo.yaml
+[7.659s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/config/lidar3d-gicp.yaml
+[7.659s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/config/lidar3d-icp.yaml
+[7.659s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/config/mola_cfg.yaml
+[7.659s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/config/my_controllers.yaml
+[7.659s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/config/my_controllers_sim.yaml
+[7.659s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/config/state-estimator.yaml
+[7.659s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/launch/launch.kapibara.can.py
+[7.660s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/launch/launch.mapper.sim.py
+[7.660s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/launch/launch.sim.py
+[7.660s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/Midas-V2-Quantized.tflite
+[7.660s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/Midas-V2-Quantized_edgetpu.log
+[7.660s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/Midas-V2-Quantized_edgetpu.tflite
+[7.660s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/calibration_image_sample_data_20x128x128x3_float32.npy
+[7.660s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/deepid.tflite
+[7.660s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/deepid_edgetpu.log
+[7.660s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/deepid_edgetpu.tflite
+[7.660s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/face_detection_yunet_2023mar_int8.tflite
+[7.661s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/face_detection_yunet_2023mar_int8_edgetpu.log
+[7.661s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/model.tflite
+[7.661s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/model_edgetpu.log
+[7.661s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/model_edgetpu.tflite
+[7.661s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/slim.tflite
+[7.661s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/slim_edgetpu.log
+[7.661s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/slim_edgetpu.tflite
+[7.661s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/yolov11n-face.onnx
+[7.661s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/yolov11n-face.pt
+[7.661s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/yolov11n-face_float32.tflite
+[7.661s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/yolov8n-cls_full_integer_quant.tflite
+[7.661s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/yolov8n-cls_full_integer_quant_edgetpu.tflite
+[7.661s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/yolov8n_full_integer_quant.tflite
+[7.662s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/yolov8n_full_integer_quant_edgetpu.tflite
+[7.662s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/yunet_full_integer_quant_edgetpu.log
+[7.662s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/yunet_integer_quant.tflite
+[7.662s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/yunet_integer_quant_edgetpu.log
+[7.662s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/model/yunet_integer_quant_edgetpu.tflite
+[7.662s] -- Symlinking: /app/install/kapibara/share/kapibara/scenes/scene.xml
+[7.671s] -- Up-to-date symlink: /app/install/kapibara/lib/kapibara/atractor
+[7.671s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/environment/pythonpath.sh
+[7.671s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/environment/pythonpath.dsv
+[7.672s] -- Up-to-date symlink: /app/install/kapibara/local/lib/python3.10/dist-packages/kapibara-0.0.0-py3.10.egg-info/PKG-INFO
+[7.672s] -- Up-to-date symlink: /app/install/kapibara/local/lib/python3.10/dist-packages/kapibara-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.672s] -- Up-to-date symlink: /app/install/kapibara/local/lib/python3.10/dist-packages/kapibara-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.672s] -- Up-to-date symlink: /app/install/kapibara/local/lib/python3.10/dist-packages/kapibara-0.0.0-py3.10.egg-info/top_level.txt
+[7.672s] -- Up-to-date symlink: /app/install/kapibara/local/lib/python3.10/dist-packages/kapibara/DeepIDTFLite.py
+[7.672s] -- Up-to-date symlink: /app/install/kapibara/local/lib/python3.10/dist-packages/kapibara/__init__.py
+[7.672s] -- Up-to-date symlink: /app/install/kapibara/local/lib/python3.10/dist-packages/kapibara/kapi_graphs.py
+[7.672s] -- Up-to-date symlink: /app/install/kapibara/lib/kapibara/camera_sim.py
+[7.673s] -- Up-to-date symlink: /app/install/kapibara/lib/kapibara/map_mind.py
+[7.673s] -- Up-to-date symlink: /app/install/kapibara/lib/kapibara/sensor_broadcaster.py
+[7.673s] -- Up-to-date symlink: /app/install/kapibara/lib/kapibara/map_scene.py
+[7.673s] -- Up-to-date symlink: /app/install/kapibara/lib/kapibara/imu_calib.py
+[7.673s] -- Up-to-date symlink: /app/install/kapibara/lib/kapibara/quanterion_decoder.py
+[7.673s] -- Up-to-date symlink: /app/install/kapibara/lib/kapibara/atractor.py
+[7.673s] -- Up-to-date symlink: /app/install/kapibara/lib/kapibara/.venv
+[7.673s] -- Up-to-date symlink: /app/install/kapibara/share/ament_index/resource_index/package_run_dependencies/kapibara
+[7.673s] -- Up-to-date symlink: /app/install/kapibara/share/ament_index/resource_index/parent_prefix_path/kapibara
+[7.673s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/environment/ament_prefix_path.sh
+[7.674s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/environment/ament_prefix_path.dsv
+[7.674s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/environment/path.sh
+[7.674s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/environment/path.dsv
+[7.674s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/local_setup.bash
+[7.674s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/local_setup.sh
+[7.674s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/local_setup.zsh
+[7.674s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/local_setup.dsv
+[7.674s] -- Symlinking: /app/install/kapibara/share/kapibara/package.dsv
+[7.685s] -- Up-to-date symlink: /app/install/kapibara/share/ament_index/resource_index/packages/kapibara
+[7.685s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/cmake/kapibaraConfig.cmake
+[7.685s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/cmake/kapibaraConfig-version.cmake
+[7.685s] -- Up-to-date symlink: /app/install/kapibara/share/kapibara/package.xml
+[7.713s] Listing '/app/install/kapibara/local/lib/python3.10/dist-packages/kapibara'...
+[7.720s] Invoked command in '/app/build/kapibara' returned '0': CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/app/install/start_sequence:/app/install/kapibara_vel_saltis_bridge:/app/install/kapibara_twingo_bridge:/app/install/vel_saltis_services:/app/install/vel_saltis_ears:/app/install/vel_saltis_drive:/app/install/sample_package:/app/install/mqtt_bridge:/app/install/modus_board:/app/install/modus_board_interfaces:/app/install/microphone:/app/install/kapibara:/app/install/emotion_estimer:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:/app/install/vel_saltis_services/lib:/app/install/vel_saltis_ears/lib:/app/install/vel_saltis_drive/lib:/app/install/modus_board_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /app/build/kapibara

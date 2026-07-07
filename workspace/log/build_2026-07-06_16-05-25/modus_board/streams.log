@@ -1,0 +1,48 @@
+[0.046s] Invoking command in '/app/build/modus_board': AMENT_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/modus_board -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/modus_board
+[0.176s] -- The C compiler identification is GNU 11.4.0
+[0.258s] -- The CXX compiler identification is GNU 11.4.0
+[0.268s] -- Detecting C compiler ABI info
+[0.392s] -- Detecting C compiler ABI info - done
+[0.405s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.406s] -- Detecting C compile features
+[0.406s] -- Detecting C compile features - done
+[0.409s] -- Detecting CXX compiler ABI info
+[0.516s] -- Detecting CXX compiler ABI info - done
+[0.523s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.524s] -- Detecting CXX compile features
+[0.526s] -- Detecting CXX compile features - done
+[0.537s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.696s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.768s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.813s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.890s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.890s] -- Added test 'lint_cmake' to check CMake code style
+[0.890s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.891s] -- Added test 'xmllint' to check XML markup files
+[0.892s] -- Configuring done
+[0.895s] -- Generating done
+[0.896s] -- Build files have been written to: /app/build/modus_board
+[0.900s] Invoked command in '/app/build/modus_board' returned '0': AMENT_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/modus_board -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/modus_board
+[0.902s] Invoking command in '/app/build/modus_board': AMENT_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/modus_board -- -j12 -l12
+[0.943s] Invoked command in '/app/build/modus_board' returned '0': AMENT_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/modus_board -- -j12 -l12
+[0.945s] Invoking command in '/app/build/modus_board': AMENT_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/modus_board
+[0.952s] -- Install configuration: ""
+[0.952s] -- Execute custom install script
+[0.952s] -- Symlinking: /app/install/modus_board/lib/modus_board/enable_boards.py
+[0.961s] -- Symlinking: /app/install/modus_board/lib/modus_board/reset_boards.py
+[0.969s] -- Symlinking: /app/install/modus_board/share/ament_index/resource_index/package_run_dependencies/modus_board
+[0.977s] -- Symlinking: /app/install/modus_board/share/ament_index/resource_index/parent_prefix_path/modus_board
+[0.986s] -- Symlinking: /app/install/modus_board/share/modus_board/environment/ament_prefix_path.sh
+[0.994s] -- Symlinking: /app/install/modus_board/share/modus_board/environment/ament_prefix_path.dsv
+[1.003s] -- Symlinking: /app/install/modus_board/share/modus_board/environment/path.sh
+[1.011s] -- Symlinking: /app/install/modus_board/share/modus_board/environment/path.dsv
+[1.024s] -- Symlinking: /app/install/modus_board/share/modus_board/local_setup.bash
+[1.035s] -- Symlinking: /app/install/modus_board/share/modus_board/local_setup.sh
+[1.046s] -- Symlinking: /app/install/modus_board/share/modus_board/local_setup.zsh
+[1.056s] -- Symlinking: /app/install/modus_board/share/modus_board/local_setup.dsv
+[1.066s] -- Symlinking: /app/install/modus_board/share/modus_board/package.dsv
+[1.075s] -- Symlinking: /app/install/modus_board/share/ament_index/resource_index/packages/modus_board
+[1.086s] -- Symlinking: /app/install/modus_board/share/modus_board/cmake/modus_boardConfig.cmake
+[1.098s] -- Symlinking: /app/install/modus_board/share/modus_board/cmake/modus_boardConfig-version.cmake
+[1.107s] -- Symlinking: /app/install/modus_board/share/modus_board/package.xml
+[1.119s] Invoked command in '/app/build/modus_board' returned '0': AMENT_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/modus_board

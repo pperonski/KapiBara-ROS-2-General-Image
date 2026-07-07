@@ -1,0 +1,243 @@
+[0.026s] Invoking command in '/app/build/modus_board_interfaces': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/modus_board_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/modus_board_interfaces
+[0.106s] -- The C compiler identification is GNU 11.4.0
+[0.169s] -- The CXX compiler identification is GNU 11.4.0
+[0.177s] -- Detecting C compiler ABI info
+[0.245s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.255s] -- Detecting C compile features
+[0.255s] -- Detecting C compile features - done
+[0.259s] -- Detecting CXX compiler ABI info
+[0.346s] -- Detecting CXX compiler ABI info - done
+[0.354s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.355s] -- Detecting CXX compile features
+[0.355s] -- Detecting CXX compile features - done
+[0.358s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.506s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.605s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.663s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.725s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.738s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.754s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.771s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.795s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.827s] -- Found kapibara_interfaces: 0.8.0 (/app/install/kapibara_interfaces/share/kapibara_interfaces/cmake)
+[0.836s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.151s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.029s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.057s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.063s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.099s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.099s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.099s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.099s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.127s] -- Found PythonExtra: .so  
+[2.433s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.470s] -- Added test 'lint_cmake' to check CMake code style
+[2.472s] -- Added test 'xmllint' to check XML markup files
+[2.487s] -- Configuring done
+[2.561s] -- Generating done
+[2.579s] -- Build files have been written to: /app/build/modus_board_interfaces
+[2.595s] Invoked command in '/app/build/modus_board_interfaces' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/modus_board_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/modus_board_interfaces
+[2.599s] Invoking command in '/app/build/modus_board_interfaces': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/modus_board_interfaces -- -j12 -l12
+[2.688s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.724s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.752s] [  5%] Built target ament_cmake_python_symlink_modus_board_interfaces
+[2.768s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.312s] running egg_info
+[3.313s] creating modus_board_interfaces.egg-info
+[3.315s] writing modus_board_interfaces.egg-info/PKG-INFO
+[3.315s] writing dependency_links to modus_board_interfaces.egg-info/dependency_links.txt
+[3.315s] writing top-level names to modus_board_interfaces.egg-info/top_level.txt
+[3.316s] writing manifest file 'modus_board_interfaces.egg-info/SOURCES.txt'
+[3.324s] reading manifest file 'modus_board_interfaces.egg-info/SOURCES.txt'
+[3.324s] writing manifest file 'modus_board_interfaces.egg-info/SOURCES.txt'
+[3.389s] [  7%] Built target modus_board_interfaces__rs
+[3.437s] [  7%] Built target ament_cmake_python_build_modus_board_interfaces_egg
+[3.514s] [ 10%] [32mBuilding C object CMakeFiles/modus_board_interfaces__rosidl_generator_c.dir/rosidl_generator_c/modus_board_interfaces/srv/detail/enable_boards__functions.c.o[0m
+[3.521s] [ 12%] [32mBuilding C object CMakeFiles/modus_board_interfaces__rosidl_generator_c.dir/rosidl_generator_c/modus_board_interfaces/srv/detail/reset_boards__functions.c.o[0m
+[3.622s] [ 15%] [32m[1mLinking C shared library libmodus_board_interfaces__rosidl_generator_c.so[0m
+[3.626s] [ 15%] Built target modus_board_interfaces__cpp
+[3.647s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.661s] [ 20%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.683s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.720s] [ 22%] Built target modus_board_interfaces__rosidl_generator_c
+[3.746s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.753s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.753s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.095s] [ 32%] [32mBuilding CXX object CMakeFiles/modus_board_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/modus_board_interfaces/srv/detail/reset_boards__type_support.cpp.o[0m
+[4.110s] [ 35%] [32mBuilding CXX object CMakeFiles/modus_board_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/modus_board_interfaces/srv/detail/enable_boards__type_support.cpp.o[0m
+[4.308s] [ 37%] [32mBuilding CXX object CMakeFiles/modus_board_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/modus_board_interfaces/srv/detail/reset_boards__type_support_c.cpp.o[0m
+[4.308s] [ 40%] [32mBuilding CXX object CMakeFiles/modus_board_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/modus_board_interfaces/srv/detail/enable_boards__type_support_c.cpp.o[0m
+[4.317s] [ 42%] [32mBuilding CXX object CMakeFiles/modus_board_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/modus_board_interfaces/srv/detail/dds_fastrtps/enable_boards__type_support.cpp.o[0m
+[4.324s] [ 45%] [32mBuilding CXX object CMakeFiles/modus_board_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/modus_board_interfaces/srv/detail/dds_fastrtps/reset_boards__type_support.cpp.o[0m
+[4.355s] [ 47%] [32mBuilding CXX object CMakeFiles/modus_board_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/modus_board_interfaces/srv/reset_boards__type_support.cpp.o[0m
+[4.356s] [ 50%] [32mBuilding CXX object CMakeFiles/modus_board_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/modus_board_interfaces/srv/enable_boards__type_support.cpp.o[0m
+[4.496s] [ 52%] [32mBuilding C object CMakeFiles/modus_board_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/modus_board_interfaces/srv/detail/reset_boards__type_support.c.o[0m
+[4.506s] [ 55%] [32mBuilding C object CMakeFiles/modus_board_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/modus_board_interfaces/srv/detail/enable_boards__type_support.c.o[0m
+[4.647s] [ 57%] [32m[1mLinking C shared library libmodus_board_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.663s] [ 60%] [32mBuilding CXX object CMakeFiles/modus_board_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/modus_board_interfaces/srv/enable_boards__type_support.cpp.o[0m
+[4.666s] [ 62%] [32mBuilding CXX object CMakeFiles/modus_board_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/modus_board_interfaces/srv/reset_boards__type_support.cpp.o[0m
+[4.759s] [ 62%] Built target modus_board_interfaces__rosidl_typesupport_introspection_c
+[4.803s] [ 65%] [32m[1mLinking CXX shared library libmodus_board_interfaces__rosidl_typesupport_c.so[0m
+[5.018s] [ 65%] Built target modus_board_interfaces__rosidl_typesupport_c
+[5.116s] [ 67%] [32m[1mLinking CXX shared library libmodus_board_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.237s] [ 70%] [32m[1mLinking CXX shared library libmodus_board_interfaces__rosidl_typesupport_cpp.so[0m
+[5.385s] [ 70%] Built target modus_board_interfaces__rosidl_typesupport_cpp
+[5.437s] [ 70%] Built target modus_board_interfaces__rosidl_typesupport_fastrtps_c
+[5.460s] [ 72%] [32m[1mLinking CXX shared library libmodus_board_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.577s] [ 72%] Built target modus_board_interfaces__rosidl_typesupport_introspection_cpp
+[5.691s] [ 75%] [32m[1mLinking CXX shared library libmodus_board_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.977s] [ 75%] Built target modus_board_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.009s] [ 75%] Built target modus_board_interfaces
+[6.045s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.987s] [ 77%] Built target modus_board_interfaces__py
+[7.074s] [ 80%] [32mBuilding C object CMakeFiles/modus_board_interfaces__rosidl_generator_py.dir/rosidl_generator_py/modus_board_interfaces/srv/_enable_boards_s.c.o[0m
+[7.084s] [ 82%] [32mBuilding C object CMakeFiles/modus_board_interfaces__rosidl_generator_py.dir/rosidl_generator_py/modus_board_interfaces/srv/_reset_boards_s.c.o[0m
+[7.487s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/modus_board_interfaces/libmodus_board_interfaces__rosidl_generator_py.so[0m
+[7.640s] [ 85%] Built target modus_board_interfaces__rosidl_generator_py
+[7.703s] [ 87%] [32mBuilding C object CMakeFiles/modus_board_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/modus_board_interfaces/_modus_board_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.715s] [ 90%] [32mBuilding C object CMakeFiles/modus_board_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/modus_board_interfaces/_modus_board_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.731s] [ 92%] [32mBuilding C object CMakeFiles/modus_board_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/modus_board_interfaces/_modus_board_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.923s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/modus_board_interfaces/modus_board_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.940s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/modus_board_interfaces/modus_board_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.036s] [ 97%] Built target modus_board_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[8.036s] [100%] [32m[1mLinking C shared library rosidl_generator_py/modus_board_interfaces/modus_board_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.094s] [100%] Built target modus_board_interfaces__rosidl_typesupport_introspection_c__pyext
+[8.161s] [100%] Built target modus_board_interfaces__rosidl_typesupport_c__pyext
+[8.216s] Invoked command in '/app/build/modus_board_interfaces' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/modus_board_interfaces -- -j12 -l12
+[8.217s] Invoking command in '/app/build/modus_board_interfaces': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/modus_board_interfaces
+[8.235s] -- Install configuration: ""
+[8.235s] -- Execute custom install script
+[8.235s] -- Symlinking: /app/install/modus_board_interfaces/share/ament_index/resource_index/rosidl_interfaces/modus_board_interfaces
+[8.260s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.273s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/enable_boards__functions.h
+[8.293s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/enable_boards__struct.h
+[8.314s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/enable_boards__type_support.h
+[8.331s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/reset_boards__functions.h
+[8.365s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/reset_boards__struct.h
+[8.386s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/reset_boards__type_support.h
+[8.409s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/enable_boards.h
+[8.425s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/reset_boards.h
+[8.463s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/environment/library_path.sh
+[8.496s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/environment/library_path.dsv
+[8.526s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.554s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/enable_boards__rosidl_typesupport_fastrtps_c.h
+[8.573s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/reset_boards__rosidl_typesupport_fastrtps_c.h
+[8.607s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.634s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/enable_boards__builder.hpp
+[8.667s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/enable_boards__struct.hpp
+[8.703s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/enable_boards__traits.hpp
+[8.715s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/enable_boards__type_support.hpp
+[8.740s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/reset_boards__builder.hpp
+[8.764s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/reset_boards__struct.hpp
+[8.809s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/reset_boards__traits.hpp
+[8.841s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/reset_boards__type_support.hpp
+[8.874s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/enable_boards.hpp
+[8.902s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/reset_boards.hpp
+[8.923s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.953s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/enable_boards__rosidl_typesupport_fastrtps_cpp.hpp
+[8.974s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/reset_boards__rosidl_typesupport_fastrtps_cpp.hpp
+[8.997s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.024s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/enable_boards__rosidl_typesupport_introspection_c.h
+[9.044s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/reset_boards__rosidl_typesupport_introspection_c.h
+[9.069s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/enable_boards__rosidl_typesupport_introspection_cpp.hpp
+[9.093s] -- Symlinking: /app/install/modus_board_interfaces/include/modus_board_interfaces/modus_board_interfaces/srv/detail/reset_boards__rosidl_typesupport_introspection_cpp.hpp
+[9.117s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/environment/pythonpath.sh
+[9.144s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/environment/pythonpath.dsv
+[9.171s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces-0.8.0-py3.10.egg-info/PKG-INFO
+[9.190s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces-0.8.0-py3.10.egg-info/SOURCES.txt
+[9.215s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces-0.8.0-py3.10.egg-info/dependency_links.txt
+[9.245s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces-0.8.0-py3.10.egg-info/top_level.txt
+[9.275s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/__init__.py
+[9.302s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/_modus_board_interfaces_s.ep.rosidl_typesupport_c.c
+[9.329s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/_modus_board_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.360s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/_modus_board_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.389s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/libmodus_board_interfaces__rosidl_generator_py.so
+[9.415s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/modus_board_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.447s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/modus_board_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.471s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/modus_board_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.498s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/srv/__init__.py
+[9.525s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/srv/_enable_boards.py
+[9.553s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/srv/_enable_boards_s.c
+[9.593s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/srv/_reset_boards.py
+[9.618s] -- Symlinking: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/srv/_reset_boards_s.c
+[9.633s] -- Up-to-date symlink: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/modus_board_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.634s] -- Up-to-date symlink: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/modus_board_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.634s] -- Up-to-date symlink: /app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/modus_board_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.635s] -- Symlinking: /app/install/modus_board_interfaces/share/ament_index/resource_index/rust_packages/modus_board_interfaces
+[9.668s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/rust/Cargo.toml
+[9.683s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/rust/build.rs
+[9.712s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/rust/src/lib.rs
+[9.752s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/rust/src/srv.rs
+[9.774s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/rust/src/srv/rmw.rs
+[9.802s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/srv/EnableBoards.idl
+[9.830s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/srv/ResetBoards.idl
+[9.855s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/srv/EnableBoards.srv
+[9.881s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/srv/EnableBoards_Request.msg
+[9.906s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/srv/EnableBoards_Response.msg
+[9.932s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/srv/ResetBoards.srv
+[9.960s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/srv/ResetBoards_Request.msg
+[9.985s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/srv/ResetBoards_Response.msg
+[10.008s] -- Symlinking: /app/install/modus_board_interfaces/share/ament_index/resource_index/package_run_dependencies/modus_board_interfaces
+[10.030s] -- Symlinking: /app/install/modus_board_interfaces/share/ament_index/resource_index/parent_prefix_path/modus_board_interfaces
+[10.056s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/environment/ament_prefix_path.sh
+[10.082s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/environment/ament_prefix_path.dsv
+[10.105s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/environment/path.sh
+[10.129s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/environment/path.dsv
+[10.160s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/local_setup.bash
+[10.186s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/local_setup.sh
+[10.222s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/local_setup.zsh
+[10.244s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/local_setup.dsv
+[10.270s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/package.dsv
+[10.293s] -- Symlinking: /app/install/modus_board_interfaces/share/ament_index/resource_index/packages/modus_board_interfaces
+[10.316s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.343s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.371s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.396s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.419s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.450s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.475s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.497s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/modus_board_interfacesConfig.cmake
+[10.522s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/modus_board_interfacesConfig-version.cmake
+[10.554s] -- Symlinking: /app/install/modus_board_interfaces/share/modus_board_interfaces/package.xml
+[10.576s] -- Installing: /app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_generator_c.so
+[10.578s] -- Set runtime path of "/app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_generator_c.so" to ""
+[10.579s] -- Installing: /app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.581s] -- Set runtime path of "/app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[10.581s] -- Installing: /app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.581s] -- Set runtime path of "/app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.585s] -- Installing: /app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_typesupport_introspection_c.so
+[10.587s] -- Set runtime path of "/app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[10.588s] -- Installing: /app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_typesupport_c.so
+[10.588s] -- Set runtime path of "/app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_typesupport_c.so" to ""
+[10.588s] -- Installing: /app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.592s] -- Set runtime path of "/app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[10.592s] -- Installing: /app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_typesupport_cpp.so
+[10.597s] -- Set runtime path of "/app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_typesupport_cpp.so" to ""
+[10.684s] Listing '/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces'...
+[10.685s] Compiling '/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/__init__.py'...
+[10.689s] Listing '/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/srv'...
+[10.703s] Compiling '/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/srv/__init__.py'...
+[10.703s] Compiling '/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/srv/_enable_boards.py'...
+[10.703s] Compiling '/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages/modus_board_interfaces/srv/_reset_boards.py'...
+[10.734s] -- Installing: /app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_generator_py.so
+[10.735s] -- Set runtime path of "/app/install/modus_board_interfaces/lib/libmodus_board_interfaces__rosidl_generator_py.so" to ""
+[10.735s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/export_modus_board_interfaces__rosidl_generator_cExport.cmake
+[10.736s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/export_modus_board_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.737s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/export_modus_board_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[10.738s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/export_modus_board_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.738s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/export_modus_board_interfaces__rosidl_generator_cppExport.cmake
+[10.739s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/export_modus_board_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.740s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/export_modus_board_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.740s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/modus_board_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.741s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/modus_board_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.741s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/modus_board_interfaces__rosidl_typesupport_cExport.cmake
+[10.742s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/modus_board_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.742s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/modus_board_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.742s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/modus_board_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.743s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/modus_board_interfaces__rosidl_typesupport_cppExport.cmake
+[10.744s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/modus_board_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.744s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/export_modus_board_interfaces__rosidl_generator_pyExport.cmake
+[10.745s] -- Installing: /app/install/modus_board_interfaces/share/modus_board_interfaces/cmake/export_modus_board_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[10.751s] Invoked command in '/app/build/modus_board_interfaces' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/modus_board_interfaces

@@ -1,0 +1,597 @@
+[0.012s] Invoking command in '/app/build/kapibara_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/build/kapibara_interfaces -- -j12 -l12
+[0.052s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.061s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[0.063s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.069s] [  1%] Built target ament_cmake_python_symlink_kapibara_interfaces
+[0.227s] running egg_info
+[0.228s] creating kapibara_interfaces.egg-info
+[0.228s] writing kapibara_interfaces.egg-info/PKG-INFO
+[0.228s] writing dependency_links to kapibara_interfaces.egg-info/dependency_links.txt
+[0.228s] writing top-level names to kapibara_interfaces.egg-info/top_level.txt
+[0.228s] writing manifest file 'kapibara_interfaces.egg-info/SOURCES.txt'
+[0.231s] reading manifest file 'kapibara_interfaces.egg-info/SOURCES.txt'
+[0.231s] writing manifest file 'kapibara_interfaces.egg-info/SOURCES.txt'
+[0.252s] [  1%] Built target ament_cmake_python_build_kapibara_interfaces_egg
+[0.412s] [  1%] Built target kapibara_interfaces__rs
+[0.853s] [  1%] Built target kapibara_interfaces__cpp
+[0.864s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.868s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.868s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.948s] [  5%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/microphone__functions.c.o[0m
+[0.948s] [  5%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/encoder__functions.c.o[0m
+[0.948s] [  6%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/diff_encoder__functions.c.o[0m
+[0.948s] [  8%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/servo__functions.c.o[0m
+[0.948s] [  8%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/face__functions.c.o[0m
+[0.948s] [  9%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/rect_i__functions.c.o[0m
+[0.951s] [  9%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/face_embed__functions.c.o[0m
+[0.953s] [ 10%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/emotions__functions.c.o[0m
+[0.953s] [ 10%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/vector2_di__functions.c.o[0m
+[1.001s] [ 11%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/encoders_and_speed__functions.c.o[0m
+[1.006s] [ 12%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/can_ping__functions.c.o[0m
+[1.006s] [ 12%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/can_ack__functions.c.o[0m
+[1.006s] [ 12%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/piezo_sense__functions.c.o[0m
+[1.010s] [ 13%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/pid__functions.c.o[0m
+[1.019s] [ 14%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/msg/detail/point_value2_d__functions.c.o[0m
+[1.025s] [ 15%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/srv/detail/stop_mind__functions.c.o[0m
+[1.025s] [ 15%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kapibara_interfaces/srv/detail/emotions__functions.c.o[0m
+[1.102s] [ 16%] [32m[1mLinking C shared library libkapibara_interfaces__rosidl_generator_c.so[0m
+[1.143s] [ 16%] Built target kapibara_interfaces__rosidl_generator_c
+[1.153s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.154s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.154s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.553s] [ 20%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/encoder__type_support.cpp.o[0m
+[1.553s] [ 20%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/servo__type_support.cpp.o[0m
+[1.553s] [ 20%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/diff_encoder__type_support.cpp.o[0m
+[1.553s] [ 20%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/face_embed__type_support.cpp.o[0m
+[1.559s] [ 21%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/microphone__type_support.cpp.o[0m
+[1.561s] [ 22%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/rect_i__type_support.cpp.o[0m
+[1.561s] [ 23%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/encoder__type_support.cpp.o[0m
+[1.562s] [ 23%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/face__type_support.cpp.o[0m
+[1.848s] [ 24%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/vector2_di__type_support.cpp.o[0m
+[1.853s] [ 26%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/diff_encoder__type_support.cpp.o[0m
+[1.853s] [ 26%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/microphone__type_support.cpp.o[0m
+[1.871s] [ 26%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/encoder__type_support.cpp.o[0m
+[1.881s] [ 26%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/servo__type_support.cpp.o[0m
+[1.915s] [ 27%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/diff_encoder__type_support.cpp.o[0m
+[1.954s] [ 28%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/face__type_support.cpp.o[0m
+[1.958s] [ 28%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/emotions__type_support.cpp.o[0m
+[1.961s] [ 28%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/microphone__type_support.cpp.o[0m
+[1.984s] [ 28%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/face_embed__type_support.cpp.o[0m
+[1.999s] [ 29%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/servo__type_support.cpp.o[0m
+[2.042s] [ 30%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/face__type_support.cpp.o[0m
+[2.056s] [ 31%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/encoders_and_speed__type_support.cpp.o[0m
+[2.069s] [ 31%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/encoder__type_support.cpp.o[0m
+[2.081s] [ 31%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/face_embed__type_support.cpp.o[0m
+[2.138s] [ 32%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/rect_i__type_support.cpp.o[0m
+[2.183s] [ 33%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/diff_encoder__type_support.cpp.o[0m
+[2.222s] [ 34%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/vector2_di__type_support.cpp.o[0m
+[2.266s] [ 34%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/emotions__type_support.cpp.o[0m
+[2.277s] [ 35%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/microphone__type_support.cpp.o[0m
+[2.302s] [ 36%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/encoders_and_speed__type_support.cpp.o[0m
+[2.323s] [ 36%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/can_ping__type_support.cpp.o[0m
+[2.339s] [ 37%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/can_ping__type_support.cpp.o[0m
+[2.341s] [ 38%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/rect_i__type_support.cpp.o[0m
+[2.353s] [ 38%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/servo__type_support.cpp.o[0m
+[2.361s] [ 39%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/can_ack__type_support.cpp.o[0m
+[2.386s] [ 40%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/face__type_support.cpp.o[0m
+[2.387s] [ 40%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/encoder__type_support.c.o[0m
+[2.398s] [ 41%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/pid__type_support.cpp.o[0m
+[2.434s] [ 42%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/diff_encoder__type_support.c.o[0m
+[2.442s] [ 42%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/piezo_sense__type_support.cpp.o[0m
+[2.464s] [ 42%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/face_embed__type_support.cpp.o[0m
+[2.478s] [ 43%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/msg/point_value2_d__type_support.cpp.o[0m
+[2.479s] [ 43%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/microphone__type_support.c.o[0m
+[2.519s] [ 44%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/srv/emotions__type_support.cpp.o[0m
+[2.546s] [ 44%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/can_ack__type_support.cpp.o[0m
+[2.581s] [ 45%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/servo__type_support.c.o[0m
+[2.585s] [ 45%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kapibara_interfaces/srv/stop_mind__type_support.cpp.o[0m
+[2.614s] [ 46%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/vector2_di__type_support.cpp.o[0m
+[2.635s] [ 46%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/encoder__type_support_c.cpp.o[0m
+[2.669s] [ 47%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/diff_encoder__type_support_c.cpp.o[0m
+[2.670s] [ 48%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/face__type_support.c.o[0m
+[2.673s] [ 49%] [32m[1mLinking CXX shared library libkapibara_interfaces__rosidl_typesupport_c.so[0m
+[2.676s] [ 49%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/emotions__type_support.cpp.o[0m
+[2.729s] [ 49%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/face_embed__type_support.c.o[0m
+[2.765s] [ 50%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/pid__type_support.cpp.o[0m
+[2.780s] [ 51%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/rect_i__type_support.c.o[0m
+[2.783s] [ 51%] Built target kapibara_interfaces__rosidl_typesupport_c
+[2.807s] [ 51%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/piezo_sense__type_support.cpp.o[0m
+[2.820s] [ 52%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/vector2_di__type_support.c.o[0m
+[2.830s] [ 53%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/msg/point_value2_d__type_support.cpp.o[0m
+[2.841s] [ 53%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/microphone__type_support_c.cpp.o[0m
+[2.873s] [ 53%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/emotions__type_support.c.o[0m
+[2.882s] [ 54%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/rect_i__type_support.cpp.o[0m
+[2.917s] [ 55%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/encoders_and_speed__type_support.c.o[0m
+[2.930s] [ 56%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/vector2_di__type_support.cpp.o[0m
+[2.964s] [ 56%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/can_ping__type_support.c.o[0m
+[2.982s] [ 57%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/servo__type_support_c.cpp.o[0m
+[3.005s] [ 58%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/can_ack__type_support.c.o[0m
+[3.041s] [ 59%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/encoders_and_speed__type_support.cpp.o[0m
+[3.043s] [ 59%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/emotions__type_support.cpp.o[0m
+[3.050s] [ 60%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/pid__type_support.c.o[0m
+[3.070s] [ 61%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/srv/emotions__type_support.cpp.o[0m
+[3.093s] [ 61%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/piezo_sense__type_support.c.o[0m
+[3.119s] [ 62%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/can_ping__type_support.cpp.o[0m
+[3.129s] [ 63%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/encoders_and_speed__type_support.cpp.o[0m
+[3.129s] [ 64%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/msg/detail/point_value2_d__type_support.c.o[0m
+[3.154s] [ 65%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/can_ping__type_support.cpp.o[0m
+[3.163s] [ 66%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/face__type_support_c.cpp.o[0m
+[3.173s] [ 67%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/srv/detail/emotions__type_support.c.o[0m
+[3.217s] [ 67%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kapibara_interfaces/srv/detail/stop_mind__type_support.c.o[0m
+[3.294s] [ 67%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/can_ack__type_support.cpp.o[0m
+[3.298s] [ 68%] [32m[1mLinking C shared library libkapibara_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.317s] [ 68%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/can_ack__type_support.cpp.o[0m
+[3.412s] [ 68%] Built target kapibara_interfaces__rosidl_typesupport_introspection_c
+[3.421s] [ 68%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/face_embed__type_support_c.cpp.o[0m
+[3.427s] [ 68%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kapibara_interfaces/srv/stop_mind__type_support.cpp.o[0m
+[3.430s] [ 69%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/rect_i__type_support_c.cpp.o[0m
+[3.536s] [ 70%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/pid__type_support.cpp.o[0m
+[3.555s] [ 70%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/piezo_sense__type_support.cpp.o[0m
+[3.567s] [ 71%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/pid__type_support.cpp.o[0m
+[3.605s] [ 71%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/piezo_sense__type_support.cpp.o[0m
+[3.612s] [ 72%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/vector2_di__type_support_c.cpp.o[0m
+[3.632s] [ 72%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/emotions__type_support_c.cpp.o[0m
+[3.673s] [ 73%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/msg/detail/point_value2_d__type_support.cpp.o[0m
+[3.718s] [ 74%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/encoders_and_speed__type_support_c.cpp.o[0m
+[3.763s] [ 74%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/can_ping__type_support_c.cpp.o[0m
+[3.788s] [ 75%] [32m[1mLinking CXX shared library libkapibara_interfaces__rosidl_typesupport_cpp.so[0m
+[3.861s] [ 76%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/can_ack__type_support_c.cpp.o[0m
+[3.862s] [ 77%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/msg/detail/dds_fastrtps/point_value2_d__type_support.cpp.o[0m
+[3.895s] [ 77%] Built target kapibara_interfaces__rosidl_typesupport_cpp
+[3.921s] [ 78%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/srv/detail/emotions__type_support.cpp.o[0m
+[3.969s] [ 79%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/pid__type_support_c.cpp.o[0m
+[3.982s] [ 80%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/srv/detail/dds_fastrtps/emotions__type_support.cpp.o[0m
+[4.070s] [ 80%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kapibara_interfaces/srv/detail/dds_fastrtps/stop_mind__type_support.cpp.o[0m
+[4.071s] [ 80%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kapibara_interfaces/srv/detail/stop_mind__type_support.cpp.o[0m
+[4.093s] [ 80%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/piezo_sense__type_support_c.cpp.o[0m
+[4.113s] [ 81%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/srv/detail/emotions__type_support_c.cpp.o[0m
+[4.118s] [ 82%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/msg/detail/point_value2_d__type_support_c.cpp.o[0m
+[4.166s] [ 82%] [32mBuilding CXX object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kapibara_interfaces/srv/detail/stop_mind__type_support_c.cpp.o[0m
+[4.493s] [ 83%] [32m[1mLinking CXX shared library libkapibara_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.496s] [ 84%] [32m[1mLinking CXX shared library libkapibara_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.510s] [ 85%] [32m[1mLinking CXX shared library libkapibara_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.569s] [ 85%] Built target kapibara_interfaces__rosidl_typesupport_introspection_cpp
+[4.575s] [ 85%] Built target kapibara_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.584s] [ 85%] Built target kapibara_interfaces__rosidl_typesupport_fastrtps_c
+[4.600s] [ 85%] Built target kapibara_interfaces
+[4.617s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.791s] [ 86%] Built target kapibara_interfaces__py
+[5.813s] [ 88%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_microphone_s.c.o[0m
+[5.813s] [ 88%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_servo_s.c.o[0m
+[5.813s] [ 88%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_face_embed_s.c.o[0m
+[5.813s] [ 88%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_diff_encoder_s.c.o[0m
+[5.813s] [ 90%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_rect_i_s.c.o[0m
+[5.813s] [ 88%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_encoder_s.c.o[0m
+[5.813s] [ 90%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_emotions_s.c.o[0m
+[5.813s] [ 91%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_encoders_and_speed_s.c.o[0m
+[5.813s] [ 92%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_vector2_di_s.c.o[0m
+[5.813s] [ 92%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_face_s.c.o[0m
+[5.816s] [ 93%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_can_ping_s.c.o[0m
+[5.820s] [ 93%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_can_ack_s.c.o[0m
+[5.936s] [ 94%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_pid_s.c.o[0m
+[5.936s] [ 94%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_piezo_sense_s.c.o[0m
+[5.937s] [ 95%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/msg/_point_value2_d_s.c.o[0m
+[5.938s] [ 96%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/srv/_emotions_s.c.o[0m
+[5.945s] [ 96%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kapibara_interfaces/srv/_stop_mind_s.c.o[0m
+[6.045s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/kapibara_interfaces/libkapibara_interfaces__rosidl_generator_py.so[0m
+[6.080s] [ 97%] Built target kapibara_interfaces__rosidl_generator_py
+[6.098s] [ 97%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/kapibara_interfaces/_kapibara_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.098s] [ 97%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/kapibara_interfaces/_kapibara_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.098s] [ 97%] [32mBuilding C object CMakeFiles/kapibara_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/kapibara_interfaces/_kapibara_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.208s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.211s] [100%] [32m[1mLinking C shared library rosidl_generator_py/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.211s] [100%] [32m[1mLinking C shared library rosidl_generator_py/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.236s] [100%] Built target kapibara_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.238s] [100%] Built target kapibara_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.238s] [100%] Built target kapibara_interfaces__rosidl_typesupport_c__pyext
+[6.252s] Invoked command in '/app/build/kapibara_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/build/kapibara_interfaces -- -j12 -l12
+[6.261s] Invoking command in '/app/build/kapibara_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/build/kapibara_interfaces
+[6.267s] -- Install configuration: ""
+[6.268s] -- Execute custom install script
+[6.268s] -- Symlinking: /app/install/kapibara_interfaces/share/ament_index/resource_index/rosidl_interfaces/kapibara_interfaces
+[6.276s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/can_ack.h
+[6.283s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/can_ping.h
+[6.290s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__functions.h
+[6.297s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__struct.h
+[6.304s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__type_support.h
+[6.310s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__functions.h
+[6.317s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__struct.h
+[6.324s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__type_support.h
+[6.330s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__functions.h
+[6.337s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__struct.h
+[6.346s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__type_support.h
+[6.353s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__functions.h
+[6.360s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__struct.h
+[6.367s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__type_support.h
+[6.374s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__functions.h
+[6.381s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__struct.h
+[6.387s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__type_support.h
+[6.395s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__functions.h
+[6.402s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__struct.h
+[6.409s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__type_support.h
+[6.416s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__functions.h
+[6.423s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__struct.h
+[6.430s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__type_support.h
+[6.437s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__functions.h
+[6.447s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__struct.h
+[6.454s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__type_support.h
+[6.461s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__functions.h
+[6.468s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__struct.h
+[6.475s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__type_support.h
+[6.482s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__functions.h
+[6.489s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__struct.h
+[6.497s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__type_support.h
+[6.507s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__functions.h
+[6.516s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__struct.h
+[6.523s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__type_support.h
+[6.530s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__functions.h
+[6.537s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__struct.h
+[6.546s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__type_support.h
+[6.553s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__functions.h
+[6.560s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__struct.h
+[6.567s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__type_support.h
+[6.575s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__functions.h
+[6.583s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__struct.h
+[6.591s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__type_support.h
+[6.598s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__functions.h
+[6.605s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__struct.h
+[6.611s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__type_support.h
+[6.618s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/diff_encoder.h
+[6.625s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/emotions.h
+[6.632s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/encoder.h
+[6.639s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/encoders_and_speed.h
+[6.649s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/face.h
+[6.657s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/face_embed.h
+[6.665s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/microphone.h
+[6.672s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/pid.h
+[6.679s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/piezo_sense.h
+[6.685s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/point_value2_d.h
+[6.692s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/rect_i.h
+[6.699s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.705s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/servo.h
+[6.712s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/vector2_di.h
+[6.718s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__functions.h
+[6.725s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__struct.h
+[6.731s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__type_support.h
+[6.738s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__functions.h
+[6.747s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__struct.h
+[6.755s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__type_support.h
+[6.761s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/emotions.h
+[6.769s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/stop_mind.h
+[6.779s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/library_path.sh
+[6.786s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/library_path.dsv
+[6.794s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__rosidl_typesupport_fastrtps_c.h
+[6.801s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__rosidl_typesupport_fastrtps_c.h
+[6.807s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__rosidl_typesupport_fastrtps_c.h
+[6.814s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__rosidl_typesupport_fastrtps_c.h
+[6.821s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__rosidl_typesupport_fastrtps_c.h
+[6.828s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__rosidl_typesupport_fastrtps_c.h
+[6.836s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__rosidl_typesupport_fastrtps_c.h
+[6.845s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__rosidl_typesupport_fastrtps_c.h
+[6.853s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__rosidl_typesupport_fastrtps_c.h
+[6.860s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__rosidl_typesupport_fastrtps_c.h
+[6.867s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__rosidl_typesupport_fastrtps_c.h
+[6.874s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__rosidl_typesupport_fastrtps_c.h
+[6.881s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__rosidl_typesupport_fastrtps_c.h
+[6.888s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__rosidl_typesupport_fastrtps_c.h
+[6.895s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__rosidl_typesupport_fastrtps_c.h
+[6.903s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.911s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__rosidl_typesupport_fastrtps_c.h
+[6.918s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__rosidl_typesupport_fastrtps_c.h
+[6.926s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__rosidl_typesupport_introspection_c.h
+[6.933s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__rosidl_typesupport_introspection_c.h
+[6.943s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__rosidl_typesupport_introspection_c.h
+[6.950s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__rosidl_typesupport_introspection_c.h
+[6.957s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__rosidl_typesupport_introspection_c.h
+[6.964s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__rosidl_typesupport_introspection_c.h
+[6.970s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__rosidl_typesupport_introspection_c.h
+[6.977s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__rosidl_typesupport_introspection_c.h
+[6.984s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__rosidl_typesupport_introspection_c.h
+[6.991s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__rosidl_typesupport_introspection_c.h
+[7.000s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__rosidl_typesupport_introspection_c.h
+[7.008s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__rosidl_typesupport_introspection_c.h
+[7.016s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__rosidl_typesupport_introspection_c.h
+[7.023s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__rosidl_typesupport_introspection_c.h
+[7.030s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__rosidl_typesupport_introspection_c.h
+[7.037s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.046s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__rosidl_typesupport_introspection_c.h
+[7.054s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__rosidl_typesupport_introspection_c.h
+[7.062s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/can_ack.hpp
+[7.068s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/can_ping.hpp
+[7.075s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__builder.hpp
+[7.082s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__struct.hpp
+[7.089s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__traits.hpp
+[7.095s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__type_support.hpp
+[7.102s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__builder.hpp
+[7.109s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__struct.hpp
+[7.116s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__traits.hpp
+[7.123s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__type_support.hpp
+[7.132s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__builder.hpp
+[7.140s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__struct.hpp
+[7.151s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__traits.hpp
+[7.160s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__type_support.hpp
+[7.167s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__builder.hpp
+[7.174s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__struct.hpp
+[7.181s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__traits.hpp
+[7.188s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__type_support.hpp
+[7.195s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__builder.hpp
+[7.202s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__struct.hpp
+[7.208s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__traits.hpp
+[7.215s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__type_support.hpp
+[7.221s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__builder.hpp
+[7.228s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__struct.hpp
+[7.234s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__traits.hpp
+[7.243s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__type_support.hpp
+[7.251s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__builder.hpp
+[7.258s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__struct.hpp
+[7.265s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__traits.hpp
+[7.273s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__type_support.hpp
+[7.282s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__builder.hpp
+[7.290s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__struct.hpp
+[7.297s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__traits.hpp
+[7.305s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__type_support.hpp
+[7.312s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__builder.hpp
+[7.320s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__struct.hpp
+[7.328s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__traits.hpp
+[7.335s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__type_support.hpp
+[7.343s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__builder.hpp
+[7.350s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__struct.hpp
+[7.358s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__traits.hpp
+[7.365s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__type_support.hpp
+[7.373s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__builder.hpp
+[7.380s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__struct.hpp
+[7.387s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__traits.hpp
+[7.395s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__type_support.hpp
+[7.402s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__builder.hpp
+[7.408s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__struct.hpp
+[7.415s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__traits.hpp
+[7.422s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__type_support.hpp
+[7.428s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__builder.hpp
+[7.434s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__struct.hpp
+[7.441s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__traits.hpp
+[7.448s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__type_support.hpp
+[7.455s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__builder.hpp
+[7.462s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__struct.hpp
+[7.469s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__traits.hpp
+[7.476s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__type_support.hpp
+[7.482s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__builder.hpp
+[7.489s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__struct.hpp
+[7.500s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__traits.hpp
+[7.512s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__type_support.hpp
+[7.520s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/diff_encoder.hpp
+[7.528s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/emotions.hpp
+[7.537s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/encoder.hpp
+[7.546s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/encoders_and_speed.hpp
+[7.554s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/face.hpp
+[7.561s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/face_embed.hpp
+[7.568s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/microphone.hpp
+[7.575s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/pid.hpp
+[7.582s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/piezo_sense.hpp
+[7.589s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/point_value2_d.hpp
+[7.597s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/rect_i.hpp
+[7.605s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.612s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/servo.hpp
+[7.620s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/vector2_di.hpp
+[7.628s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__builder.hpp
+[7.636s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__struct.hpp
+[7.647s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__traits.hpp
+[7.656s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__type_support.hpp
+[7.665s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__builder.hpp
+[7.672s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__struct.hpp
+[7.680s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__traits.hpp
+[7.686s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__type_support.hpp
+[7.692s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/emotions.hpp
+[7.699s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/stop_mind.hpp
+[7.707s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__rosidl_typesupport_fastrtps_cpp.hpp
+[7.714s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__rosidl_typesupport_fastrtps_cpp.hpp
+[7.722s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__rosidl_typesupport_fastrtps_cpp.hpp
+[7.729s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__rosidl_typesupport_fastrtps_cpp.hpp
+[7.736s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__rosidl_typesupport_fastrtps_cpp.hpp
+[7.746s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__rosidl_typesupport_fastrtps_cpp.hpp
+[7.753s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__rosidl_typesupport_fastrtps_cpp.hpp
+[7.760s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__rosidl_typesupport_fastrtps_cpp.hpp
+[7.767s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__rosidl_typesupport_fastrtps_cpp.hpp
+[7.775s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__rosidl_typesupport_fastrtps_cpp.hpp
+[7.783s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__rosidl_typesupport_fastrtps_cpp.hpp
+[7.790s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[7.798s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__rosidl_typesupport_fastrtps_cpp.hpp
+[7.805s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__rosidl_typesupport_fastrtps_cpp.hpp
+[7.813s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[7.821s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.830s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__rosidl_typesupport_fastrtps_cpp.hpp
+[7.837s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__rosidl_typesupport_fastrtps_cpp.hpp
+[7.848s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__rosidl_typesupport_introspection_cpp.hpp
+[7.856s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__rosidl_typesupport_introspection_cpp.hpp
+[7.864s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__rosidl_typesupport_introspection_cpp.hpp
+[7.871s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__rosidl_typesupport_introspection_cpp.hpp
+[7.878s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__rosidl_typesupport_introspection_cpp.hpp
+[7.885s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__rosidl_typesupport_introspection_cpp.hpp
+[7.893s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__rosidl_typesupport_introspection_cpp.hpp
+[7.901s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__rosidl_typesupport_introspection_cpp.hpp
+[7.909s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__rosidl_typesupport_introspection_cpp.hpp
+[7.917s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__rosidl_typesupport_introspection_cpp.hpp
+[7.925s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__rosidl_typesupport_introspection_cpp.hpp
+[7.933s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__rosidl_typesupport_introspection_cpp.hpp
+[7.941s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__rosidl_typesupport_introspection_cpp.hpp
+[7.950s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__rosidl_typesupport_introspection_cpp.hpp
+[7.958s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__rosidl_typesupport_introspection_cpp.hpp
+[7.965s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__rosidl_typesupport_introspection_cpp.hpp
+[7.972s] -- Symlinking: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__rosidl_typesupport_introspection_cpp.hpp
+[7.979s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/pythonpath.sh
+[7.985s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/pythonpath.dsv
+[7.993s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces-0.8.0-py3.10.egg-info/PKG-INFO
+[8.000s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces-0.8.0-py3.10.egg-info/SOURCES.txt
+[8.006s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces-0.8.0-py3.10.egg-info/dependency_links.txt
+[8.013s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces-0.8.0-py3.10.egg-info/top_level.txt
+[8.022s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/__init__.py
+[8.028s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/_kapibara_interfaces_s.ep.rosidl_typesupport_c.c
+[8.035s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/_kapibara_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.044s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/_kapibara_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.051s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.058s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.065s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.072s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/libkapibara_interfaces__rosidl_generator_py.so
+[8.078s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/__init__.py
+[8.085s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_can_ack.py
+[8.092s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_can_ack_s.c
+[8.098s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_can_ping.py
+[8.105s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_can_ping_s.c
+[8.113s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_diff_encoder.py
+[8.120s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_diff_encoder_s.c
+[8.126s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_emotions.py
+[8.137s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_emotions_s.c
+[8.146s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_encoder.py
+[8.154s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_encoder_s.c
+[8.161s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_encoders_and_speed.py
+[8.168s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_encoders_and_speed_s.c
+[8.175s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_face.py
+[8.181s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_face_embed.py
+[8.188s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_face_embed_s.c
+[8.194s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_face_s.c
+[8.201s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_microphone.py
+[8.207s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_microphone_s.c
+[8.214s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_pid.py
+[8.220s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_pid_s.c
+[8.226s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_piezo_sense.py
+[8.233s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_piezo_sense_s.c
+[8.240s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_point_value2_d.py
+[8.249s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_point_value2_d_s.c
+[8.256s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_rect_i.py
+[8.263s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_rect_i_s.c
+[8.269s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_servo.py
+[8.278s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_servo_s.c
+[8.285s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_vector2_di.py
+[8.295s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_vector2_di_s.c
+[8.302s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv/__init__.py
+[8.309s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv/_emotions.py
+[8.316s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv/_emotions_s.c
+[8.323s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv/_stop_mind.py
+[8.329s] -- Symlinking: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv/_stop_mind_s.c
+[8.336s] -- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.336s] -- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.337s] -- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.337s] -- Symlinking: /app/install/kapibara_interfaces/share/ament_index/resource_index/rust_packages/kapibara_interfaces
+[8.347s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/rust/Cargo.toml
+[8.354s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/rust/build.rs
+[8.361s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/rust/src/lib.rs
+[8.367s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/rust/src/msg.rs
+[8.373s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/rust/src/msg/rmw.rs
+[8.379s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/rust/src/srv.rs
+[8.386s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/rust/src/srv/rmw.rs
+[8.392s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Encoder.idl
+[8.399s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/DiffEncoder.idl
+[8.407s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Microphone.idl
+[8.414s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Servo.idl
+[8.421s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Face.idl
+[8.428s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/FaceEmbed.idl
+[8.434s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/RectI.idl
+[8.442s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Vector2DI.idl
+[8.451s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Emotions.idl
+[8.458s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/EncodersAndSpeed.idl
+[8.464s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/CanPing.idl
+[8.471s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/CanACK.idl
+[8.477s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/PID.idl
+[8.483s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/PiezoSense.idl
+[8.490s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/PointValue2D.idl
+[8.498s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/Emotions.idl
+[8.506s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/StopMind.idl
+[8.513s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Encoder.msg
+[8.520s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/DiffEncoder.msg
+[8.528s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Microphone.msg
+[8.535s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Servo.msg
+[8.544s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Face.msg
+[8.551s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/FaceEmbed.msg
+[8.558s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/RectI.msg
+[8.565s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Vector2DI.msg
+[8.572s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Emotions.msg
+[8.578s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/EncodersAndSpeed.msg
+[8.585s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/CanPing.msg
+[8.592s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/CanACK.msg
+[8.599s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/PID.msg
+[8.608s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/PiezoSense.msg
+[8.614s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/PointValue2D.msg
+[8.621s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/Emotions.srv
+[8.628s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/Emotions_Request.msg
+[8.635s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/Emotions_Response.msg
+[8.644s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/StopMind.srv
+[8.652s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/StopMind_Request.msg
+[8.659s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/StopMind_Response.msg
+[8.666s] -- Symlinking: /app/install/kapibara_interfaces/share/ament_index/resource_index/package_run_dependencies/kapibara_interfaces
+[8.672s] -- Symlinking: /app/install/kapibara_interfaces/share/ament_index/resource_index/parent_prefix_path/kapibara_interfaces
+[8.679s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/ament_prefix_path.sh
+[8.686s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/ament_prefix_path.dsv
+[8.693s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/path.sh
+[8.700s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/path.dsv
+[8.707s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/local_setup.bash
+[8.713s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/local_setup.sh
+[8.720s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/local_setup.zsh
+[8.727s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/local_setup.dsv
+[8.733s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/package.dsv
+[8.740s] -- Symlinking: /app/install/kapibara_interfaces/share/ament_index/resource_index/packages/kapibara_interfaces
+[8.752s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.761s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.768s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.776s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.786s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.796s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.806s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.813s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfacesConfig.cmake
+[8.820s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfacesConfig-version.cmake
+[8.827s] -- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/package.xml
+[8.834s] -- Installing: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_generator_c.so
+[8.834s] -- Set runtime path of "/app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_generator_c.so" to ""
+[8.834s] -- Installing: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.835s] -- Set runtime path of "/app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.835s] -- Installing: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_introspection_c.so
+[8.835s] -- Set runtime path of "/app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.835s] -- Installing: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_c.so
+[8.835s] -- Set runtime path of "/app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_c.so" to ""
+[8.835s] -- Installing: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.836s] -- Set runtime path of "/app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.836s] -- Installing: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.836s] -- Set runtime path of "/app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.836s] -- Installing: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_cpp.so
+[8.837s] -- Set runtime path of "/app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.858s] Listing '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces'...
+[8.858s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/__init__.py'...
+[8.859s] Listing '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg'...
+[8.859s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/__init__.py'...
+[8.859s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_can_ack.py'...
+[8.860s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_can_ping.py'...
+[8.860s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_diff_encoder.py'...
+[8.861s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_emotions.py'...
+[8.861s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_encoder.py'...
+[8.862s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_encoders_and_speed.py'...
+[8.863s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_face.py'...
+[8.864s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_face_embed.py'...
+[8.864s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_microphone.py'...
+[8.865s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_pid.py'...
+[8.865s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_piezo_sense.py'...
+[8.866s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_point_value2_d.py'...
+[8.866s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_rect_i.py'...
+[8.867s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_servo.py'...
+[8.868s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_vector2_di.py'...
+[8.868s] Listing '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv'...
+[8.868s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv/__init__.py'...
+[8.868s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv/_emotions.py'...
+[8.870s] Compiling '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv/_stop_mind.py'...
+[8.874s] -- Installing: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_generator_py.so
+[8.875s] -- Set runtime path of "/app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_generator_py.so" to ""
+[8.875s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_generator_cExport.cmake
+[8.875s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.875s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.875s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.875s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.875s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.875s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_cExport.cmake
+[8.876s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.876s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_generator_cppExport.cmake
+[8.876s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.876s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.876s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.876s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.876s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_cppExport.cmake
+[8.877s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.877s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_generator_pyExport.cmake
+[8.877s] -- Installing: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.880s] Invoked command in '/app/build/kapibara_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/build/kapibara_interfaces

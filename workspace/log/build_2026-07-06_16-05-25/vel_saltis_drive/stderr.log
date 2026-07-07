@@ -1,0 +1,46 @@
+In file included from [01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:5[m[K:
+[01m[K/app/src/vel_saltis_drive/include/vel_saltis_drive/vel_saltis_drive.hpp:46:54:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   46 |         RCLCPP_SHARED_PTR_DEFINITIONS(VelSaltisDrive)[01;35m[K;[m[K
+      |                                                      [01;35m[K^[m[K
+      |                                                      [31m[K-[m[K
+[01m[K/app/src/vel_saltis_drive/include/vel_saltis_drive/vel_saltis_drive.hpp:[m[K In member function ‘[01m[Kvoid vel_saltis_drive::VelSaltisDrive::send_motor_msg(int32_t, int32_t)[m[K’:
+[01m[K/app/src/vel_saltis_drive/include/vel_saltis_drive/vel_saltis_drive.hpp:95:17:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K-Wpedantic[m[K]
+   95 |                 [01;35m[K.[m[Kspeed_left = speed_left,
+      |                 [01;35m[K^[m[K
+[01m[K/app/src/vel_saltis_drive/include/vel_saltis_drive/vel_saltis_drive.hpp:96:17:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K-Wpedantic[m[K]
+   96 |                 [01;35m[K.[m[Kspeed_right = speed_right
+      |                 [01;35m[K^[m[K
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_drive::VelSaltisDrive::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:88:98:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   88 |     hardware_interface::CallbackReturn VelSaltisDrive::on_cleanup([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_drive::VelSaltisDrive::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:99:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   99 |     hardware_interface::CallbackReturn VelSaltisDrive::on_shutdown([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_drive::VelSaltisDrive::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:108:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  108 |     hardware_interface::CallbackReturn VelSaltisDrive::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+      |                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_drive::VelSaltisDrive::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:117:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  117 |     hardware_interface::CallbackReturn VelSaltisDrive::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_drive::VelSaltisDrive::on_error(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:126:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  126 |     hardware_interface::CallbackReturn VelSaltisDrive::on_error([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type vel_saltis_drive::VelSaltisDrive::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:172:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  172 |     hardware_interface::return_type VelSaltisDrive::read([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+      |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:172:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  172 |     hardware_interface::return_type VelSaltisDrive::read(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type vel_saltis_drive::VelSaltisDrive::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:193:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  193 |     hardware_interface::return_type VelSaltisDrive::write([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/app/src/vel_saltis_drive/src/vel_saltis_drive.cpp:193:109:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  193 |     hardware_interface::return_type VelSaltisDrive::write(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K

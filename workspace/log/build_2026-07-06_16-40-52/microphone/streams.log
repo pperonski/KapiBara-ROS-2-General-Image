@@ -1,0 +1,9 @@
+[0.038s] Invoking command in '/app/build/microphone': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/microphone -- -j12 -l12
+[0.136s] Built target ament_cmake_python_symlink_microphone
+[0.425s] running egg_info
+[0.426s] writing microphone.egg-info/PKG-INFO
+[0.426s] writing dependency_links to microphone.egg-info/dependency_links.txt
+[0.426s] writing top-level names to microphone.egg-info/top_level.txt
+[0.428s] reading manifest file 'microphone.egg-info/SOURCES.txt'
+[0.429s] writing manifest file 'microphone.egg-info/SOURCES.txt'
+[0.456s] Built target ament_cmake_python_build_microphone_egg

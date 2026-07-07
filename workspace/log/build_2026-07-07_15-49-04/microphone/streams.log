@@ -1,0 +1,39 @@
+[0.052s] Invoking command in '/app/build/microphone': CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/app/install/start_sequence:/app/install/kapibara_vel_saltis_bridge:/app/install/kapibara_twingo_bridge:/app/install/vel_saltis_services:/app/install/vel_saltis_ears:/app/install/vel_saltis_drive:/app/install/sample_package:/app/install/mqtt_bridge:/app/install/modus_board:/app/install/modus_board_interfaces:/app/install/microphone:/app/install/kapibara:/app/install/emotion_estimer:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:/app/install/vel_saltis_services/lib:/app/install/vel_saltis_ears/lib:/app/install/vel_saltis_drive/lib:/app/install/modus_board_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /app/build/microphone -- -j12 -l12
+[0.214s] Built target ament_cmake_python_symlink_microphone
+[0.568s] running egg_info
+[0.569s] writing microphone.egg-info/PKG-INFO
+[0.569s] writing dependency_links to microphone.egg-info/dependency_links.txt
+[0.570s] writing top-level names to microphone.egg-info/top_level.txt
+[0.576s] reading manifest file 'microphone.egg-info/SOURCES.txt'
+[0.576s] writing manifest file 'microphone.egg-info/SOURCES.txt'
+[0.654s] Built target ament_cmake_python_build_microphone_egg
+[0.672s] Invoked command in '/app/build/microphone' returned '0': CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/app/install/start_sequence:/app/install/kapibara_vel_saltis_bridge:/app/install/kapibara_twingo_bridge:/app/install/vel_saltis_services:/app/install/vel_saltis_ears:/app/install/vel_saltis_drive:/app/install/sample_package:/app/install/mqtt_bridge:/app/install/modus_board:/app/install/modus_board_interfaces:/app/install/microphone:/app/install/kapibara:/app/install/emotion_estimer:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:/app/install/vel_saltis_services/lib:/app/install/vel_saltis_ears/lib:/app/install/vel_saltis_drive/lib:/app/install/modus_board_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /app/build/microphone -- -j12 -l12
+[0.674s] Invoking command in '/app/build/microphone': CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/app/install/start_sequence:/app/install/kapibara_vel_saltis_bridge:/app/install/kapibara_twingo_bridge:/app/install/vel_saltis_services:/app/install/vel_saltis_ears:/app/install/vel_saltis_drive:/app/install/sample_package:/app/install/mqtt_bridge:/app/install/modus_board:/app/install/modus_board_interfaces:/app/install/microphone:/app/install/kapibara:/app/install/emotion_estimer:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:/app/install/vel_saltis_services/lib:/app/install/vel_saltis_ears/lib:/app/install/vel_saltis_drive/lib:/app/install/modus_board_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /app/build/microphone
+[0.686s] -- Install configuration: ""
+[0.686s] -- Execute custom install script
+[0.686s] -- Up-to-date symlink: /app/install/microphone/share/microphone/environment/pythonpath.sh
+[0.687s] -- Up-to-date symlink: /app/install/microphone/share/microphone/environment/pythonpath.dsv
+[0.687s] -- Up-to-date symlink: /app/install/microphone/local/lib/python3.10/dist-packages/microphone-0.0.0-py3.10.egg-info/PKG-INFO
+[0.687s] -- Up-to-date symlink: /app/install/microphone/local/lib/python3.10/dist-packages/microphone-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.687s] -- Up-to-date symlink: /app/install/microphone/local/lib/python3.10/dist-packages/microphone-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.687s] -- Up-to-date symlink: /app/install/microphone/local/lib/python3.10/dist-packages/microphone-0.0.0-py3.10.egg-info/top_level.txt
+[0.688s] -- Up-to-date symlink: /app/install/microphone/local/lib/python3.10/dist-packages/microphone/__init__.py
+[0.688s] -- Up-to-date symlink: /app/install/microphone/lib/microphone/mic.py
+[0.688s] -- Up-to-date symlink: /app/install/microphone/lib/microphone/.venv
+[0.689s] -- Up-to-date symlink: /app/install/microphone/share/ament_index/resource_index/package_run_dependencies/microphone
+[0.689s] -- Up-to-date symlink: /app/install/microphone/share/ament_index/resource_index/parent_prefix_path/microphone
+[0.689s] -- Up-to-date symlink: /app/install/microphone/share/microphone/environment/ament_prefix_path.sh
+[0.689s] -- Up-to-date symlink: /app/install/microphone/share/microphone/environment/ament_prefix_path.dsv
+[0.689s] -- Up-to-date symlink: /app/install/microphone/share/microphone/environment/path.sh
+[0.690s] -- Up-to-date symlink: /app/install/microphone/share/microphone/environment/path.dsv
+[0.690s] -- Up-to-date symlink: /app/install/microphone/share/microphone/local_setup.bash
+[0.690s] -- Up-to-date symlink: /app/install/microphone/share/microphone/local_setup.sh
+[0.690s] -- Up-to-date symlink: /app/install/microphone/share/microphone/local_setup.zsh
+[0.690s] -- Up-to-date symlink: /app/install/microphone/share/microphone/local_setup.dsv
+[0.691s] -- Symlinking: /app/install/microphone/share/microphone/package.dsv
+[0.709s] -- Up-to-date symlink: /app/install/microphone/share/ament_index/resource_index/packages/microphone
+[0.709s] -- Up-to-date symlink: /app/install/microphone/share/microphone/cmake/microphoneConfig.cmake
+[0.710s] -- Up-to-date symlink: /app/install/microphone/share/microphone/cmake/microphoneConfig-version.cmake
+[0.711s] -- Up-to-date symlink: /app/install/microphone/share/microphone/package.xml
+[0.765s] Listing '/app/install/microphone/local/lib/python3.10/dist-packages/microphone'...
+[0.800s] Invoked command in '/app/build/microphone' returned '0': CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/app/install/start_sequence:/app/install/kapibara_vel_saltis_bridge:/app/install/kapibara_twingo_bridge:/app/install/vel_saltis_services:/app/install/vel_saltis_ears:/app/install/vel_saltis_drive:/app/install/sample_package:/app/install/mqtt_bridge:/app/install/modus_board:/app/install/modus_board_interfaces:/app/install/microphone:/app/install/kapibara:/app/install/emotion_estimer:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:/app/install/vel_saltis_services/lib:/app/install/vel_saltis_ears/lib:/app/install/vel_saltis_drive/lib:/app/install/modus_board_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /app/build/microphone

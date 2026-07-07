@@ -1,0 +1,79 @@
+[0.012s] Invoking command in '/app/build/kapibara_twingo_bridge': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/kapibara_twingo_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/kapibara_twingo_bridge
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.124s] -- The CXX compiler identification is GNU 11.4.0
+[0.131s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.400s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.455s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.494s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.541s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.549s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.563s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.575s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.592s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.624s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.657s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.698s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.704s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.815s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.856s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.924s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.937s] -- Looking for pthread.h
+[1.017s] -- Looking for pthread.h - found
+[1.017s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.097s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.097s] -- Found Threads: TRUE  
+[1.135s] -- Found kapibara_interfaces: 0.8.0 (/app/install/kapibara_interfaces/share/kapibara_interfaces/cmake)
+[1.140s] -- Found vel_saltis_services: 0.8.0 (/app/install/vel_saltis_services/share/vel_saltis_services/cmake)
+[1.157s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.223s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.223s] -- Configured cppcheck include dirs: /app/src/kapibara_twingo_bridge/include
+[1.223s] -- Configured cppcheck exclude dirs and/or files: 
+[1.224s] -- Added test 'lint_cmake' to check CMake code style
+[1.225s] -- Added test 'uncrustify' to check C / C++ code style
+[1.225s] -- Configured uncrustify additional arguments: 
+[1.225s] -- Added test 'xmllint' to check XML markup files
+[1.226s] -- Configuring done
+[1.237s] -- Generating done
+[1.240s] -- Build files have been written to: /app/build/kapibara_twingo_bridge
+[1.248s] Invoked command in '/app/build/kapibara_twingo_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/kapibara_twingo_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/kapibara_twingo_bridge
+[1.250s] Invoking command in '/app/build/kapibara_twingo_bridge': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/kapibara_twingo_bridge -- -j12 -l12
+[1.299s] [ 25%] [32mBuilding CXX object CMakeFiles/bridge.dir/src/frame.cpp.o[0m
+[1.299s] [ 50%] [32mBuilding CXX object CMakeFiles/bridge.dir/src/can.cpp.o[0m
+[1.300s] [ 75%] [32mBuilding CXX object CMakeFiles/bridge.dir/src/bridge.cpp.o[0m
+[3.588s] [01m[K/app/src/kapibara_twingo_bridge/src/bridge.cpp:[m[K In lambda function:
+[3.588s] [01m[K/app/src/kapibara_twingo_bridge/src/bridge.cpp:241:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignal[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.588s]   241 |     shutdown_handler = [&can_thread]([01;35m[Kint signal[m[K)->void    {
+[3.588s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[5.346s] [100%] [32m[1mLinking CXX executable bridge[0m
+[5.517s] [100%] Built target bridge
+[5.527s] Invoked command in '/app/build/kapibara_twingo_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/kapibara_twingo_bridge -- -j12 -l12
+[5.528s] Invoking command in '/app/build/kapibara_twingo_bridge': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/kapibara_twingo_bridge
+[5.534s] -- Install configuration: ""
+[5.535s] -- Execute custom install script
+[5.535s] -- Symlinking: /app/install/kapibara_twingo_bridge/lib/kapibara_twingo_bridge/bridge
+[5.543s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/ament_index/resource_index/package_run_dependencies/kapibara_twingo_bridge
+[5.550s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/ament_index/resource_index/parent_prefix_path/kapibara_twingo_bridge
+[5.558s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/environment/ament_prefix_path.sh
+[5.568s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/environment/ament_prefix_path.dsv
+[5.578s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/environment/path.sh
+[5.586s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/environment/path.dsv
+[5.594s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/local_setup.bash
+[5.603s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/local_setup.sh
+[5.611s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/local_setup.zsh
+[5.619s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/local_setup.dsv
+[5.628s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/package.dsv
+[5.635s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/ament_index/resource_index/packages/kapibara_twingo_bridge
+[5.643s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/cmake/kapibara_twingo_bridgeConfig.cmake
+[5.651s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/cmake/kapibara_twingo_bridgeConfig-version.cmake
+[5.658s] -- Symlinking: /app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/package.xml
+[5.670s] Invoked command in '/app/build/kapibara_twingo_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/kapibara_twingo_bridge

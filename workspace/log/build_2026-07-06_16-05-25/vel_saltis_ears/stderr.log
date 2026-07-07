@@ -1,0 +1,46 @@
+In file included from [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:5[m[K:
+[01m[K/app/src/vel_saltis_ears/include/vel_saltis_ears/vel_saltis_ears.hpp:42:53:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   42 |         RCLCPP_SHARED_PTR_DEFINITIONS(VelSaltisEars)[01;35m[K;[m[K
+      |                                                     [01;35m[K^[m[K
+      |                                                     [31m[K-[m[K
+[01m[K/app/src/vel_saltis_ears/include/vel_saltis_ears/vel_saltis_ears.hpp:[m[K In member function ‘[01m[Kvoid vel_saltis_ears::VelSaltisEars::send_servo_msg()[m[K’:
+[01m[K/app/src/vel_saltis_ears/include/vel_saltis_ears/vel_saltis_ears.hpp:78:17:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K-Wpedantic[m[K]
+   78 |                 [01;35m[K.[m[Kleft = static_cast<uint8_t>(this->left_servo.getAngle()),
+      |                 [01;35m[K^[m[K
+[01m[K/app/src/vel_saltis_ears/include/vel_saltis_ears/vel_saltis_ears.hpp:79:17:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K-Wpedantic[m[K]
+   79 |                 [01;35m[K.[m[Kright = static_cast<uint8_t>(this->right_servo.getAngle())
+      |                 [01;35m[K^[m[K
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_ears::VelSaltisEars::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:64:97:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   64 |     hardware_interface::CallbackReturn VelSaltisEars::on_cleanup([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_ears::VelSaltisEars::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:69:98:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   69 |     hardware_interface::CallbackReturn VelSaltisEars::on_shutdown([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_ears::VelSaltisEars::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:74:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   74 |     hardware_interface::CallbackReturn VelSaltisEars::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+      |                                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_ears::VelSaltisEars::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:79:98:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   79 |     hardware_interface::CallbackReturn VelSaltisEars::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_ears::VelSaltisEars::on_error(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:84:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   84 |     hardware_interface::CallbackReturn VelSaltisEars::on_error([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type vel_saltis_ears::VelSaltisEars::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:117:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  117 |     hardware_interface::return_type VelSaltisEars::read([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+      |                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:117:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  117 |     hardware_interface::return_type VelSaltisEars::read(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type vel_saltis_ears::VelSaltisEars::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:125:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  125 |     hardware_interface::return_type VelSaltisEars::write([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+      |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:125:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  125 |     hardware_interface::return_type VelSaltisEars::write(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K

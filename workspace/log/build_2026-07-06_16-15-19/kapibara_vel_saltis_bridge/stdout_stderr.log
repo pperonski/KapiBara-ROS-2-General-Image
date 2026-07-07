@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target bridge[0m
+[100%] Built target bridge
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/lib/kapibara_vel_saltis_bridge/bridge
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/share/ament_index/resource_index/package_run_dependencies/kapibara_vel_saltis_bridge
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/share/ament_index/resource_index/parent_prefix_path/kapibara_vel_saltis_bridge
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/environment/path.sh
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/environment/path.dsv
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/local_setup.bash
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/local_setup.sh
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/local_setup.zsh
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/local_setup.dsv
+-- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/package.dsv
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/share/ament_index/resource_index/packages/kapibara_vel_saltis_bridge
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/cmake/kapibara_vel_saltis_bridgeConfig.cmake
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/cmake/kapibara_vel_saltis_bridgeConfig-version.cmake
+-- Up-to-date symlink: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/package.xml

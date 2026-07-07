@@ -1,0 +1,760 @@
+[0.000000] (-) TimerEvent: {}
+[0.000275] (kapibara_interfaces) JobQueued: {'identifier': 'kapibara_interfaces', 'dependencies': OrderedDict()}
+[0.000331] (kinect_ros2) JobQueued: {'identifier': 'kinect_ros2', 'dependencies': OrderedDict()}
+[0.000356] (sample_package) JobQueued: {'identifier': 'sample_package', 'dependencies': OrderedDict()}
+[0.000374] (emotion_estimer) JobQueued: {'identifier': 'emotion_estimer', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000392] (kapibara) JobQueued: {'identifier': 'kapibara', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000408] (microphone) JobQueued: {'identifier': 'microphone', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000424] (modus_board_interfaces) JobQueued: {'identifier': 'modus_board_interfaces', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000440] (mqtt_bridge) JobQueued: {'identifier': 'mqtt_bridge', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000456] (vel_saltis_drive) JobQueued: {'identifier': 'vel_saltis_drive', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000474] (vel_saltis_ears) JobQueued: {'identifier': 'vel_saltis_ears', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000491] (vel_saltis_services) JobQueued: {'identifier': 'vel_saltis_services', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces')])}
+[0.000508] (kapibara_twingo_bridge) JobQueued: {'identifier': 'kapibara_twingo_bridge', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces'), ('vel_saltis_services', '/app/install/vel_saltis_services')])}
+[0.000523] (kapibara_vel_saltis_bridge) JobQueued: {'identifier': 'kapibara_vel_saltis_bridge', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces'), ('vel_saltis_services', '/app/install/vel_saltis_services')])}
+[0.000536] (modus_board) JobQueued: {'identifier': 'modus_board', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces'), ('modus_board_interfaces', '/app/install/modus_board_interfaces')])}
+[0.000549] (start_sequence) JobQueued: {'identifier': 'start_sequence', 'dependencies': OrderedDict([('kapibara_interfaces', '/app/install/kapibara_interfaces'), ('modus_board_interfaces', '/app/install/modus_board_interfaces'), ('vel_saltis_services', '/app/install/vel_saltis_services')])}
+[0.000564] (kapibara_interfaces) JobStarted: {'identifier': 'kapibara_interfaces'}
+[0.005527] (kinect_ros2) JobStarted: {'identifier': 'kinect_ros2'}
+[0.009326] (sample_package) JobStarted: {'identifier': 'sample_package'}
+[0.014949] (kapibara_interfaces) JobProgress: {'identifier': 'kapibara_interfaces', 'progress': 'cmake'}
+[0.015399] (kapibara_interfaces) JobProgress: {'identifier': 'kapibara_interfaces', 'progress': 'build'}
+[0.015837] (kapibara_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/build/kapibara_interfaces', '--', '-j12', '-l12'], 'cwd': '/app/build/kapibara_interfaces', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app/src'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/kapibara_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.028653] (kinect_ros2) JobProgress: {'identifier': 'kinect_ros2', 'progress': 'cmake'}
+[0.029169] (kinect_ros2) Command: {'cmd': ['/usr/bin/cmake', '/app/src/kinect_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/app/install/kinect_ros2'], 'cwd': '/app/build/kinect_ros2', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app/src'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/kinect_ros2'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.031255] (sample_package) JobProgress: {'identifier': 'sample_package', 'progress': 'cmake'}
+[0.031831] (sample_package) JobProgress: {'identifier': 'sample_package', 'progress': 'build'}
+[0.032022] (sample_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/build/sample_package', '--', '-j12', '-l12'], 'cwd': '/app/build/sample_package', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app/src'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/sample_package'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039671] (kinect_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.080217] (kapibara_interfaces) StdoutLine: {'line': b'[  1%] Built target kapibara_interfaces__rs\n'}
+[0.081887] (kapibara_interfaces) StdoutLine: {'line': b'[  1%] Built target kapibara_interfaces__cpp\n'}
+[0.084226] (sample_package) StdoutLine: {'line': b'[100%] Built target hello\n'}
+[0.084431] (kapibara_interfaces) StdoutLine: {'line': b'[ 13%] Built target kapibara_interfaces__rosidl_generator_c\n'}
+[0.087998] (kapibara_interfaces) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_symlink_kapibara_interfaces\n'}
+[0.097750] (sample_package) CommandEnded: {'returncode': 0}
+[0.098326] (sample_package) JobProgress: {'identifier': 'sample_package', 'progress': 'install'}
+[0.099385] (-) TimerEvent: {}
+[0.107553] (sample_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/app/build/sample_package'], 'cwd': '/app/build/sample_package', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app/src'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/sample_package'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.109206] (kapibara_interfaces) StdoutLine: {'line': b'[ 25%] Built target kapibara_interfaces__rosidl_typesupport_c\n'}
+[0.114104] (kapibara_interfaces) StdoutLine: {'line': b'[ 37%] Built target kapibara_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.114968] (kapibara_interfaces) StdoutLine: {'line': b'[ 57%] Built target kapibara_interfaces__rosidl_typesupport_cpp\n'}
+[0.115195] (kapibara_interfaces) StdoutLine: {'line': b'[ 61%] Built target kapibara_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.116975] (kapibara_interfaces) StdoutLine: {'line': b'[ 73%] Built target kapibara_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.117419] (sample_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.117826] (kapibara_interfaces) StdoutLine: {'line': b'[ 85%] Built target kapibara_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.117951] (sample_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.118138] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/lib/sample_package/hello\n'}
+[0.118251] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/lib/sample_package/hello.py\n'}
+[0.118388] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/share/ament_index/resource_index/package_run_dependencies/sample_package\n'}
+[0.118513] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/share/ament_index/resource_index/parent_prefix_path/sample_package\n'}
+[0.118655] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/share/sample_package/environment/ament_prefix_path.sh\n'}
+[0.118783] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/share/sample_package/environment/ament_prefix_path.dsv\n'}
+[0.118913] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/share/sample_package/environment/path.sh\n'}
+[0.119008] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/share/sample_package/environment/path.dsv\n'}
+[0.119093] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/share/sample_package/local_setup.bash\n'}
+[0.119186] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/share/sample_package/local_setup.sh\n'}
+[0.119277] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/share/sample_package/local_setup.zsh\n'}
+[0.119369] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/share/sample_package/local_setup.dsv\n'}
+[0.119436] (sample_package) StdoutLine: {'line': b'-- Symlinking: /app/install/sample_package/share/sample_package/package.dsv\n'}
+[0.127710] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/share/ament_index/resource_index/packages/sample_package\n'}
+[0.127882] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/share/sample_package/cmake/sample_packageConfig.cmake\n'}
+[0.127940] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/share/sample_package/cmake/sample_packageConfig-version.cmake\n'}
+[0.128014] (sample_package) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/sample_package/share/sample_package/package.xml\n'}
+[0.129560] (sample_package) CommandEnded: {'returncode': 0}
+[0.135765] (kapibara_interfaces) StdoutLine: {'line': b'[ 85%] Built target kapibara_interfaces\n'}
+[0.144352] (sample_package) JobEnded: {'identifier': 'sample_package', 'rc': 0}
+[0.146760] (kinect_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.153006] (kinect_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.156126] (kapibara_interfaces) StdoutLine: {'line': b'[ 86%] Built target kapibara_interfaces__py\n'}
+[0.180486] (kinect_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.181495] (kapibara_interfaces) StdoutLine: {'line': b'[ 97%] Built target kapibara_interfaces__rosidl_generator_py\n'}
+[0.183582] (kinect_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.188808] (kinect_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.196975] (kinect_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199467] (-) TimerEvent: {}
+[0.203689] (kapibara_interfaces) StdoutLine: {'line': b'[100%] Built target kapibara_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.203866] (kapibara_interfaces) StdoutLine: {'line': b'[100%] Built target kapibara_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.203953] (kapibara_interfaces) StdoutLine: {'line': b'[100%] Built target kapibara_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.206460] (kinect_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.246443] (kinect_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.247412] (kinect_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.255687] (kapibara_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.256392] (kapibara_interfaces) StdoutLine: {'line': b'writing kapibara_interfaces.egg-info/PKG-INFO\n'}
+[0.256582] (kapibara_interfaces) StdoutLine: {'line': b'writing dependency_links to kapibara_interfaces.egg-info/dependency_links.txt\n'}
+[0.256713] (kapibara_interfaces) StdoutLine: {'line': b'writing top-level names to kapibara_interfaces.egg-info/top_level.txt\n'}
+[0.258320] (kapibara_interfaces) StdoutLine: {'line': b"reading manifest file 'kapibara_interfaces.egg-info/SOURCES.txt'\n"}
+[0.258953] (kapibara_interfaces) StdoutLine: {'line': b"writing manifest file 'kapibara_interfaces.egg-info/SOURCES.txt'\n"}
+[0.278236] (kapibara_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_kapibara_interfaces_egg\n'}
+[0.289847] (kapibara_interfaces) CommandEnded: {'returncode': 0}
+[0.290357] (kapibara_interfaces) JobProgress: {'identifier': 'kapibara_interfaces', 'progress': 'install'}
+[0.290675] (kapibara_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/app/build/kapibara_interfaces'], 'cwd': '/app/build/kapibara_interfaces', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app/src'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/kapibara_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.298011] (kapibara_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.298763] (kapibara_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.298956] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/ament_index/resource_index/rosidl_interfaces/kapibara_interfaces\n'}
+[0.299524] (-) TimerEvent: {}
+[0.299879] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/can_ack.h\n'}
+[0.299988] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/can_ping.h\n'}
+[0.300068] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__functions.h\n'}
+[0.300174] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__struct.h\n'}
+[0.300271] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__type_support.h\n'}
+[0.300374] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__functions.h\n'}
+[0.300470] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__struct.h\n'}
+[0.300564] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__type_support.h\n'}
+[0.300659] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__functions.h\n'}
+[0.300762] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__struct.h\n'}
+[0.300871] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__type_support.h\n'}
+[0.300962] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__functions.h\n'}
+[0.301052] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__struct.h\n'}
+[0.301155] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__type_support.h\n'}
+[0.301257] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__functions.h\n'}
+[0.301359] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__struct.h\n'}
+[0.301459] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__type_support.h\n'}
+[0.301561] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__functions.h\n'}
+[0.301683] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__struct.h\n'}
+[0.301842] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__type_support.h\n'}
+[0.301970] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__functions.h\n'}
+[0.302108] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__struct.h\n'}
+[0.302239] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__type_support.h\n'}
+[0.302362] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__functions.h\n'}
+[0.302485] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__struct.h\n'}
+[0.302604] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__type_support.h\n'}
+[0.302771] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__functions.h\n'}
+[0.302866] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__struct.h\n'}
+[0.302939] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__type_support.h\n'}
+[0.303026] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__functions.h\n'}
+[0.303107] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__struct.h\n'}
+[0.303176] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__type_support.h\n'}
+[0.303240] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__functions.h\n'}
+[0.303324] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__struct.h\n'}
+[0.303404] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__type_support.h\n'}
+[0.303490] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__functions.h\n'}
+[0.303570] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__struct.h\n'}
+[0.303661] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__type_support.h\n'}
+[0.303903] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__functions.h\n'}
+[0.303990] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__struct.h\n'}
+[0.304077] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__type_support.h\n'}
+[0.304171] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__functions.h\n'}
+[0.304252] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__struct.h\n'}
+[0.304334] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__type_support.h\n'}
+[0.304418] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__functions.h\n'}
+[0.304511] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__struct.h\n'}
+[0.304595] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__type_support.h\n'}
+[0.304695] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/diff_encoder.h\n'}
+[0.304811] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/emotions.h\n'}
+[0.304895] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/encoder.h\n'}
+[0.304986] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/encoders_and_speed.h\n'}
+[0.305069] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/face.h\n'}
+[0.305141] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/face_embed.h\n'}
+[0.305234] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/microphone.h\n'}
+[0.305345] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/pid.h\n'}
+[0.305487] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/piezo_sense.h\n'}
+[0.305598] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/point_value2_d.h\n'}
+[0.305738] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/rect_i.h\n'}
+[0.305868] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.305974] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/servo.h\n'}
+[0.306087] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/vector2_di.h\n'}
+[0.306218] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__functions.h\n'}
+[0.306358] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__struct.h\n'}
+[0.306476] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__type_support.h\n'}
+[0.306599] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__functions.h\n'}
+[0.306754] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__struct.h\n'}
+[0.306912] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__type_support.h\n'}
+[0.307044] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/emotions.h\n'}
+[0.307162] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/stop_mind.h\n'}
+[0.307370] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/library_path.sh\n'}
+[0.307541] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/library_path.dsv\n'}
+[0.310366] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__rosidl_typesupport_fastrtps_c.h\n'}
+[0.310615] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__rosidl_typesupport_fastrtps_c.h\n'}
+[0.310876] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__rosidl_typesupport_fastrtps_c.h\n'}
+[0.311064] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__rosidl_typesupport_fastrtps_c.h\n'}
+[0.311339] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__rosidl_typesupport_fastrtps_c.h\n'}
+[0.311537] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__rosidl_typesupport_fastrtps_c.h\n'}
+[0.311757] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__rosidl_typesupport_fastrtps_c.h\n'}
+[0.311934] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__rosidl_typesupport_fastrtps_c.h\n'}
+[0.312116] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__rosidl_typesupport_fastrtps_c.h\n'}
+[0.312275] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__rosidl_typesupport_fastrtps_c.h\n'}
+[0.312422] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__rosidl_typesupport_fastrtps_c.h\n'}
+[0.312587] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[0.312768] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__rosidl_typesupport_fastrtps_c.h\n'}
+[0.312920] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__rosidl_typesupport_fastrtps_c.h\n'}
+[0.313081] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__rosidl_typesupport_fastrtps_c.h\n'}
+[0.313233] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.313371] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__rosidl_typesupport_fastrtps_c.h\n'}
+[0.313509] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__rosidl_typesupport_fastrtps_c.h\n'}
+[0.314116] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__rosidl_typesupport_introspection_c.h\n'}
+[0.314299] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__rosidl_typesupport_introspection_c.h\n'}
+[0.314460] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__rosidl_typesupport_introspection_c.h\n'}
+[0.314628] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__rosidl_typesupport_introspection_c.h\n'}
+[0.314812] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__rosidl_typesupport_introspection_c.h\n'}
+[0.314973] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__rosidl_typesupport_introspection_c.h\n'}
+[0.315136] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__rosidl_typesupport_introspection_c.h\n'}
+[0.315305] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__rosidl_typesupport_introspection_c.h\n'}
+[0.315488] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__rosidl_typesupport_introspection_c.h\n'}
+[0.315604] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__rosidl_typesupport_introspection_c.h\n'}
+[0.315812] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__rosidl_typesupport_introspection_c.h\n'}
+[0.315968] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__rosidl_typesupport_introspection_c.h\n'}
+[0.316128] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__rosidl_typesupport_introspection_c.h\n'}
+[0.316240] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__rosidl_typesupport_introspection_c.h\n'}
+[0.316355] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__rosidl_typesupport_introspection_c.h\n'}
+[0.316463] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.316560] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__rosidl_typesupport_introspection_c.h\n'}
+[0.316661] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__rosidl_typesupport_introspection_c.h\n'}
+[0.317590] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/can_ack.hpp\n'}
+[0.317689] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/can_ping.hpp\n'}
+[0.317778] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__builder.hpp\n'}
+[0.317875] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__struct.hpp\n'}
+[0.317965] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__traits.hpp\n'}
+[0.318069] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__type_support.hpp\n'}
+[0.318190] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__builder.hpp\n'}
+[0.318301] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__struct.hpp\n'}
+[0.318380] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__traits.hpp\n'}
+[0.318473] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__type_support.hpp\n'}
+[0.318563] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__builder.hpp\n'}
+[0.318663] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__struct.hpp\n'}
+[0.318765] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__traits.hpp\n'}
+[0.318857] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__type_support.hpp\n'}
+[0.318954] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__builder.hpp\n'}
+[0.319050] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__struct.hpp\n'}
+[0.319143] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__traits.hpp\n'}
+[0.319221] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__type_support.hpp\n'}
+[0.319300] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__builder.hpp\n'}
+[0.319381] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__struct.hpp\n'}
+[0.319460] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__traits.hpp\n'}
+[0.319539] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__type_support.hpp\n'}
+[0.319619] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__builder.hpp\n'}
+[0.319705] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__struct.hpp\n'}
+[0.319787] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__traits.hpp\n'}
+[0.319866] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__type_support.hpp\n'}
+[0.319946] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__builder.hpp\n'}
+[0.320025] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__struct.hpp\n'}
+[0.320107] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__traits.hpp\n'}
+[0.320187] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__type_support.hpp\n'}
+[0.320275] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__builder.hpp\n'}
+[0.320355] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__struct.hpp\n'}
+[0.320435] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__traits.hpp\n'}
+[0.320537] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__type_support.hpp\n'}
+[0.320612] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__builder.hpp\n'}
+[0.320710] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__struct.hpp\n'}
+[0.320793] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__traits.hpp\n'}
+[0.320881] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__type_support.hpp\n'}
+[0.320966] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__builder.hpp\n'}
+[0.321051] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__struct.hpp\n'}
+[0.321135] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__traits.hpp\n'}
+[0.321218] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__type_support.hpp\n'}
+[0.321301] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__builder.hpp\n'}
+[0.321387] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__struct.hpp\n'}
+[0.321475] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__traits.hpp\n'}
+[0.321565] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__type_support.hpp\n'}
+[0.321684] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__builder.hpp\n'}
+[0.321785] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__struct.hpp\n'}
+[0.321890] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__traits.hpp\n'}
+[0.321983] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__type_support.hpp\n'}
+[0.322075] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__builder.hpp\n'}
+[0.322163] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__struct.hpp\n'}
+[0.322249] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__traits.hpp\n'}
+[0.322338] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__type_support.hpp\n'}
+[0.322426] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__builder.hpp\n'}
+[0.322520] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__struct.hpp\n'}
+[0.322618] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__traits.hpp\n'}
+[0.322806] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__type_support.hpp\n'}
+[0.322863] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__builder.hpp\n'}
+[0.322935] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__struct.hpp\n'}
+[0.323020] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__traits.hpp\n'}
+[0.323103] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__type_support.hpp\n'}
+[0.323182] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/diff_encoder.hpp\n'}
+[0.323261] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/emotions.hpp\n'}
+[0.323339] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/encoder.hpp\n'}
+[0.323419] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/encoders_and_speed.hpp\n'}
+[0.323504] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/face.hpp\n'}
+[0.323581] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/face_embed.hpp\n'}
+[0.323665] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/microphone.hpp\n'}
+[0.323747] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/pid.hpp\n'}
+[0.323833] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/piezo_sense.hpp\n'}
+[0.323918] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/point_value2_d.hpp\n'}
+[0.324005] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/rect_i.hpp\n'}
+[0.324084] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.324166] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/servo.hpp\n'}
+[0.324253] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/vector2_di.hpp\n'}
+[0.324348] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__builder.hpp\n'}
+[0.324442] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__struct.hpp\n'}
+[0.324542] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__traits.hpp\n'}
+[0.324641] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__type_support.hpp\n'}
+[0.324749] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__builder.hpp\n'}
+[0.324847] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__struct.hpp\n'}
+[0.324946] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__traits.hpp\n'}
+[0.325044] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__type_support.hpp\n'}
+[0.325137] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/emotions.hpp\n'}
+[0.325223] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/stop_mind.hpp\n'}
+[0.326084] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.326175] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.326279] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.326378] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.326477] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.326583] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.326700] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.326802] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.326906] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327007] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327112] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327219] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327320] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327424] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327556] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327633] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.327744] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327847] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.328304] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ack__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.328409] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/can_ping__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.328511] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/diff_encoder__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.328606] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/emotions__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.328714] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoder__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.328816] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/encoders_and_speed__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.328923] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329027] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/face_embed__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329124] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/microphone__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329218] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/pid__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329310] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/piezo_sense__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329408] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/point_value2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329509] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/rect_i__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329608] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/servo__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329709] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/msg/detail/vector2_di__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329804] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/emotions__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329904] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/include/kapibara_interfaces/kapibara_interfaces/srv/detail/stop_mind__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.330046] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/pythonpath.sh\n'}
+[0.330168] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/pythonpath.dsv\n'}
+[0.330388] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces-0.8.0-py3.10.egg-info/PKG-INFO\n'}
+[0.330472] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces-0.8.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.330558] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces-0.8.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.330642] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces-0.8.0-py3.10.egg-info/top_level.txt\n'}
+[0.331561] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/__init__.py\n'}
+[0.331658] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/_kapibara_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.331756] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/_kapibara_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.331844] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/_kapibara_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.331944] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.332030] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.332123] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.332200] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/libkapibara_interfaces__rosidl_generator_py.so\n'}
+[0.332294] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/__init__.py\n'}
+[0.332396] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_can_ack.py\n'}
+[0.332488] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_can_ack_s.c\n'}
+[0.332588] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_can_ping.py\n'}
+[0.332678] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_can_ping_s.c\n'}
+[0.332809] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_diff_encoder.py\n'}
+[0.332918] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_diff_encoder_s.c\n'}
+[0.333033] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_emotions.py\n'}
+[0.333146] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_emotions_s.c\n'}
+[0.333254] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_encoder.py\n'}
+[0.333363] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_encoder_s.c\n'}
+[0.333473] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_encoders_and_speed.py\n'}
+[0.333587] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_encoders_and_speed_s.c\n'}
+[0.333711] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_face.py\n'}
+[0.333826] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_face_embed.py\n'}
+[0.333936] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_face_embed_s.c\n'}
+[0.334045] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_face_s.c\n'}
+[0.334159] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_microphone.py\n'}
+[0.334275] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_microphone_s.c\n'}
+[0.334387] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_pid.py\n'}
+[0.334497] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_pid_s.c\n'}
+[0.334609] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_piezo_sense.py\n'}
+[0.334750] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_piezo_sense_s.c\n'}
+[0.334865] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_point_value2_d.py\n'}
+[0.334987] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_point_value2_d_s.c\n'}
+[0.335097] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_rect_i.py\n'}
+[0.335205] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_rect_i_s.c\n'}
+[0.335315] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_servo.py\n'}
+[0.335426] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_servo_s.c\n'}
+[0.335533] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_vector2_di.py\n'}
+[0.335639] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg/_vector2_di_s.c\n'}
+[0.335779] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv/__init__.py\n'}
+[0.335906] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv/_emotions.py\n'}
+[0.336037] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv/_emotions_s.c\n'}
+[0.336135] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv/_stop_mind.py\n'}
+[0.336250] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv/_stop_mind_s.c\n'}
+[0.336489] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.336710] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.336922] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/kapibara_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.337085] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/ament_index/resource_index/rust_packages/kapibara_interfaces\n'}
+[0.337399] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/rust/Cargo.toml\n'}
+[0.337505] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/rust/build.rs\n'}
+[0.337628] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/rust/src/lib.rs\n'}
+[0.337754] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/rust/src/msg.rs\n'}
+[0.337876] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/rust/src/msg/rmw.rs\n'}
+[0.337983] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/rust/src/srv.rs\n'}
+[0.338096] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/rust/src/srv/rmw.rs\n'}
+[0.338243] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Encoder.idl\n'}
+[0.338381] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/DiffEncoder.idl\n'}
+[0.338516] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Microphone.idl\n'}
+[0.338657] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Servo.idl\n'}
+[0.338798] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Face.idl\n'}
+[0.338938] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/FaceEmbed.idl\n'}
+[0.339074] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/RectI.idl\n'}
+[0.339209] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Vector2DI.idl\n'}
+[0.339342] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Emotions.idl\n'}
+[0.339482] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/EncodersAndSpeed.idl\n'}
+[0.339618] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/CanPing.idl\n'}
+[0.339764] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/CanACK.idl\n'}
+[0.339897] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/PID.idl\n'}
+[0.340033] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/PiezoSense.idl\n'}
+[0.340165] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/PointValue2D.idl\n'}
+[0.340298] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/Emotions.idl\n'}
+[0.340428] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/StopMind.idl\n'}
+[0.340561] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Encoder.msg\n'}
+[0.340696] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/DiffEncoder.msg\n'}
+[0.340829] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Microphone.msg\n'}
+[0.340959] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Servo.msg\n'}
+[0.341085] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Face.msg\n'}
+[0.341209] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/FaceEmbed.msg\n'}
+[0.341333] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/RectI.msg\n'}
+[0.341455] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Vector2DI.msg\n'}
+[0.341577] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/Emotions.msg\n'}
+[0.341711] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/EncodersAndSpeed.msg\n'}
+[0.341847] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/CanPing.msg\n'}
+[0.341976] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/CanACK.msg\n'}
+[0.342100] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/PID.msg\n'}
+[0.342225] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/PiezoSense.msg\n'}
+[0.342348] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/msg/PointValue2D.msg\n'}
+[0.342474] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/Emotions.srv\n'}
+[0.342614] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/Emotions_Request.msg\n'}
+[0.342755] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/Emotions_Response.msg\n'}
+[0.342885] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/StopMind.srv\n'}
+[0.343015] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/StopMind_Request.msg\n'}
+[0.343148] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/srv/StopMind_Response.msg\n'}
+[0.343293] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/ament_index/resource_index/package_run_dependencies/kapibara_interfaces\n'}
+[0.343439] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/ament_index/resource_index/parent_prefix_path/kapibara_interfaces\n'}
+[0.343591] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/ament_prefix_path.sh\n'}
+[0.343791] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.343917] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/path.sh\n'}
+[0.344052] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/environment/path.dsv\n'}
+[0.344183] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/local_setup.bash\n'}
+[0.344317] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/local_setup.sh\n'}
+[0.344447] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/local_setup.zsh\n'}
+[0.344575] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/local_setup.dsv\n'}
+[0.344691] (kapibara_interfaces) StdoutLine: {'line': b'-- Symlinking: /app/install/kapibara_interfaces/share/kapibara_interfaces/package.dsv\n'}
+[0.352536] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/ament_index/resource_index/packages/kapibara_interfaces\n'}
+[0.352680] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.352827] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.352968] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.353106] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.353244] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.353383] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.353519] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.353668] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfacesConfig.cmake\n'}
+[0.353779] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfacesConfig-version.cmake\n'}
+[0.353919] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /app/install/kapibara_interfaces/share/kapibara_interfaces/package.xml\n'}
+[0.354195] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_generator_c.so\n'}
+[0.354494] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.354780] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.355045] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_c.so\n'}
+[0.355319] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.355607] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.355892] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.363008] (kinect_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.378584] (kapibara_interfaces) StdoutLine: {'line': b"Listing '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces'...\n"}
+[0.378770] (kapibara_interfaces) StdoutLine: {'line': b"Listing '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/msg'...\n"}
+[0.379441] (kapibara_interfaces) StdoutLine: {'line': b"Listing '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages/kapibara_interfaces/srv'...\n"}
+[0.382658] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/lib/libkapibara_interfaces__rosidl_generator_py.so\n'}
+[0.382943] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.383021] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.383092] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.383160] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.383226] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.383266] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.383328] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.383391] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.383429] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.383480] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.383513] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.383558] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.383668] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.383773] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.383850] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/kapibara_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.383921] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.383964] (kapibara_interfaces) StdoutLine: {'line': b'-- Up-to-date: /app/install/kapibara_interfaces/share/kapibara_interfaces/cmake/export_kapibara_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.385751] (kapibara_interfaces) CommandEnded: {'returncode': 0}
+[0.397564] (kapibara_interfaces) JobEnded: {'identifier': 'kapibara_interfaces', 'rc': 0}
+[0.398343] (vel_saltis_services) JobStarted: {'identifier': 'vel_saltis_services'}
+[0.399617] (-) TimerEvent: {}
+[0.400578] (modus_board_interfaces) JobStarted: {'identifier': 'modus_board_interfaces'}
+[0.403306] (emotion_estimer) JobStarted: {'identifier': 'emotion_estimer'}
+[0.407072] (kapibara) JobStarted: {'identifier': 'kapibara'}
+[0.410876] (microphone) JobStarted: {'identifier': 'microphone'}
+[0.414396] (mqtt_bridge) JobStarted: {'identifier': 'mqtt_bridge'}
+[0.419248] (kinect_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:17 (find_package):\n'}
+[0.419608] (kinect_ros2) StderrLine: {'line': b'  By not providing "Findlibfreenect.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.419744] (kinect_ros2) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.419853] (kinect_ros2) StderrLine: {'line': b'  "libfreenect", but CMake did not find one.\n'}
+[0.419960] (kinect_ros2) StderrLine: {'line': b'\n'}
+[0.420052] (kinect_ros2) StderrLine: {'line': b'  Could not find a package configuration file provided by "libfreenect" with\n'}
+[0.420113] (kinect_ros2) StderrLine: {'line': b'  any of the following names:\n'}
+[0.420174] (kinect_ros2) StderrLine: {'line': b'\n'}
+[0.420234] (kinect_ros2) StderrLine: {'line': b'    libfreenectConfig.cmake\n'}
+[0.420290] (kinect_ros2) StderrLine: {'line': b'    libfreenect-config.cmake\n'}
+[0.420341] (kinect_ros2) StderrLine: {'line': b'\n'}
+[0.420390] (kinect_ros2) StderrLine: {'line': b'  Add the installation prefix of "libfreenect" to CMAKE_PREFIX_PATH or set\n'}
+[0.420439] (kinect_ros2) StderrLine: {'line': b'  "libfreenect_DIR" to a directory containing one of the above files.  If\n'}
+[0.420489] (kinect_ros2) StderrLine: {'line': b'  "libfreenect" provides a separate development package or SDK, be sure it\n'}
+[0.420536] (kinect_ros2) StderrLine: {'line': b'  has been installed.\n'}
+[0.420589] (kinect_ros2) StderrLine: {'line': b'\n'}
+[0.420644] (kinect_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.421476] (kinect_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.421869] (kinect_ros2) StdoutLine: {'line': b'See also "/app/build/kinect_ros2/CMakeFiles/CMakeOutput.log".\n'}
+[0.422912] (vel_saltis_drive) JobStarted: {'identifier': 'vel_saltis_drive'}
+[0.427387] (vel_saltis_ears) JobStarted: {'identifier': 'vel_saltis_ears'}
+[0.433400] (kinect_ros2) CommandEnded: {'returncode': 1}
+[0.435476] (vel_saltis_services) JobProgress: {'identifier': 'vel_saltis_services', 'progress': 'cmake'}
+[0.436223] (vel_saltis_services) JobProgress: {'identifier': 'vel_saltis_services', 'progress': 'build'}
+[0.437165] (vel_saltis_services) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/build/vel_saltis_services', '--', '-j12', '-l12'], 'cwd': '/app/build/vel_saltis_services', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/app/install/kapibara_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app/src'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/vel_saltis_services'), ('PYTHONPATH', '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.438442] (modus_board_interfaces) JobProgress: {'identifier': 'modus_board_interfaces', 'progress': 'cmake'}
+[0.438671] (modus_board_interfaces) JobProgress: {'identifier': 'modus_board_interfaces', 'progress': 'build'}
+[0.439012] (modus_board_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/build/modus_board_interfaces', '--', '-j12', '-l12'], 'cwd': '/app/build/modus_board_interfaces', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/app/install/kapibara_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app/src'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/modus_board_interfaces'), ('PYTHONPATH', '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.440955] (emotion_estimer) JobProgress: {'identifier': 'emotion_estimer', 'progress': 'cmake'}
+[0.441331] (emotion_estimer) JobProgress: {'identifier': 'emotion_estimer', 'progress': 'build'}
+[0.441763] (emotion_estimer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/build/emotion_estimer', '--', '-j12', '-l12'], 'cwd': '/app/build/emotion_estimer', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/app/install/kapibara_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app/src'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/emotion_estimer'), ('PYTHONPATH', '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.443573] (kapibara) JobProgress: {'identifier': 'kapibara', 'progress': 'cmake'}
+[0.444348] (kapibara) JobProgress: {'identifier': 'kapibara', 'progress': 'build'}
+[0.444823] (kapibara) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/build/kapibara', '--', '-j12', '-l12'], 'cwd': '/app/build/kapibara', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/app/install/kapibara_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app/src'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/kapibara'), ('PYTHONPATH', '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.446736] (microphone) JobProgress: {'identifier': 'microphone', 'progress': 'cmake'}
+[0.447156] (microphone) JobProgress: {'identifier': 'microphone', 'progress': 'build'}
+[0.448287] (microphone) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/build/microphone', '--', '-j12', '-l12'], 'cwd': '/app/build/microphone', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/app/install/kapibara_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app/src'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/microphone'), ('PYTHONPATH', '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.449649] (mqtt_bridge) JobProgress: {'identifier': 'mqtt_bridge', 'progress': 'cmake'}
+[0.450388] (mqtt_bridge) JobProgress: {'identifier': 'mqtt_bridge', 'progress': 'build'}
+[0.450874] (mqtt_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/build/mqtt_bridge', '--', '-j12', '-l12'], 'cwd': '/app/build/mqtt_bridge', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/app/install/kapibara_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app/src'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/mqtt_bridge'), ('PYTHONPATH', '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.453093] (vel_saltis_drive) JobProgress: {'identifier': 'vel_saltis_drive', 'progress': 'cmake'}
+[0.453570] (vel_saltis_drive) JobProgress: {'identifier': 'vel_saltis_drive', 'progress': 'build'}
+[0.454697] (vel_saltis_drive) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/build/vel_saltis_drive', '--', '-j12', '-l12'], 'cwd': '/app/build/vel_saltis_drive', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/app/install/kapibara_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app/src'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/vel_saltis_drive'), ('PYTHONPATH', '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.462848] (vel_saltis_ears) JobProgress: {'identifier': 'vel_saltis_ears', 'progress': 'cmake'}
+[0.462932] (vel_saltis_ears) JobProgress: {'identifier': 'vel_saltis_ears', 'progress': 'build'}
+[0.462958] (vel_saltis_ears) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/build/vel_saltis_ears', '--', '-j12', '-l12'], 'cwd': '/app/build/vel_saltis_ears', 'env': OrderedDict([('HOSTNAME', 'projectrobal-nitroanv1641'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/app/install/kapibara_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/root'), ('OLDPWD', '/app/src'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/cmd'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/app/build/vel_saltis_ears'), ('PYTHONPATH', '/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/app/install/kapibara_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.469252] (kinect_ros2) JobEnded: {'identifier': 'kinect_ros2', 'rc': 1}
+[0.478784] (emotion_estimer) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.479765] (kapibara) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499737] (-) TimerEvent: {}
+[0.522861] (modus_board_interfaces) StdoutLine: {'line': b'[  2%] Built target modus_board_interfaces__rs\n'}
+[0.525733] (modus_board_interfaces) StdoutLine: {'line': b'[  5%] Built target modus_board_interfaces__cpp\n'}
+[0.534402] (modus_board_interfaces) StdoutLine: {'line': b'[ 15%] Built target modus_board_interfaces__rosidl_generator_c\n'}
+[0.539872] (modus_board_interfaces) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_symlink_modus_board_interfaces\n'}
+[0.540171] (vel_saltis_services) StdoutLine: {'line': b'[  1%] Built target vel_saltis_services__rs\n'}
+[0.541975] (vel_saltis_services) StdoutLine: {'line': b'[  1%] Built target vel_saltis_services__cpp\n'}
+[0.543129] (mqtt_bridge) StdoutLine: {'line': b'[100%] Built target mqtt_bridge\n'}
+[0.547403] (microphone) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_microphone\n'}
+[0.557187] (vel_saltis_services) StdoutLine: {'line': b'[ 13%] Built target vel_saltis_services__rosidl_generator_c\n'}
+[0.575802] (vel_saltis_drive) StdoutLine: {'line': b'[100%] Built target vel_saltis_drive\n'}
+[0.577050] (vel_saltis_services) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_symlink_vel_saltis_services\n'}
+[0.579949] (modus_board_interfaces) StdoutLine: {'line': b'[ 25%] Built target modus_board_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.607707] (vel_saltis_ears) StdoutLine: {'line': b'[100%] Built target vel_saltis_ears\n'}
+[0.607932] (-) TimerEvent: {}
+[0.608090] (mqtt_bridge) JobEnded: {'identifier': 'mqtt_bridge', 'rc': 'SIGINT'}
+[0.620973] (modus_board_interfaces) StdoutLine: {'line': b'[ 35%] Built target modus_board_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.631026] (modus_board_interfaces) StdoutLine: {'line': b'[ 45%] Built target modus_board_interfaces__rosidl_typesupport_cpp\n'}
+[0.633062] (vel_saltis_drive) JobEnded: {'identifier': 'vel_saltis_drive', 'rc': 'SIGINT'}
+[0.636047] (vel_saltis_services) StdoutLine: {'line': b'[ 26%] Built target vel_saltis_services__rosidl_typesupport_introspection_cpp\n'}
+[0.636227] (vel_saltis_services) StdoutLine: {'line': b'[ 37%] Built target vel_saltis_services__rosidl_typesupport_introspection_c\n'}
+[0.640075] (vel_saltis_ears) JobEnded: {'identifier': 'vel_saltis_ears', 'rc': 'SIGINT'}
+[0.662332] (vel_saltis_services) StdoutLine: {'line': b'[ 49%] Built target vel_saltis_services__rosidl_typesupport_c\n'}
+[0.662551] (vel_saltis_services) StdoutLine: {'line': b'[ 73%] Built target vel_saltis_services__rosidl_typesupport_fastrtps_cpp\n'}
+[0.662639] (vel_saltis_services) StdoutLine: {'line': b'[ 72%] Built target vel_saltis_services__rosidl_typesupport_fastrtps_c\n'}
+[0.663748] (modus_board_interfaces) StdoutLine: {'line': b'[ 55%] Built target modus_board_interfaces__rosidl_typesupport_c\n'}
+[0.664477] (vel_saltis_services) StdoutLine: {'line': b'[ 85%] Built target vel_saltis_services__rosidl_typesupport_cpp\n'}
+[0.665678] (modus_board_interfaces) StdoutLine: {'line': b'[ 65%] Built target modus_board_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.667568] (modus_board_interfaces) StdoutLine: {'line': b'[ 75%] Built target modus_board_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.687361] (modus_board_interfaces) StdoutLine: {'line': b'[ 75%] Built target modus_board_interfaces\n'}
+[0.689756] (vel_saltis_services) StdoutLine: {'line': b'[ 85%] Built target vel_saltis_services\n'}
+[0.695474] (emotion_estimer) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.701207] (emotion_estimer) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.708044] (-) TimerEvent: {}
+[0.710087] (vel_saltis_services) StdoutLine: {'line': b'[ 86%] Built target vel_saltis_services__py\n'}
+[0.711021] (kapibara) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.711355] (modus_board_interfaces) StdoutLine: {'line': b'[ 77%] Built target modus_board_interfaces__py\n'}
+[0.720873] (kapibara) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.733209] (emotion_estimer) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.736135] (emotion_estimer) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.742876] (emotion_estimer) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.743606] (modus_board_interfaces) StdoutLine: {'line': b'[ 85%] Built target modus_board_interfaces__rosidl_generator_py\n'}
+[0.746797] (vel_saltis_services) StdoutLine: {'line': b'[ 97%] Built target vel_saltis_services__rosidl_generator_py\n'}
+[0.759689] (emotion_estimer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.759886] (kapibara) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.759971] (kapibara) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.764748] (kapibara) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.770765] (emotion_estimer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.777933] (vel_saltis_services) StdoutLine: {'line': b'[ 99%] Built target vel_saltis_services__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.778152] (vel_saltis_services) StdoutLine: {'line': b'[ 99%] Built target vel_saltis_services__rosidl_typesupport_introspection_c__pyext\n'}
+[0.778226] (kapibara) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.778702] (modus_board_interfaces) StdoutLine: {'line': b'[ 95%] Built target modus_board_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.778803] (modus_board_interfaces) StdoutLine: {'line': b'[ 95%] Built target modus_board_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.778875] (modus_board_interfaces) StdoutLine: {'line': b'[100%] Built target modus_board_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.781680] (vel_saltis_services) StdoutLine: {'line': b'[100%] Built target vel_saltis_services__rosidl_typesupport_c__pyext\n'}
+[0.788380] (kapibara) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.798028] (emotion_estimer) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.799155] (emotion_estimer) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.808127] (-) TimerEvent: {}
+[0.812955] (kapibara) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.813810] (modus_board_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.814245] (kapibara) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.814504] (modus_board_interfaces) StdoutLine: {'line': b'writing modus_board_interfaces.egg-info/PKG-INFO\n'}
+[0.814740] (modus_board_interfaces) StdoutLine: {'line': b'writing dependency_links to modus_board_interfaces.egg-info/dependency_links.txt\n'}
+[0.814918] (modus_board_interfaces) StdoutLine: {'line': b'writing top-level names to modus_board_interfaces.egg-info/top_level.txt\n'}
+[0.817999] (modus_board_interfaces) StdoutLine: {'line': b"reading manifest file 'modus_board_interfaces.egg-info/SOURCES.txt'\n"}
+[0.818557] (modus_board_interfaces) StdoutLine: {'line': b"writing manifest file 'modus_board_interfaces.egg-info/SOURCES.txt'\n"}
+[0.820165] (vel_saltis_services) StdoutLine: {'line': b'running egg_info\n'}
+[0.821330] (vel_saltis_services) StdoutLine: {'line': b'writing vel_saltis_services.egg-info/PKG-INFO\n'}
+[0.821680] (vel_saltis_services) StdoutLine: {'line': b'writing dependency_links to vel_saltis_services.egg-info/dependency_links.txt\n'}
+[0.821867] (vel_saltis_services) StdoutLine: {'line': b'writing top-level names to vel_saltis_services.egg-info/top_level.txt\n'}
+[0.824273] (vel_saltis_services) StdoutLine: {'line': b"reading manifest file 'vel_saltis_services.egg-info/SOURCES.txt'\n"}
+[0.825115] (vel_saltis_services) StdoutLine: {'line': b"writing manifest file 'vel_saltis_services.egg-info/SOURCES.txt'\n"}
+[0.836120] (microphone) StdoutLine: {'line': b'running egg_info\n'}
+[0.837031] (microphone) StdoutLine: {'line': b'writing microphone.egg-info/PKG-INFO\n'}
+[0.837252] (microphone) StdoutLine: {'line': b'writing dependency_links to microphone.egg-info/dependency_links.txt\n'}
+[0.837442] (microphone) StdoutLine: {'line': b'writing top-level names to microphone.egg-info/top_level.txt\n'}
+[0.839566] (microphone) StdoutLine: {'line': b"reading manifest file 'microphone.egg-info/SOURCES.txt'\n"}
+[0.840202] (microphone) StdoutLine: {'line': b"writing manifest file 'microphone.egg-info/SOURCES.txt'\n"}
+[0.850046] (modus_board_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_modus_board_interfaces_egg\n'}
+[0.850479] (vel_saltis_services) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_vel_saltis_services_egg\n'}
+[0.862233] (modus_board_interfaces) JobEnded: {'identifier': 'modus_board_interfaces', 'rc': 'SIGINT'}
+[0.863099] (vel_saltis_services) JobEnded: {'identifier': 'vel_saltis_services', 'rc': 'SIGINT'}
+[0.867403] (microphone) StdoutLine: {'line': b'Built target ament_cmake_python_build_microphone_egg\n'}
+[0.880020] (microphone) JobEnded: {'identifier': 'microphone', 'rc': 'SIGINT'}
+[0.908226] (-) TimerEvent: {}
+[0.919756] (emotion_estimer) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.936589] (kapibara) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.959165] (emotion_estimer) StdoutLine: {'line': b'-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.959397] (emotion_estimer) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.985938] (kapibara) StdoutLine: {'line': b'-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.986188] (kapibara) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.990563] (emotion_estimer) StdoutLine: {'line': b'-- Found kapibara_interfaces: 0.8.0 (/app/install/kapibara_interfaces/share/kapibara_interfaces/cmake)\n'}
+[0.996899] (emotion_estimer) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.008318] (-) TimerEvent: {}
+[1.012118] (kapibara) StdoutLine: {'line': b'-- Found kapibara_interfaces: 0.8.0 (/app/install/kapibara_interfaces/share/kapibara_interfaces/cmake)\n'}
+[1.021686] (kapibara) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.047461] (kapibara) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.108418] (-) TimerEvent: {}
+[1.208717] (-) TimerEvent: {}
+[1.310710] (-) TimerEvent: {}
+[1.411020] (-) TimerEvent: {}
+[1.511317] (-) TimerEvent: {}
+[1.611616] (-) TimerEvent: {}
+[1.711965] (-) TimerEvent: {}
+[1.812282] (-) TimerEvent: {}
+[1.912588] (-) TimerEvent: {}
+[2.012932] (-) TimerEvent: {}
+[2.113233] (-) TimerEvent: {}
+[2.213521] (-) TimerEvent: {}
+[2.313855] (-) TimerEvent: {}
+[2.414147] (-) TimerEvent: {}
+[2.514465] (-) TimerEvent: {}
+[2.614786] (-) TimerEvent: {}
+[2.715065] (-) TimerEvent: {}
+[2.815342] (-) TimerEvent: {}
+[2.915621] (-) TimerEvent: {}
+[3.015963] (-) TimerEvent: {}
+[3.116279] (-) TimerEvent: {}
+[3.216606] (-) TimerEvent: {}
+[3.316947] (-) TimerEvent: {}
+[3.417311] (-) TimerEvent: {}
+[3.517607] (-) TimerEvent: {}
+[3.617887] (-) TimerEvent: {}
+[3.639784] (kapibara) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.640010] (kapibara) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /app/src/kapibara/include\n'}
+[3.640072] (kapibara) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.717982] (-) TimerEvent: {}
+[3.818265] (-) TimerEvent: {}
+[3.918587] (-) TimerEvent: {}
+[3.940316] (kapibara) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.018687] (-) TimerEvent: {}
+[4.079309] (emotion_estimer) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.079495] (emotion_estimer) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.079555] (emotion_estimer) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.118815] (-) TimerEvent: {}
+[4.219192] (-) TimerEvent: {}
+[4.319480] (-) TimerEvent: {}
+[4.419809] (-) TimerEvent: {}
+[4.467262] (emotion_estimer) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.519923] (-) TimerEvent: {}
+[4.545782] (kapibara) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.620039] (-) TimerEvent: {}
+[4.720350] (-) TimerEvent: {}
+[4.820686] (-) TimerEvent: {}
+[4.872064] (kapibara) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.920805] (-) TimerEvent: {}
+[5.021143] (-) TimerEvent: {}
+[5.121422] (-) TimerEvent: {}
+[5.194954] (emotion_estimer) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.221541] (-) TimerEvent: {}
+[5.321935] (-) TimerEvent: {}
+[5.422484] (-) TimerEvent: {}
+[5.522838] (-) TimerEvent: {}
+[5.577744] (emotion_estimer) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.622927] (-) TimerEvent: {}
+[5.723210] (-) TimerEvent: {}
+[5.823545] (-) TimerEvent: {}
+[5.923990] (-) TimerEvent: {}
+[6.024363] (-) TimerEvent: {}
+[6.124661] (-) TimerEvent: {}
+[6.224915] (-) TimerEvent: {}
+[6.325175] (-) TimerEvent: {}
+[6.425474] (-) TimerEvent: {}
+[6.525823] (-) TimerEvent: {}
+[6.626082] (-) TimerEvent: {}
+[6.726407] (-) TimerEvent: {}
+[6.826796] (-) TimerEvent: {}
+[6.927116] (-) TimerEvent: {}
+[7.027592] (-) TimerEvent: {}
+[7.127918] (-) TimerEvent: {}
+[7.228226] (-) TimerEvent: {}
+[7.328516] (-) TimerEvent: {}
+[7.348852] (kapibara) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.349012] (kapibara) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.428631] (-) TimerEvent: {}
+[7.528951] (-) TimerEvent: {}
+[7.629246] (-) TimerEvent: {}
+[7.685210] (kapibara) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.686762] (kapibara) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.699223] (kapibara) StdoutLine: {'line': b'-- Generating done\n'}
+[7.704191] (kapibara) StdoutLine: {'line': b'-- Build files have been written to: /app/build/kapibara\n'}
+[7.729355] (-) TimerEvent: {}
+[7.730866] (kapibara) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target atractor\x1b[0m\n'}
+[7.750410] (kapibara) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_kapibara\n'}
+[7.751069] (kapibara) StdoutLine: {'line': b'[100%] Built target atractor\n'}
+[7.829439] (-) TimerEvent: {}
+[7.928385] (kapibara) StdoutLine: {'line': b'running egg_info\n'}
+[7.928894] (kapibara) StdoutLine: {'line': b'writing kapibara.egg-info/PKG-INFO\n'}
+[7.929072] (kapibara) StdoutLine: {'line': b'writing dependency_links to kapibara.egg-info/dependency_links.txt\n'}
+[7.929216] (kapibara) StdoutLine: {'line': b'writing top-level names to kapibara.egg-info/top_level.txt\n'}
+[7.929495] (-) TimerEvent: {}
+[7.930525] (kapibara) StdoutLine: {'line': b"reading manifest file 'kapibara.egg-info/SOURCES.txt'\n"}
+[7.930923] (kapibara) StdoutLine: {'line': b"writing manifest file 'kapibara.egg-info/SOURCES.txt'\n"}
+[7.956421] (kapibara) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_kapibara_egg\n'}
+[7.967039] (kapibara) JobEnded: {'identifier': 'kapibara', 'rc': 'SIGINT'}
+[8.029627] (-) TimerEvent: {}
+[8.130036] (-) TimerEvent: {}
+[8.230353] (-) TimerEvent: {}
+[8.330625] (-) TimerEvent: {}
+[8.430947] (-) TimerEvent: {}
+[8.531202] (-) TimerEvent: {}
+[8.631477] (-) TimerEvent: {}
+[8.680347] (emotion_estimer) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.680537] (emotion_estimer) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.731591] (-) TimerEvent: {}
+[8.831970] (-) TimerEvent: {}
+[8.932303] (-) TimerEvent: {}
+[9.032683] (-) TimerEvent: {}
+[9.106494] (emotion_estimer) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.107349] (emotion_estimer) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.113263] (emotion_estimer) StdoutLine: {'line': b'-- Generating done\n'}
+[9.116400] (emotion_estimer) StdoutLine: {'line': b'-- Build files have been written to: /app/build/emotion_estimer\n'}
+[9.132786] (-) TimerEvent: {}
+[9.156960] (emotion_estimer) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_emotion_estimer\n'}
+[9.232874] (-) TimerEvent: {}
+[9.330294] (emotion_estimer) StdoutLine: {'line': b'running egg_info\n'}
+[9.330758] (emotion_estimer) StdoutLine: {'line': b'writing emotion_estimer.egg-info/PKG-INFO\n'}
+[9.331004] (emotion_estimer) StdoutLine: {'line': b'writing dependency_links to emotion_estimer.egg-info/dependency_links.txt\n'}
+[9.331148] (emotion_estimer) StdoutLine: {'line': b'writing top-level names to emotion_estimer.egg-info/top_level.txt\n'}
+[9.332505] (emotion_estimer) StdoutLine: {'line': b"reading manifest file 'emotion_estimer.egg-info/SOURCES.txt'\n"}
+[9.332927] (-) TimerEvent: {}
+[9.333052] (emotion_estimer) StdoutLine: {'line': b"writing manifest file 'emotion_estimer.egg-info/SOURCES.txt'\n"}
+[9.355900] (emotion_estimer) StdoutLine: {'line': b'Built target ament_cmake_python_build_emotion_estimer_egg\n'}
+[9.365376] (emotion_estimer) JobEnded: {'identifier': 'emotion_estimer', 'rc': 'SIGINT'}
+[9.366210] (kapibara_twingo_bridge) JobSkipped: {'identifier': 'kapibara_twingo_bridge'}
+[9.366263] (kapibara_vel_saltis_bridge) JobSkipped: {'identifier': 'kapibara_vel_saltis_bridge'}
+[9.366282] (modus_board) JobSkipped: {'identifier': 'modus_board'}
+[9.366298] (start_sequence) JobSkipped: {'identifier': 'start_sequence'}
+[9.366311] (-) EventReactorShutdown: {}

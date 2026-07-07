@@ -1,0 +1,24 @@
+[0.040s] Invoking command in '/app/build/vel_saltis_services': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_services -- -j12 -l12
+[0.142s] [  1%] Built target vel_saltis_services__rs
+[0.144s] [  1%] Built target vel_saltis_services__cpp
+[0.159s] [ 13%] Built target vel_saltis_services__rosidl_generator_c
+[0.179s] [ 13%] Built target ament_cmake_python_symlink_vel_saltis_services
+[0.238s] [ 26%] Built target vel_saltis_services__rosidl_typesupport_introspection_cpp
+[0.238s] [ 37%] Built target vel_saltis_services__rosidl_typesupport_introspection_c
+[0.264s] [ 49%] Built target vel_saltis_services__rosidl_typesupport_c
+[0.264s] [ 73%] Built target vel_saltis_services__rosidl_typesupport_fastrtps_cpp
+[0.264s] [ 72%] Built target vel_saltis_services__rosidl_typesupport_fastrtps_c
+[0.266s] [ 85%] Built target vel_saltis_services__rosidl_typesupport_cpp
+[0.292s] [ 85%] Built target vel_saltis_services
+[0.312s] [ 86%] Built target vel_saltis_services__py
+[0.349s] [ 97%] Built target vel_saltis_services__rosidl_generator_py
+[0.380s] [ 99%] Built target vel_saltis_services__rosidl_typesupport_fastrtps_c__pyext
+[0.380s] [ 99%] Built target vel_saltis_services__rosidl_typesupport_introspection_c__pyext
+[0.383s] [100%] Built target vel_saltis_services__rosidl_typesupport_c__pyext
+[0.422s] running egg_info
+[0.423s] writing vel_saltis_services.egg-info/PKG-INFO
+[0.423s] writing dependency_links to vel_saltis_services.egg-info/dependency_links.txt
+[0.424s] writing top-level names to vel_saltis_services.egg-info/top_level.txt
+[0.426s] reading manifest file 'vel_saltis_services.egg-info/SOURCES.txt'
+[0.427s] writing manifest file 'vel_saltis_services.egg-info/SOURCES.txt'
+[0.452s] [100%] Built target ament_cmake_python_build_vel_saltis_services_egg

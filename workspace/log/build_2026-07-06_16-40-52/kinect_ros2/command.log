@@ -1,0 +1,2 @@
+Invoking command in '/app/build/kinect_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /app/src/kinect_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/kinect_ros2
+Invoked command in '/app/build/kinect_ros2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /app/src/kinect_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/kinect_ros2

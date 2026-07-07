@@ -1,0 +1,63 @@
+[0.053s] Invoking command in '/app/build/emotion_estimer': CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/app/install/start_sequence:/app/install/kapibara_vel_saltis_bridge:/app/install/kapibara_twingo_bridge:/app/install/vel_saltis_services:/app/install/vel_saltis_ears:/app/install/vel_saltis_drive:/app/install/sample_package:/app/install/mqtt_bridge:/app/install/modus_board:/app/install/modus_board_interfaces:/app/install/microphone:/app/install/kapibara:/app/install/emotion_estimer:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:/app/install/vel_saltis_services/lib:/app/install/vel_saltis_ears/lib:/app/install/vel_saltis_drive/lib:/app/install/modus_board_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /app/build/emotion_estimer -- -j12 -l12
+[0.219s] Built target ament_cmake_python_symlink_emotion_estimer
+[0.553s] running egg_info
+[0.554s] writing emotion_estimer.egg-info/PKG-INFO
+[0.555s] writing dependency_links to emotion_estimer.egg-info/dependency_links.txt
+[0.555s] writing top-level names to emotion_estimer.egg-info/top_level.txt
+[0.555s] reading manifest file 'emotion_estimer.egg-info/SOURCES.txt'
+[0.556s] writing manifest file 'emotion_estimer.egg-info/SOURCES.txt'
+[0.595s] Built target ament_cmake_python_build_emotion_estimer_egg
+[0.629s] Invoked command in '/app/build/emotion_estimer' returned '0': CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/app/install/start_sequence:/app/install/kapibara_vel_saltis_bridge:/app/install/kapibara_twingo_bridge:/app/install/vel_saltis_services:/app/install/vel_saltis_ears:/app/install/vel_saltis_drive:/app/install/sample_package:/app/install/mqtt_bridge:/app/install/modus_board:/app/install/modus_board_interfaces:/app/install/microphone:/app/install/kapibara:/app/install/emotion_estimer:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:/app/install/vel_saltis_services/lib:/app/install/vel_saltis_ears/lib:/app/install/vel_saltis_drive/lib:/app/install/modus_board_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /app/build/emotion_estimer -- -j12 -l12
+[0.629s] Invoking command in '/app/build/emotion_estimer': CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/app/install/start_sequence:/app/install/kapibara_vel_saltis_bridge:/app/install/kapibara_twingo_bridge:/app/install/vel_saltis_services:/app/install/vel_saltis_ears:/app/install/vel_saltis_drive:/app/install/sample_package:/app/install/mqtt_bridge:/app/install/modus_board:/app/install/modus_board_interfaces:/app/install/microphone:/app/install/kapibara:/app/install/emotion_estimer:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:/app/install/vel_saltis_services/lib:/app/install/vel_saltis_ears/lib:/app/install/vel_saltis_drive/lib:/app/install/modus_board_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /app/build/emotion_estimer
+[0.646s] -- Install configuration: ""
+[0.646s] -- Execute custom install script
+[0.646s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/environment/pythonpath.sh
+[0.646s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/environment/pythonpath.dsv
+[0.647s] -- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer-0.0.0-py3.10.egg-info/PKG-INFO
+[0.649s] -- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.649s] -- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.649s] -- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer-0.0.0-py3.10.egg-info/top_level.txt
+[0.650s] -- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer/DeepIDTFLite.py
+[0.650s] -- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer/TFLiteFaceDetector.py
+[0.650s] -- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer/__init__.py
+[0.650s] -- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer/face_data.py
+[0.650s] -- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer/kapibara_audio.py
+[0.651s] -- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer/midas.py
+[0.651s] -- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer/yunet.py
+[0.651s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/Midas-V2-Quantized.tflite
+[0.651s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/Midas-V2-Quantized_edgetpu.log
+[0.651s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/Midas-V2-Quantized_edgetpu.tflite
+[0.651s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/deepid.tflite
+[0.652s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/deepid_edgetpu.log
+[0.652s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/deepid_edgetpu.tflite
+[0.652s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/face_detection_yunet_2023mar_int8.tflite
+[0.652s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/face_detection_yunet_2023mar_int8_edgetpu.log
+[0.652s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/model.tflite
+[0.652s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/model_edgetpu.log
+[0.652s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/model_edgetpu.tflite
+[0.653s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/slim.tflite
+[0.653s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/slim_edgetpu.log
+[0.653s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/slim_edgetpu.tflite
+[0.653s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/yunet_full_integer_quant_edgetpu.log
+[0.653s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/yunet_integer_quant.tflite
+[0.653s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/yunet_integer_quant_edgetpu.log
+[0.653s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/yunet_integer_quant_edgetpu.tflite
+[0.653s] -- Up-to-date symlink: /app/install/emotion_estimer/lib/emotion_estimer/estimator.py
+[0.653s] -- Up-to-date symlink: /app/install/emotion_estimer/lib/emotion_estimer/.venv
+[0.654s] -- Up-to-date symlink: /app/install/emotion_estimer/share/ament_index/resource_index/package_run_dependencies/emotion_estimer
+[0.654s] -- Up-to-date symlink: /app/install/emotion_estimer/share/ament_index/resource_index/parent_prefix_path/emotion_estimer
+[0.654s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/environment/ament_prefix_path.sh
+[0.654s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/environment/ament_prefix_path.dsv
+[0.654s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/environment/path.sh
+[0.654s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/environment/path.dsv
+[0.654s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/local_setup.bash
+[0.655s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/local_setup.sh
+[0.655s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/local_setup.zsh
+[0.655s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/local_setup.dsv
+[0.656s] -- Symlinking: /app/install/emotion_estimer/share/emotion_estimer/package.dsv
+[0.675s] -- Up-to-date symlink: /app/install/emotion_estimer/share/ament_index/resource_index/packages/emotion_estimer
+[0.675s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/cmake/emotion_estimerConfig.cmake
+[0.675s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/cmake/emotion_estimerConfig-version.cmake
+[0.675s] -- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/package.xml
+[0.726s] Listing '/app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer'...
+[0.796s] Invoked command in '/app/build/emotion_estimer' returned '0': CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/app/install/start_sequence:/app/install/kapibara_vel_saltis_bridge:/app/install/kapibara_twingo_bridge:/app/install/vel_saltis_services:/app/install/vel_saltis_ears:/app/install/vel_saltis_drive:/app/install/sample_package:/app/install/mqtt_bridge:/app/install/modus_board:/app/install/modus_board_interfaces:/app/install/microphone:/app/install/kapibara:/app/install/emotion_estimer:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:/app/install/vel_saltis_services/lib:/app/install/vel_saltis_ears/lib:/app/install/vel_saltis_drive/lib:/app/install/modus_board_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /app/build/emotion_estimer

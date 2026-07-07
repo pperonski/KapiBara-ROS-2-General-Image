@@ -1,0 +1,1086 @@
+[0.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-ignore', 'kinect_ros2']
+[0.065s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=['kinect_ros2'], packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e3ac2eb7820>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e3ac3070850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e3ac3070850>>, mixin_verb=('build',))
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.146s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/app'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(cfg) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_estimer) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_estimer) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_estimer) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_estimer) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_estimer) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_estimer) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_estimer) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_estimer) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_estimer) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/emotion_estimer' with type 'ros.ament_cmake' and name 'emotion_estimer'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kapibara' with type 'ros.ament_cmake' and name 'kapibara'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_interfaces) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_interfaces) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_interfaces) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_interfaces) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_interfaces) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_interfaces) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_interfaces) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_interfaces) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kapibara_interfaces' with type 'ros.ament_cmake' and name 'kapibara_interfaces'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_twingo_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_twingo_bridge) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_twingo_bridge) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_twingo_bridge) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_twingo_bridge) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_twingo_bridge) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_twingo_bridge) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_twingo_bridge) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_twingo_bridge) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kapibara_twingo_bridge' with type 'ros.ament_cmake' and name 'kapibara_twingo_bridge'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_vel_saltis_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_vel_saltis_bridge) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_vel_saltis_bridge) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_vel_saltis_bridge) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_vel_saltis_bridge) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_vel_saltis_bridge) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_vel_saltis_bridge) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_vel_saltis_bridge) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/kapibara_vel_saltis_bridge) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kapibara_vel_saltis_bridge' with type 'ros.ament_cmake' and name 'kapibara_vel_saltis_bridge'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinect_ros2) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kinect_ros2' with type 'ros.ament_cmake' and name 'kinect_ros2'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/microphone) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/microphone) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/microphone) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/microphone) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/microphone) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/microphone) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/microphone) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/microphone) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/microphone) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/microphone' with type 'ros.ament_cmake' and name 'microphone'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/modus_board' with type 'ros.ament_cmake' and name 'modus_board'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board_interfaces) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board_interfaces) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board_interfaces) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board_interfaces) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board_interfaces) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board_interfaces) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board_interfaces) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/modus_board_interfaces) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/modus_board_interfaces' with type 'ros.ament_cmake' and name 'modus_board_interfaces'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_bridge) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mqtt_bridge' with type 'ros.ament_cmake' and name 'mqtt_bridge'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_package) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_package) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_package) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_package) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_package) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_package) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_package) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_package) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/sample_package) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sample_package' with type 'ros.ament_cmake' and name 'sample_package'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_sequence) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_sequence) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_sequence) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_sequence) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_sequence) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_sequence) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_sequence) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_sequence) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/start_sequence) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/start_sequence' with type 'ros.ament_cmake' and name 'start_sequence'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_drive) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_drive) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_drive) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_drive) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_drive) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_drive) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_drive) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_drive) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vel_saltis_drive' with type 'ros.ament_cmake' and name 'vel_saltis_drive'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_ears) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_ears) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_ears) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_ears) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_ears) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_ears) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_ears) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_ears) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_ears) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vel_saltis_ears' with type 'ros.ament_cmake' and name 'vel_saltis_ears'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_services) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_services) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_services) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_services) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_services) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_services) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_services) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_services) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/vel_saltis_services) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vel_saltis_services' with type 'ros.ament_cmake' and name 'vel_saltis_services'
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'kapibara_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'kapibara_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'kapibara_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'kapibara_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'kapibara_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'kapibara_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'kapibara_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'kapibara_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'kapibara_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.183s] DEBUG:colcon.colcon_core.verb:Building package 'kapibara_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/build/kapibara_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/install/kapibara_interfaces', 'merge_install': False, 'path': '/app/src/kapibara_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sample_package' build argument 'cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sample_package' build argument 'cmake_target' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sample_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sample_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sample_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sample_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sample_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sample_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'sample_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.183s] DEBUG:colcon.colcon_core.verb:Building package 'sample_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/build/sample_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/install/sample_package', 'merge_install': False, 'path': '/app/src/sample_package', 'symlink_install': True, 'test_result_base': None}
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'emotion_estimer' build argument 'cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'emotion_estimer' build argument 'cmake_target' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'emotion_estimer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'emotion_estimer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'emotion_estimer' build argument 'cmake_clean_first' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'emotion_estimer' build argument 'cmake_force_configure' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'emotion_estimer' build argument 'ament_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'emotion_estimer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'emotion_estimer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.184s] DEBUG:colcon.colcon_core.verb:Building package 'emotion_estimer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/build/emotion_estimer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/install/emotion_estimer', 'merge_install': False, 'path': '/app/src/emotion_estimer', 'symlink_install': True, 'test_result_base': None}
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'kapibara' build argument 'cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'kapibara' build argument 'cmake_target' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'kapibara' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'kapibara' build argument 'cmake_clean_cache' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'kapibara' build argument 'cmake_clean_first' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'kapibara' build argument 'cmake_force_configure' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'kapibara' build argument 'ament_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'kapibara' build argument 'catkin_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'kapibara' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.184s] DEBUG:colcon.colcon_core.verb:Building package 'kapibara' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/build/kapibara', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/install/kapibara', 'merge_install': False, 'path': '/app/src/kapibara', 'symlink_install': True, 'test_result_base': None}
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'microphone' build argument 'cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'microphone' build argument 'cmake_target' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'microphone' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'microphone' build argument 'cmake_clean_cache' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'microphone' build argument 'cmake_clean_first' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'microphone' build argument 'cmake_force_configure' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'microphone' build argument 'ament_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'microphone' build argument 'catkin_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'microphone' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.185s] DEBUG:colcon.colcon_core.verb:Building package 'microphone' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/build/microphone', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/install/microphone', 'merge_install': False, 'path': '/app/src/microphone', 'symlink_install': True, 'test_result_base': None}
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'modus_board_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'modus_board_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'modus_board_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'modus_board_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'modus_board_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'modus_board_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'modus_board_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'modus_board_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'modus_board_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.185s] DEBUG:colcon.colcon_core.verb:Building package 'modus_board_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/build/modus_board_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/install/modus_board_interfaces', 'merge_install': False, 'path': '/app/src/modus_board_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'cmake_target' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'mqtt_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.185s] DEBUG:colcon.colcon_core.verb:Building package 'mqtt_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/build/mqtt_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/install/mqtt_bridge', 'merge_install': False, 'path': '/app/src/mqtt_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_drive' build argument 'cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_drive' build argument 'cmake_target' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_drive' build argument 'cmake_clean_first' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_drive' build argument 'cmake_force_configure' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_drive' build argument 'ament_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.186s] DEBUG:colcon.colcon_core.verb:Building package 'vel_saltis_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/build/vel_saltis_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/install/vel_saltis_drive', 'merge_install': False, 'path': '/app/src/vel_saltis_drive', 'symlink_install': True, 'test_result_base': None}
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_ears' build argument 'cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_ears' build argument 'cmake_target' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_ears' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_ears' build argument 'cmake_clean_cache' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_ears' build argument 'cmake_clean_first' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_ears' build argument 'cmake_force_configure' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_ears' build argument 'ament_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_ears' build argument 'catkin_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_ears' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.186s] DEBUG:colcon.colcon_core.verb:Building package 'vel_saltis_ears' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/build/vel_saltis_ears', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/install/vel_saltis_ears', 'merge_install': False, 'path': '/app/src/vel_saltis_ears', 'symlink_install': True, 'test_result_base': None}
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_services' build argument 'cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_services' build argument 'cmake_target' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_services' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_services' build argument 'cmake_clean_cache' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_services' build argument 'cmake_clean_first' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_services' build argument 'cmake_force_configure' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_services' build argument 'ament_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_services' build argument 'catkin_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'vel_saltis_services' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.186s] DEBUG:colcon.colcon_core.verb:Building package 'vel_saltis_services' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/build/vel_saltis_services', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/install/vel_saltis_services', 'merge_install': False, 'path': '/app/src/vel_saltis_services', 'symlink_install': True, 'test_result_base': None}
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'kapibara_twingo_bridge' build argument 'cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'kapibara_twingo_bridge' build argument 'cmake_target' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_twingo_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_twingo_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_twingo_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_twingo_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_twingo_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_twingo_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_twingo_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.187s] DEBUG:colcon.colcon_core.verb:Building package 'kapibara_twingo_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/build/kapibara_twingo_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/install/kapibara_twingo_bridge', 'merge_install': False, 'path': '/app/src/kapibara_twingo_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_vel_saltis_bridge' build argument 'cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_vel_saltis_bridge' build argument 'cmake_target' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_vel_saltis_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_vel_saltis_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_vel_saltis_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_vel_saltis_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_vel_saltis_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_vel_saltis_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'kapibara_vel_saltis_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.187s] DEBUG:colcon.colcon_core.verb:Building package 'kapibara_vel_saltis_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/build/kapibara_vel_saltis_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/install/kapibara_vel_saltis_bridge', 'merge_install': False, 'path': '/app/src/kapibara_vel_saltis_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'modus_board' build argument 'cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'modus_board' build argument 'cmake_target' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'modus_board' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'modus_board' build argument 'cmake_clean_cache' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'modus_board' build argument 'cmake_clean_first' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'modus_board' build argument 'cmake_force_configure' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'modus_board' build argument 'ament_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'modus_board' build argument 'catkin_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'modus_board' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.187s] DEBUG:colcon.colcon_core.verb:Building package 'modus_board' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/build/modus_board', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/install/modus_board', 'merge_install': False, 'path': '/app/src/modus_board', 'symlink_install': True, 'test_result_base': None}
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'start_sequence' build argument 'cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'start_sequence' build argument 'cmake_target' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'start_sequence' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'start_sequence' build argument 'cmake_clean_cache' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'start_sequence' build argument 'cmake_clean_first' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'start_sequence' build argument 'cmake_force_configure' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'start_sequence' build argument 'ament_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'start_sequence' build argument 'catkin_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'start_sequence' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.188s] DEBUG:colcon.colcon_core.verb:Building package 'start_sequence' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/build/start_sequence', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/install/start_sequence', 'merge_install': False, 'path': '/app/src/start_sequence', 'symlink_install': True, 'test_result_base': None}
+[0.188s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.189s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/app/src/kapibara_interfaces' with build type 'ament_cmake'
+[0.189s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/app/src/kapibara_interfaces'
+[0.191s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.191s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.191s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/app/src/sample_package' with build type 'ament_cmake'
+[0.194s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/app/src/sample_package'
+[0.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.195s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/kapibara_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/build/kapibara_interfaces -- -j12 -l12
+[0.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/sample_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/build/sample_package -- -j12 -l12
+[6.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/kapibara_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/build/kapibara_interfaces -- -j12 -l12
+[6.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/kapibara_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/build/kapibara_interfaces
+[8.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/sample_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/build/sample_package -- -j12 -l12
+[8.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/sample_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/build/sample_package
+[8.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sample_package)
+[8.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/sample_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/build/sample_package
+[8.298s] Level 1:colcon.colcon_core.environment:checking '/app/install/sample_package' for CMake module files
+[8.298s] Level 1:colcon.colcon_core.environment:checking '/app/install/sample_package' for CMake config files
+[8.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('sample_package', 'cmake_prefix_path')
+[8.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/sample_package/share/sample_package/hook/cmake_prefix_path.ps1'
+[8.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/sample_package/share/sample_package/hook/cmake_prefix_path.dsv'
+[8.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/sample_package/share/sample_package/hook/cmake_prefix_path.sh'
+[8.301s] Level 1:colcon.colcon_core.environment:checking '/app/install/sample_package/lib'
+[8.301s] Level 1:colcon.colcon_core.environment:checking '/app/install/sample_package/bin'
+[8.301s] Level 1:colcon.colcon_core.environment:checking '/app/install/sample_package/lib/pkgconfig/sample_package.pc'
+[8.302s] Level 1:colcon.colcon_core.environment:checking '/app/install/sample_package/lib/python3.10/site-packages'
+[8.303s] Level 1:colcon.colcon_core.environment:checking '/app/install/sample_package/bin'
+[8.303s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/sample_package/share/sample_package/package.ps1'
+[8.304s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/sample_package/share/sample_package/package.dsv'
+[8.304s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/sample_package/share/sample_package/package.sh'
+[8.305s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/sample_package/share/sample_package/package.bash'
+[8.305s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/sample_package/share/sample_package/package.zsh'
+[8.306s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/sample_package/share/colcon-core/packages/sample_package)
+[8.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sample_package)
+[8.306s] Level 1:colcon.colcon_core.environment:checking '/app/install/sample_package' for CMake module files
+[8.306s] Level 1:colcon.colcon_core.environment:checking '/app/install/sample_package' for CMake config files
+[8.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('sample_package', 'cmake_prefix_path')
+[8.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/sample_package/share/sample_package/hook/cmake_prefix_path.ps1'
+[8.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/sample_package/share/sample_package/hook/cmake_prefix_path.dsv'
+[8.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/sample_package/share/sample_package/hook/cmake_prefix_path.sh'
+[8.308s] Level 1:colcon.colcon_core.environment:checking '/app/install/sample_package/lib'
+[8.308s] Level 1:colcon.colcon_core.environment:checking '/app/install/sample_package/bin'
+[8.308s] Level 1:colcon.colcon_core.environment:checking '/app/install/sample_package/lib/pkgconfig/sample_package.pc'
+[8.308s] Level 1:colcon.colcon_core.environment:checking '/app/install/sample_package/lib/python3.10/site-packages'
+[8.308s] Level 1:colcon.colcon_core.environment:checking '/app/install/sample_package/bin'
+[8.308s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/sample_package/share/sample_package/package.ps1'
+[8.309s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/sample_package/share/sample_package/package.dsv'
+[8.309s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/sample_package/share/sample_package/package.sh'
+[8.310s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/sample_package/share/sample_package/package.bash'
+[8.310s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/sample_package/share/sample_package/package.zsh'
+[8.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/sample_package/share/colcon-core/packages/sample_package)
+[9.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kapibara_interfaces)
+[9.069s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_interfaces' for CMake module files
+[9.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/kapibara_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/build/kapibara_interfaces
+[9.070s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_interfaces' for CMake config files
+[9.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('kapibara_interfaces', 'cmake_prefix_path')
+[9.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_interfaces/share/kapibara_interfaces/hook/cmake_prefix_path.ps1'
+[9.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/kapibara_interfaces/share/kapibara_interfaces/hook/cmake_prefix_path.dsv'
+[9.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_interfaces/share/kapibara_interfaces/hook/cmake_prefix_path.sh'
+[9.072s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_interfaces/lib'
+[9.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('kapibara_interfaces', 'ld_library_path_lib')
+[9.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_interfaces/share/kapibara_interfaces/hook/ld_library_path_lib.ps1'
+[9.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/kapibara_interfaces/share/kapibara_interfaces/hook/ld_library_path_lib.dsv'
+[9.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_interfaces/share/kapibara_interfaces/hook/ld_library_path_lib.sh'
+[9.072s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_interfaces/bin'
+[9.072s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_interfaces/lib/pkgconfig/kapibara_interfaces.pc'
+[9.072s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_interfaces/lib/python3.10/site-packages'
+[9.073s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_interfaces/bin'
+[9.073s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_interfaces/share/kapibara_interfaces/package.ps1'
+[9.073s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/kapibara_interfaces/share/kapibara_interfaces/package.dsv'
+[9.073s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_interfaces/share/kapibara_interfaces/package.sh'
+[9.074s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_interfaces/share/kapibara_interfaces/package.bash'
+[9.074s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_interfaces/share/kapibara_interfaces/package.zsh'
+[9.074s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/kapibara_interfaces/share/colcon-core/packages/kapibara_interfaces)
+[9.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kapibara_interfaces)
+[9.075s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_interfaces' for CMake module files
+[9.075s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_interfaces' for CMake config files
+[9.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('kapibara_interfaces', 'cmake_prefix_path')
+[9.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_interfaces/share/kapibara_interfaces/hook/cmake_prefix_path.ps1'
+[9.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/kapibara_interfaces/share/kapibara_interfaces/hook/cmake_prefix_path.dsv'
+[9.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_interfaces/share/kapibara_interfaces/hook/cmake_prefix_path.sh'
+[9.077s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_interfaces/lib'
+[9.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('kapibara_interfaces', 'ld_library_path_lib')
+[9.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_interfaces/share/kapibara_interfaces/hook/ld_library_path_lib.ps1'
+[9.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/kapibara_interfaces/share/kapibara_interfaces/hook/ld_library_path_lib.dsv'
+[9.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_interfaces/share/kapibara_interfaces/hook/ld_library_path_lib.sh'
+[9.078s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_interfaces/bin'
+[9.078s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_interfaces/lib/pkgconfig/kapibara_interfaces.pc'
+[9.078s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_interfaces/lib/python3.10/site-packages'
+[9.078s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_interfaces/bin'
+[9.078s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_interfaces/share/kapibara_interfaces/package.ps1'
+[9.079s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/kapibara_interfaces/share/kapibara_interfaces/package.dsv'
+[9.079s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_interfaces/share/kapibara_interfaces/package.sh'
+[9.079s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_interfaces/share/kapibara_interfaces/package.bash'
+[9.079s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_interfaces/share/kapibara_interfaces/package.zsh'
+[9.080s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/kapibara_interfaces/share/colcon-core/packages/kapibara_interfaces)
+[9.080s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/app/src/vel_saltis_services' with build type 'ament_cmake'
+[9.080s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/app/src/vel_saltis_services'
+[9.080s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.080s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.083s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/app/src/modus_board_interfaces' with build type 'ament_cmake'
+[9.083s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/app/src/modus_board_interfaces'
+[9.083s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.085s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/app/src/emotion_estimer' with build type 'ament_cmake'
+[9.085s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/app/src/emotion_estimer'
+[9.085s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.085s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.088s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/app/src/kapibara' with build type 'ament_cmake'
+[9.088s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/app/src/kapibara'
+[9.088s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.088s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.091s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/app/src/microphone' with build type 'ament_cmake'
+[9.091s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/app/src/microphone'
+[9.091s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.091s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.094s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/app/src/mqtt_bridge' with build type 'ament_cmake'
+[9.094s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/app/src/mqtt_bridge'
+[9.094s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.095s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.097s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/app/src/vel_saltis_drive' with build type 'ament_cmake'
+[9.098s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/app/src/vel_saltis_drive'
+[9.098s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.098s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.101s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/app/src/vel_saltis_ears' with build type 'ament_cmake'
+[9.101s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/app/src/vel_saltis_ears'
+[9.102s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.102s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/vel_saltis_services': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/vel_saltis_services -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/vel_saltis_services
+[9.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/modus_board_interfaces': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/modus_board_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/modus_board_interfaces
+[9.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/emotion_estimer': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/emotion_estimer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/emotion_estimer
+[9.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/kapibara': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/kapibara -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/kapibara
+[9.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/microphone': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/microphone -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/microphone
+[9.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/mqtt_bridge': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/mqtt_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/mqtt_bridge
+[9.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/vel_saltis_drive': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/vel_saltis_drive -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/vel_saltis_drive
+[9.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/vel_saltis_ears': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/vel_saltis_ears -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/vel_saltis_ears
+[10.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/mqtt_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/mqtt_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/mqtt_bridge
+[10.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/mqtt_bridge': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/mqtt_bridge -- -j12 -l12
+[10.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/microphone' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/microphone -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/microphone
+[10.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/microphone': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/microphone -- -j12 -l12
+[10.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/emotion_estimer' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/emotion_estimer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/emotion_estimer
+[10.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/emotion_estimer': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/emotion_estimer -- -j12 -l12
+[10.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/kapibara' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/kapibara -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/kapibara
+[10.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/kapibara': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/kapibara -- -j12 -l12
+[10.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/vel_saltis_ears' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/vel_saltis_ears -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/vel_saltis_ears
+[10.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/vel_saltis_ears': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_ears -- -j12 -l12
+[10.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/vel_saltis_drive' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/vel_saltis_drive -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/vel_saltis_drive
+[10.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/vel_saltis_drive': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_drive -- -j12 -l12
+[11.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/microphone' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/microphone -- -j12 -l12
+[11.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/microphone': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/microphone
+[11.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/emotion_estimer' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/emotion_estimer -- -j12 -l12
+[11.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/emotion_estimer': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/emotion_estimer
+[11.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/modus_board_interfaces' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/modus_board_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/modus_board_interfaces
+[11.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/modus_board_interfaces': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/modus_board_interfaces -- -j12 -l12
+[11.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(microphone)
+[11.707s] Level 1:colcon.colcon_core.environment:checking '/app/install/microphone' for CMake module files
+[11.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/microphone' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/microphone
+[11.708s] Level 1:colcon.colcon_core.environment:checking '/app/install/microphone' for CMake config files
+[11.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('microphone', 'cmake_prefix_path')
+[11.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/microphone/share/microphone/hook/cmake_prefix_path.ps1'
+[11.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/microphone/share/microphone/hook/cmake_prefix_path.dsv'
+[11.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/microphone/share/microphone/hook/cmake_prefix_path.sh'
+[11.711s] Level 1:colcon.colcon_core.environment:checking '/app/install/microphone/lib'
+[11.711s] Level 1:colcon.colcon_core.environment:checking '/app/install/microphone/bin'
+[11.711s] Level 1:colcon.colcon_core.environment:checking '/app/install/microphone/lib/pkgconfig/microphone.pc'
+[11.711s] Level 1:colcon.colcon_core.environment:checking '/app/install/microphone/lib/python3.10/site-packages'
+[11.711s] Level 1:colcon.colcon_core.environment:checking '/app/install/microphone/bin'
+[11.712s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/microphone/share/microphone/package.ps1'
+[11.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/microphone/share/microphone/package.dsv'
+[11.713s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/microphone/share/microphone/package.sh'
+[11.713s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/microphone/share/microphone/package.bash'
+[11.713s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/microphone/share/microphone/package.zsh'
+[11.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/microphone/share/colcon-core/packages/microphone)
+[11.714s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(microphone)
+[11.715s] Level 1:colcon.colcon_core.environment:checking '/app/install/microphone' for CMake module files
+[11.715s] Level 1:colcon.colcon_core.environment:checking '/app/install/microphone' for CMake config files
+[11.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('microphone', 'cmake_prefix_path')
+[11.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/microphone/share/microphone/hook/cmake_prefix_path.ps1'
+[11.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/microphone/share/microphone/hook/cmake_prefix_path.dsv'
+[11.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/microphone/share/microphone/hook/cmake_prefix_path.sh'
+[11.718s] Level 1:colcon.colcon_core.environment:checking '/app/install/microphone/lib'
+[11.718s] Level 1:colcon.colcon_core.environment:checking '/app/install/microphone/bin'
+[11.718s] Level 1:colcon.colcon_core.environment:checking '/app/install/microphone/lib/pkgconfig/microphone.pc'
+[11.718s] Level 1:colcon.colcon_core.environment:checking '/app/install/microphone/lib/python3.10/site-packages'
+[11.719s] Level 1:colcon.colcon_core.environment:checking '/app/install/microphone/bin'
+[11.719s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/microphone/share/microphone/package.ps1'
+[11.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/microphone/share/microphone/package.dsv'
+[11.720s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/microphone/share/microphone/package.sh'
+[11.721s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/microphone/share/microphone/package.bash'
+[11.721s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/microphone/share/microphone/package.zsh'
+[11.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/microphone/share/colcon-core/packages/microphone)
+[11.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/vel_saltis_services' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/vel_saltis_services -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/vel_saltis_services
+[11.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/vel_saltis_services': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_services -- -j12 -l12
+[12.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(emotion_estimer)
+[12.436s] Level 1:colcon.colcon_core.environment:checking '/app/install/emotion_estimer' for CMake module files
+[12.437s] Level 1:colcon.colcon_core.environment:checking '/app/install/emotion_estimer' for CMake config files
+[12.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/emotion_estimer' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/emotion_estimer
+[12.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('emotion_estimer', 'cmake_prefix_path')
+[12.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/emotion_estimer/share/emotion_estimer/hook/cmake_prefix_path.ps1'
+[12.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/emotion_estimer/share/emotion_estimer/hook/cmake_prefix_path.dsv'
+[12.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/emotion_estimer/share/emotion_estimer/hook/cmake_prefix_path.sh'
+[12.441s] Level 1:colcon.colcon_core.environment:checking '/app/install/emotion_estimer/lib'
+[12.443s] Level 1:colcon.colcon_core.environment:checking '/app/install/emotion_estimer/bin'
+[12.444s] Level 1:colcon.colcon_core.environment:checking '/app/install/emotion_estimer/lib/pkgconfig/emotion_estimer.pc'
+[12.444s] Level 1:colcon.colcon_core.environment:checking '/app/install/emotion_estimer/lib/python3.10/site-packages'
+[12.445s] Level 1:colcon.colcon_core.environment:checking '/app/install/emotion_estimer/bin'
+[12.445s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/emotion_estimer/share/emotion_estimer/package.ps1'
+[12.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/emotion_estimer/share/emotion_estimer/package.dsv'
+[12.446s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/emotion_estimer/share/emotion_estimer/package.sh'
+[12.448s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/emotion_estimer/share/emotion_estimer/package.bash'
+[12.449s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/emotion_estimer/share/emotion_estimer/package.zsh'
+[12.449s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/emotion_estimer/share/colcon-core/packages/emotion_estimer)
+[12.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(emotion_estimer)
+[12.450s] Level 1:colcon.colcon_core.environment:checking '/app/install/emotion_estimer' for CMake module files
+[12.452s] Level 1:colcon.colcon_core.environment:checking '/app/install/emotion_estimer' for CMake config files
+[12.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('emotion_estimer', 'cmake_prefix_path')
+[12.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/emotion_estimer/share/emotion_estimer/hook/cmake_prefix_path.ps1'
+[12.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/emotion_estimer/share/emotion_estimer/hook/cmake_prefix_path.dsv'
+[12.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/emotion_estimer/share/emotion_estimer/hook/cmake_prefix_path.sh'
+[12.457s] Level 1:colcon.colcon_core.environment:checking '/app/install/emotion_estimer/lib'
+[12.457s] Level 1:colcon.colcon_core.environment:checking '/app/install/emotion_estimer/bin'
+[12.458s] Level 1:colcon.colcon_core.environment:checking '/app/install/emotion_estimer/lib/pkgconfig/emotion_estimer.pc'
+[12.458s] Level 1:colcon.colcon_core.environment:checking '/app/install/emotion_estimer/lib/python3.10/site-packages'
+[12.460s] Level 1:colcon.colcon_core.environment:checking '/app/install/emotion_estimer/bin'
+[12.461s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/emotion_estimer/share/emotion_estimer/package.ps1'
+[12.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/emotion_estimer/share/emotion_estimer/package.dsv'
+[12.467s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/emotion_estimer/share/emotion_estimer/package.sh'
+[12.468s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/emotion_estimer/share/emotion_estimer/package.bash'
+[12.468s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/emotion_estimer/share/emotion_estimer/package.zsh'
+[12.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/emotion_estimer/share/colcon-core/packages/emotion_estimer)
+[17.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/modus_board_interfaces' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/modus_board_interfaces -- -j12 -l12
+[17.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/modus_board_interfaces': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/modus_board_interfaces
+[19.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/vel_saltis_ears' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_ears -- -j12 -l12
+[19.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/vel_saltis_ears': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_ears
+[19.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(modus_board_interfaces)
+[19.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/modus_board_interfaces' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/modus_board_interfaces
+[19.835s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board_interfaces' for CMake module files
+[19.836s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board_interfaces' for CMake config files
+[19.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('modus_board_interfaces', 'cmake_prefix_path')
+[19.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/modus_board_interfaces/share/modus_board_interfaces/hook/cmake_prefix_path.ps1'
+[19.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/modus_board_interfaces/share/modus_board_interfaces/hook/cmake_prefix_path.dsv'
+[19.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/modus_board_interfaces/share/modus_board_interfaces/hook/cmake_prefix_path.sh'
+[19.843s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board_interfaces/lib'
+[19.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('modus_board_interfaces', 'ld_library_path_lib')
+[19.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/modus_board_interfaces/share/modus_board_interfaces/hook/ld_library_path_lib.ps1'
+[19.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/modus_board_interfaces/share/modus_board_interfaces/hook/ld_library_path_lib.dsv'
+[19.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/modus_board_interfaces/share/modus_board_interfaces/hook/ld_library_path_lib.sh'
+[19.846s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board_interfaces/bin'
+[19.846s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board_interfaces/lib/pkgconfig/modus_board_interfaces.pc'
+[19.849s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board_interfaces/lib/python3.10/site-packages'
+[19.849s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board_interfaces/bin'
+[19.851s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board_interfaces/share/modus_board_interfaces/package.ps1'
+[19.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/modus_board_interfaces/share/modus_board_interfaces/package.dsv'
+[19.855s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board_interfaces/share/modus_board_interfaces/package.sh'
+[19.856s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board_interfaces/share/modus_board_interfaces/package.bash'
+[19.857s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board_interfaces/share/modus_board_interfaces/package.zsh'
+[19.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/modus_board_interfaces/share/colcon-core/packages/modus_board_interfaces)
+[19.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(modus_board_interfaces)
+[19.863s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board_interfaces' for CMake module files
+[19.864s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board_interfaces' for CMake config files
+[19.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('modus_board_interfaces', 'cmake_prefix_path')
+[19.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/modus_board_interfaces/share/modus_board_interfaces/hook/cmake_prefix_path.ps1'
+[19.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/modus_board_interfaces/share/modus_board_interfaces/hook/cmake_prefix_path.dsv'
+[19.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/modus_board_interfaces/share/modus_board_interfaces/hook/cmake_prefix_path.sh'
+[19.871s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board_interfaces/lib'
+[19.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('modus_board_interfaces', 'ld_library_path_lib')
+[19.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/modus_board_interfaces/share/modus_board_interfaces/hook/ld_library_path_lib.ps1'
+[19.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/modus_board_interfaces/share/modus_board_interfaces/hook/ld_library_path_lib.dsv'
+[19.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/modus_board_interfaces/share/modus_board_interfaces/hook/ld_library_path_lib.sh'
+[19.878s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board_interfaces/bin'
+[19.878s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board_interfaces/lib/pkgconfig/modus_board_interfaces.pc'
+[19.879s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board_interfaces/lib/python3.10/site-packages'
+[19.880s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board_interfaces/bin'
+[19.881s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board_interfaces/share/modus_board_interfaces/package.ps1'
+[19.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/modus_board_interfaces/share/modus_board_interfaces/package.dsv'
+[19.885s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board_interfaces/share/modus_board_interfaces/package.sh'
+[19.890s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board_interfaces/share/modus_board_interfaces/package.bash'
+[19.891s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board_interfaces/share/modus_board_interfaces/package.zsh'
+[19.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/modus_board_interfaces/share/colcon-core/packages/modus_board_interfaces)
+[19.892s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/app/src/modus_board' with build type 'ament_cmake'
+[19.892s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/app/src/modus_board'
+[19.893s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.894s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/modus_board': AMENT_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/modus_board -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/modus_board
+[20.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vel_saltis_ears)
+[20.019s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_ears' for CMake module files
+[20.019s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_ears' for CMake config files
+[20.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_saltis_ears', 'cmake_prefix_path')
+[20.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_ears/share/vel_saltis_ears/hook/cmake_prefix_path.ps1'
+[20.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/vel_saltis_ears/share/vel_saltis_ears/hook/cmake_prefix_path.dsv'
+[20.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_ears/share/vel_saltis_ears/hook/cmake_prefix_path.sh'
+[20.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/vel_saltis_ears' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_ears
+[20.024s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_ears/lib'
+[20.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_saltis_ears', 'ld_library_path_lib')
+[20.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_ears/share/vel_saltis_ears/hook/ld_library_path_lib.ps1'
+[20.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/vel_saltis_ears/share/vel_saltis_ears/hook/ld_library_path_lib.dsv'
+[20.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_ears/share/vel_saltis_ears/hook/ld_library_path_lib.sh'
+[20.026s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_ears/bin'
+[20.026s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_ears/lib/pkgconfig/vel_saltis_ears.pc'
+[20.027s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_ears/lib/python3.10/site-packages'
+[20.027s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_ears/bin'
+[20.030s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_ears/share/vel_saltis_ears/package.ps1'
+[20.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/vel_saltis_ears/share/vel_saltis_ears/package.dsv'
+[20.032s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_ears/share/vel_saltis_ears/package.sh'
+[20.033s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_ears/share/vel_saltis_ears/package.bash'
+[20.033s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_ears/share/vel_saltis_ears/package.zsh'
+[20.033s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/vel_saltis_ears/share/colcon-core/packages/vel_saltis_ears)
+[20.038s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vel_saltis_ears)
+[20.038s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_ears' for CMake module files
+[20.039s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_ears' for CMake config files
+[20.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_saltis_ears', 'cmake_prefix_path')
+[20.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_ears/share/vel_saltis_ears/hook/cmake_prefix_path.ps1'
+[20.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/vel_saltis_ears/share/vel_saltis_ears/hook/cmake_prefix_path.dsv'
+[20.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_ears/share/vel_saltis_ears/hook/cmake_prefix_path.sh'
+[20.046s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_ears/lib'
+[20.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_saltis_ears', 'ld_library_path_lib')
+[20.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_ears/share/vel_saltis_ears/hook/ld_library_path_lib.ps1'
+[20.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/vel_saltis_ears/share/vel_saltis_ears/hook/ld_library_path_lib.dsv'
+[20.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_ears/share/vel_saltis_ears/hook/ld_library_path_lib.sh'
+[20.051s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_ears/bin'
+[20.051s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_ears/lib/pkgconfig/vel_saltis_ears.pc'
+[20.051s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_ears/lib/python3.10/site-packages'
+[20.052s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_ears/bin'
+[20.054s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_ears/share/vel_saltis_ears/package.ps1'
+[20.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/vel_saltis_ears/share/vel_saltis_ears/package.dsv'
+[20.059s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_ears/share/vel_saltis_ears/package.sh'
+[20.059s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_ears/share/vel_saltis_ears/package.bash'
+[20.064s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_ears/share/vel_saltis_ears/package.zsh'
+[20.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/vel_saltis_ears/share/colcon-core/packages/vel_saltis_ears)
+[20.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/modus_board' returned '0': AMENT_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/modus_board -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/modus_board
+[20.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/modus_board': AMENT_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/modus_board -- -j12 -l12
+[20.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/modus_board' returned '0': AMENT_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/modus_board -- -j12 -l12
+[20.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/modus_board': AMENT_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/modus_board
+[21.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(modus_board)
+[21.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/modus_board' returned '0': AMENT_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/modus_board
+[21.013s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board' for CMake module files
+[21.014s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board' for CMake config files
+[21.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('modus_board', 'cmake_prefix_path')
+[21.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/modus_board/share/modus_board/hook/cmake_prefix_path.ps1'
+[21.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/modus_board/share/modus_board/hook/cmake_prefix_path.dsv'
+[21.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/modus_board/share/modus_board/hook/cmake_prefix_path.sh'
+[21.017s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board/lib'
+[21.017s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board/bin'
+[21.017s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board/lib/pkgconfig/modus_board.pc'
+[21.018s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board/lib/python3.10/site-packages'
+[21.018s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board/bin'
+[21.018s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board/share/modus_board/package.ps1'
+[21.019s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/modus_board/share/modus_board/package.dsv'
+[21.020s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board/share/modus_board/package.sh'
+[21.020s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board/share/modus_board/package.bash'
+[21.021s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board/share/modus_board/package.zsh'
+[21.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/modus_board/share/colcon-core/packages/modus_board)
+[21.022s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(modus_board)
+[21.022s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board' for CMake module files
+[21.023s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board' for CMake config files
+[21.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('modus_board', 'cmake_prefix_path')
+[21.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/modus_board/share/modus_board/hook/cmake_prefix_path.ps1'
+[21.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/modus_board/share/modus_board/hook/cmake_prefix_path.dsv'
+[21.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/modus_board/share/modus_board/hook/cmake_prefix_path.sh'
+[21.026s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board/lib'
+[21.026s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board/bin'
+[21.026s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board/lib/pkgconfig/modus_board.pc'
+[21.026s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board/lib/python3.10/site-packages'
+[21.026s] Level 1:colcon.colcon_core.environment:checking '/app/install/modus_board/bin'
+[21.027s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board/share/modus_board/package.ps1'
+[21.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/modus_board/share/modus_board/package.dsv'
+[21.028s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board/share/modus_board/package.sh'
+[21.028s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board/share/modus_board/package.bash'
+[21.029s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/modus_board/share/modus_board/package.zsh'
+[21.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/modus_board/share/colcon-core/packages/modus_board)
+[22.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/vel_saltis_services' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_services -- -j12 -l12
+[22.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/vel_saltis_services': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_services
+[24.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/vel_saltis_drive' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_drive -- -j12 -l12
+[24.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/vel_saltis_drive': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_drive
+[24.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vel_saltis_drive)
+[24.938s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_drive' for CMake module files
+[24.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/vel_saltis_drive' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_drive
+[24.939s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_drive' for CMake config files
+[24.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_saltis_drive', 'cmake_prefix_path')
+[24.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_drive/share/vel_saltis_drive/hook/cmake_prefix_path.ps1'
+[24.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/vel_saltis_drive/share/vel_saltis_drive/hook/cmake_prefix_path.dsv'
+[24.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_drive/share/vel_saltis_drive/hook/cmake_prefix_path.sh'
+[24.941s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_drive/lib'
+[24.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_saltis_drive', 'ld_library_path_lib')
+[24.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_drive/share/vel_saltis_drive/hook/ld_library_path_lib.ps1'
+[24.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/vel_saltis_drive/share/vel_saltis_drive/hook/ld_library_path_lib.dsv'
+[24.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_drive/share/vel_saltis_drive/hook/ld_library_path_lib.sh'
+[24.943s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_drive/bin'
+[24.943s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_drive/lib/pkgconfig/vel_saltis_drive.pc'
+[24.943s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_drive/lib/python3.10/site-packages'
+[24.944s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_drive/bin'
+[24.944s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_drive/share/vel_saltis_drive/package.ps1'
+[24.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/vel_saltis_drive/share/vel_saltis_drive/package.dsv'
+[24.945s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_drive/share/vel_saltis_drive/package.sh'
+[24.946s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_drive/share/vel_saltis_drive/package.bash'
+[24.946s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_drive/share/vel_saltis_drive/package.zsh'
+[24.946s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/vel_saltis_drive/share/colcon-core/packages/vel_saltis_drive)
+[24.947s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vel_saltis_drive)
+[24.947s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_drive' for CMake module files
+[24.948s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_drive' for CMake config files
+[24.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_saltis_drive', 'cmake_prefix_path')
+[24.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_drive/share/vel_saltis_drive/hook/cmake_prefix_path.ps1'
+[24.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/vel_saltis_drive/share/vel_saltis_drive/hook/cmake_prefix_path.dsv'
+[24.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_drive/share/vel_saltis_drive/hook/cmake_prefix_path.sh'
+[24.949s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_drive/lib'
+[24.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_saltis_drive', 'ld_library_path_lib')
+[24.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_drive/share/vel_saltis_drive/hook/ld_library_path_lib.ps1'
+[24.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/vel_saltis_drive/share/vel_saltis_drive/hook/ld_library_path_lib.dsv'
+[24.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_drive/share/vel_saltis_drive/hook/ld_library_path_lib.sh'
+[24.950s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_drive/bin'
+[24.950s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_drive/lib/pkgconfig/vel_saltis_drive.pc'
+[24.951s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_drive/lib/python3.10/site-packages'
+[24.951s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_drive/bin'
+[24.951s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_drive/share/vel_saltis_drive/package.ps1'
+[24.952s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/vel_saltis_drive/share/vel_saltis_drive/package.dsv'
+[24.952s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_drive/share/vel_saltis_drive/package.sh'
+[24.953s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_drive/share/vel_saltis_drive/package.bash'
+[24.953s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_drive/share/vel_saltis_drive/package.zsh'
+[24.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/vel_saltis_drive/share/colcon-core/packages/vel_saltis_drive)
+[25.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vel_saltis_services)
+[25.576s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_services' for CMake module files
+[25.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/vel_saltis_services' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_services
+[25.577s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_services' for CMake config files
+[25.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_saltis_services', 'cmake_prefix_path')
+[25.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_services/share/vel_saltis_services/hook/cmake_prefix_path.ps1'
+[25.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/vel_saltis_services/share/vel_saltis_services/hook/cmake_prefix_path.dsv'
+[25.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_services/share/vel_saltis_services/hook/cmake_prefix_path.sh'
+[25.579s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_services/lib'
+[25.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_saltis_services', 'ld_library_path_lib')
+[25.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_services/share/vel_saltis_services/hook/ld_library_path_lib.ps1'
+[25.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/vel_saltis_services/share/vel_saltis_services/hook/ld_library_path_lib.dsv'
+[25.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_services/share/vel_saltis_services/hook/ld_library_path_lib.sh'
+[25.580s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_services/bin'
+[25.580s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_services/lib/pkgconfig/vel_saltis_services.pc'
+[25.581s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_services/lib/python3.10/site-packages'
+[25.581s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_services/bin'
+[25.581s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_services/share/vel_saltis_services/package.ps1'
+[25.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/vel_saltis_services/share/vel_saltis_services/package.dsv'
+[25.582s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_services/share/vel_saltis_services/package.sh'
+[25.582s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_services/share/vel_saltis_services/package.bash'
+[25.582s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_services/share/vel_saltis_services/package.zsh'
+[25.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/vel_saltis_services/share/colcon-core/packages/vel_saltis_services)
+[25.583s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vel_saltis_services)
+[25.583s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_services' for CMake module files
+[25.583s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_services' for CMake config files
+[25.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_saltis_services', 'cmake_prefix_path')
+[25.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_services/share/vel_saltis_services/hook/cmake_prefix_path.ps1'
+[25.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/vel_saltis_services/share/vel_saltis_services/hook/cmake_prefix_path.dsv'
+[25.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_services/share/vel_saltis_services/hook/cmake_prefix_path.sh'
+[25.585s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_services/lib'
+[25.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_saltis_services', 'ld_library_path_lib')
+[25.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_services/share/vel_saltis_services/hook/ld_library_path_lib.ps1'
+[25.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/vel_saltis_services/share/vel_saltis_services/hook/ld_library_path_lib.dsv'
+[25.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/vel_saltis_services/share/vel_saltis_services/hook/ld_library_path_lib.sh'
+[25.586s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_services/bin'
+[25.586s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_services/lib/pkgconfig/vel_saltis_services.pc'
+[25.587s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_services/lib/python3.10/site-packages'
+[25.587s] Level 1:colcon.colcon_core.environment:checking '/app/install/vel_saltis_services/bin'
+[25.587s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_services/share/vel_saltis_services/package.ps1'
+[25.588s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/vel_saltis_services/share/vel_saltis_services/package.dsv'
+[25.588s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_services/share/vel_saltis_services/package.sh'
+[25.588s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_services/share/vel_saltis_services/package.bash'
+[25.588s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/vel_saltis_services/share/vel_saltis_services/package.zsh'
+[25.589s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/vel_saltis_services/share/colcon-core/packages/vel_saltis_services)
+[25.589s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/app/src/kapibara_twingo_bridge' with build type 'ament_cmake'
+[25.589s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/app/src/kapibara_twingo_bridge'
+[25.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.592s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/app/src/kapibara_vel_saltis_bridge' with build type 'ament_cmake'
+[25.592s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/app/src/kapibara_vel_saltis_bridge'
+[25.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.593s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.596s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/app/src/start_sequence' with build type 'ament_cmake'
+[25.596s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/app/src/start_sequence'
+[25.596s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.596s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/kapibara_twingo_bridge': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/kapibara_twingo_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/kapibara_twingo_bridge
+[25.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/kapibara_vel_saltis_bridge': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/kapibara_vel_saltis_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/kapibara_vel_saltis_bridge
+[25.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/start_sequence': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/start_sequence -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/start_sequence
+[26.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/start_sequence' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/start_sequence -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/start_sequence
+[26.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/start_sequence': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/start_sequence -- -j12 -l12
+[26.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/start_sequence' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/start_sequence -- -j12 -l12
+[26.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/start_sequence': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/start_sequence
+[26.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(start_sequence)
+[26.432s] Level 1:colcon.colcon_core.environment:checking '/app/install/start_sequence' for CMake module files
+[26.433s] Level 1:colcon.colcon_core.environment:checking '/app/install/start_sequence' for CMake config files
+[26.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/start_sequence' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/modus_board_interfaces:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/modus_board_interfaces/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/modus_board_interfaces/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/start_sequence
+[26.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('start_sequence', 'cmake_prefix_path')
+[26.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/start_sequence/share/start_sequence/hook/cmake_prefix_path.ps1'
+[26.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/start_sequence/share/start_sequence/hook/cmake_prefix_path.dsv'
+[26.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/start_sequence/share/start_sequence/hook/cmake_prefix_path.sh'
+[26.435s] Level 1:colcon.colcon_core.environment:checking '/app/install/start_sequence/lib'
+[26.435s] Level 1:colcon.colcon_core.environment:checking '/app/install/start_sequence/bin'
+[26.435s] Level 1:colcon.colcon_core.environment:checking '/app/install/start_sequence/lib/pkgconfig/start_sequence.pc'
+[26.436s] Level 1:colcon.colcon_core.environment:checking '/app/install/start_sequence/lib/python3.10/site-packages'
+[26.437s] Level 1:colcon.colcon_core.environment:checking '/app/install/start_sequence/bin'
+[26.437s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/start_sequence/share/start_sequence/package.ps1'
+[26.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/start_sequence/share/start_sequence/package.dsv'
+[26.439s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/start_sequence/share/start_sequence/package.sh'
+[26.439s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/start_sequence/share/start_sequence/package.bash'
+[26.440s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/start_sequence/share/start_sequence/package.zsh'
+[26.441s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/start_sequence/share/colcon-core/packages/start_sequence)
+[26.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(start_sequence)
+[26.445s] Level 1:colcon.colcon_core.environment:checking '/app/install/start_sequence' for CMake module files
+[26.446s] Level 1:colcon.colcon_core.environment:checking '/app/install/start_sequence' for CMake config files
+[26.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('start_sequence', 'cmake_prefix_path')
+[26.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/start_sequence/share/start_sequence/hook/cmake_prefix_path.ps1'
+[26.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/start_sequence/share/start_sequence/hook/cmake_prefix_path.dsv'
+[26.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/start_sequence/share/start_sequence/hook/cmake_prefix_path.sh'
+[26.450s] Level 1:colcon.colcon_core.environment:checking '/app/install/start_sequence/lib'
+[26.450s] Level 1:colcon.colcon_core.environment:checking '/app/install/start_sequence/bin'
+[26.450s] Level 1:colcon.colcon_core.environment:checking '/app/install/start_sequence/lib/pkgconfig/start_sequence.pc'
+[26.451s] Level 1:colcon.colcon_core.environment:checking '/app/install/start_sequence/lib/python3.10/site-packages'
+[26.452s] Level 1:colcon.colcon_core.environment:checking '/app/install/start_sequence/bin'
+[26.452s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/start_sequence/share/start_sequence/package.ps1'
+[26.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/start_sequence/share/start_sequence/package.dsv'
+[26.454s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/start_sequence/share/start_sequence/package.sh'
+[26.455s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/start_sequence/share/start_sequence/package.bash'
+[26.455s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/start_sequence/share/start_sequence/package.zsh'
+[26.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/start_sequence/share/colcon-core/packages/start_sequence)
+[26.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/kapibara_twingo_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/kapibara_twingo_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/kapibara_twingo_bridge
+[26.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/kapibara_twingo_bridge': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/kapibara_twingo_bridge -- -j12 -l12
+[26.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/kapibara_vel_saltis_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/kapibara_vel_saltis_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/kapibara_vel_saltis_bridge
+[26.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/kapibara_vel_saltis_bridge': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/kapibara_vel_saltis_bridge -- -j12 -l12
+[28.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/mqtt_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/mqtt_bridge -- -j12 -l12
+[28.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/mqtt_bridge': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/mqtt_bridge
+[29.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mqtt_bridge)
+[29.006s] Level 1:colcon.colcon_core.environment:checking '/app/install/mqtt_bridge' for CMake module files
+[29.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/mqtt_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/mqtt_bridge
+[29.007s] Level 1:colcon.colcon_core.environment:checking '/app/install/mqtt_bridge' for CMake config files
+[29.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt_bridge', 'cmake_prefix_path')
+[29.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/mqtt_bridge/share/mqtt_bridge/hook/cmake_prefix_path.ps1'
+[29.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/mqtt_bridge/share/mqtt_bridge/hook/cmake_prefix_path.dsv'
+[29.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/mqtt_bridge/share/mqtt_bridge/hook/cmake_prefix_path.sh'
+[29.008s] Level 1:colcon.colcon_core.environment:checking '/app/install/mqtt_bridge/lib'
+[29.008s] Level 1:colcon.colcon_core.environment:checking '/app/install/mqtt_bridge/bin'
+[29.008s] Level 1:colcon.colcon_core.environment:checking '/app/install/mqtt_bridge/lib/pkgconfig/mqtt_bridge.pc'
+[29.008s] Level 1:colcon.colcon_core.environment:checking '/app/install/mqtt_bridge/lib/python3.10/site-packages'
+[29.008s] Level 1:colcon.colcon_core.environment:checking '/app/install/mqtt_bridge/bin'
+[29.009s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/mqtt_bridge/share/mqtt_bridge/package.ps1'
+[29.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/mqtt_bridge/share/mqtt_bridge/package.dsv'
+[29.009s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/mqtt_bridge/share/mqtt_bridge/package.sh'
+[29.009s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/mqtt_bridge/share/mqtt_bridge/package.bash'
+[29.010s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/mqtt_bridge/share/mqtt_bridge/package.zsh'
+[29.010s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/mqtt_bridge/share/colcon-core/packages/mqtt_bridge)
+[29.010s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mqtt_bridge)
+[29.010s] Level 1:colcon.colcon_core.environment:checking '/app/install/mqtt_bridge' for CMake module files
+[29.011s] Level 1:colcon.colcon_core.environment:checking '/app/install/mqtt_bridge' for CMake config files
+[29.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt_bridge', 'cmake_prefix_path')
+[29.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/mqtt_bridge/share/mqtt_bridge/hook/cmake_prefix_path.ps1'
+[29.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/mqtt_bridge/share/mqtt_bridge/hook/cmake_prefix_path.dsv'
+[29.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/mqtt_bridge/share/mqtt_bridge/hook/cmake_prefix_path.sh'
+[29.012s] Level 1:colcon.colcon_core.environment:checking '/app/install/mqtt_bridge/lib'
+[29.012s] Level 1:colcon.colcon_core.environment:checking '/app/install/mqtt_bridge/bin'
+[29.012s] Level 1:colcon.colcon_core.environment:checking '/app/install/mqtt_bridge/lib/pkgconfig/mqtt_bridge.pc'
+[29.012s] Level 1:colcon.colcon_core.environment:checking '/app/install/mqtt_bridge/lib/python3.10/site-packages'
+[29.012s] Level 1:colcon.colcon_core.environment:checking '/app/install/mqtt_bridge/bin'
+[29.013s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/mqtt_bridge/share/mqtt_bridge/package.ps1'
+[29.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/mqtt_bridge/share/mqtt_bridge/package.dsv'
+[29.013s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/mqtt_bridge/share/mqtt_bridge/package.sh'
+[29.013s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/mqtt_bridge/share/mqtt_bridge/package.bash'
+[29.014s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/mqtt_bridge/share/mqtt_bridge/package.zsh'
+[29.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/mqtt_bridge/share/colcon-core/packages/mqtt_bridge)
+[31.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/kapibara_twingo_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/kapibara_twingo_bridge -- -j12 -l12
+[31.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/kapibara_twingo_bridge': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/kapibara_twingo_bridge
+[31.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kapibara_twingo_bridge)
+[31.260s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_twingo_bridge' for CMake module files
+[31.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/kapibara_twingo_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/kapibara_twingo_bridge
+[31.261s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_twingo_bridge' for CMake config files
+[31.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('kapibara_twingo_bridge', 'cmake_prefix_path')
+[31.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/hook/cmake_prefix_path.ps1'
+[31.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/hook/cmake_prefix_path.dsv'
+[31.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/hook/cmake_prefix_path.sh'
+[31.262s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_twingo_bridge/lib'
+[31.262s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_twingo_bridge/bin'
+[31.263s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_twingo_bridge/lib/pkgconfig/kapibara_twingo_bridge.pc'
+[31.263s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_twingo_bridge/lib/python3.10/site-packages'
+[31.263s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_twingo_bridge/bin'
+[31.263s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/package.ps1'
+[31.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/package.dsv'
+[31.264s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/package.sh'
+[31.264s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/package.bash'
+[31.265s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/package.zsh'
+[31.265s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/kapibara_twingo_bridge/share/colcon-core/packages/kapibara_twingo_bridge)
+[31.265s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kapibara_twingo_bridge)
+[31.266s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_twingo_bridge' for CMake module files
+[31.266s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_twingo_bridge' for CMake config files
+[31.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('kapibara_twingo_bridge', 'cmake_prefix_path')
+[31.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/hook/cmake_prefix_path.ps1'
+[31.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/hook/cmake_prefix_path.dsv'
+[31.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/hook/cmake_prefix_path.sh'
+[31.267s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_twingo_bridge/lib'
+[31.267s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_twingo_bridge/bin'
+[31.267s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_twingo_bridge/lib/pkgconfig/kapibara_twingo_bridge.pc'
+[31.268s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_twingo_bridge/lib/python3.10/site-packages'
+[31.268s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_twingo_bridge/bin'
+[31.268s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/package.ps1'
+[31.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/package.dsv'
+[31.269s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/package.sh'
+[31.269s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/package.bash'
+[31.270s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_twingo_bridge/share/kapibara_twingo_bridge/package.zsh'
+[31.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/kapibara_twingo_bridge/share/colcon-core/packages/kapibara_twingo_bridge)
+[32.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/kapibara' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/kapibara -- -j12 -l12
+[32.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/kapibara': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/kapibara
+[33.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kapibara)
+[33.272s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara' for CMake module files
+[33.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/kapibara' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/kapibara
+[33.273s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara' for CMake config files
+[33.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('kapibara', 'cmake_prefix_path')
+[33.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara/share/kapibara/hook/cmake_prefix_path.ps1'
+[33.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/kapibara/share/kapibara/hook/cmake_prefix_path.dsv'
+[33.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara/share/kapibara/hook/cmake_prefix_path.sh'
+[33.274s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara/lib'
+[33.274s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara/bin'
+[33.275s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara/lib/pkgconfig/kapibara.pc'
+[33.275s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara/lib/python3.10/site-packages'
+[33.275s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara/bin'
+[33.275s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara/share/kapibara/package.ps1'
+[33.275s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/kapibara/share/kapibara/package.dsv'
+[33.276s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara/share/kapibara/package.sh'
+[33.276s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara/share/kapibara/package.bash'
+[33.276s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara/share/kapibara/package.zsh'
+[33.276s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/kapibara/share/colcon-core/packages/kapibara)
+[33.277s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kapibara)
+[33.277s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara' for CMake module files
+[33.277s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara' for CMake config files
+[33.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('kapibara', 'cmake_prefix_path')
+[33.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara/share/kapibara/hook/cmake_prefix_path.ps1'
+[33.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/kapibara/share/kapibara/hook/cmake_prefix_path.dsv'
+[33.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara/share/kapibara/hook/cmake_prefix_path.sh'
+[33.279s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara/lib'
+[33.279s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara/bin'
+[33.279s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara/lib/pkgconfig/kapibara.pc'
+[33.279s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara/lib/python3.10/site-packages'
+[33.280s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara/bin'
+[33.280s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara/share/kapibara/package.ps1'
+[33.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/kapibara/share/kapibara/package.dsv'
+[33.280s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara/share/kapibara/package.sh'
+[33.281s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara/share/kapibara/package.bash'
+[33.281s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara/share/kapibara/package.zsh'
+[33.281s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/kapibara/share/colcon-core/packages/kapibara)
+[35.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/kapibara_vel_saltis_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/kapibara_vel_saltis_bridge -- -j12 -l12
+[35.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/build/kapibara_vel_saltis_bridge': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/kapibara_vel_saltis_bridge
+[35.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kapibara_vel_saltis_bridge)
+[35.627s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_vel_saltis_bridge' for CMake module files
+[35.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/build/kapibara_vel_saltis_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/kapibara_vel_saltis_bridge
+[35.628s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_vel_saltis_bridge' for CMake config files
+[35.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('kapibara_vel_saltis_bridge', 'cmake_prefix_path')
+[35.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/hook/cmake_prefix_path.ps1'
+[35.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/hook/cmake_prefix_path.dsv'
+[35.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/hook/cmake_prefix_path.sh'
+[35.629s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_vel_saltis_bridge/lib'
+[35.629s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_vel_saltis_bridge/bin'
+[35.629s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_vel_saltis_bridge/lib/pkgconfig/kapibara_vel_saltis_bridge.pc'
+[35.629s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_vel_saltis_bridge/lib/python3.10/site-packages'
+[35.630s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_vel_saltis_bridge/bin'
+[35.630s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/package.ps1'
+[35.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/package.dsv'
+[35.631s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/package.sh'
+[35.631s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/package.bash'
+[35.631s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/package.zsh'
+[35.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/kapibara_vel_saltis_bridge/share/colcon-core/packages/kapibara_vel_saltis_bridge)
+[35.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kapibara_vel_saltis_bridge)
+[35.632s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_vel_saltis_bridge' for CMake module files
+[35.633s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_vel_saltis_bridge' for CMake config files
+[35.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('kapibara_vel_saltis_bridge', 'cmake_prefix_path')
+[35.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/hook/cmake_prefix_path.ps1'
+[35.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/hook/cmake_prefix_path.dsv'
+[35.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/hook/cmake_prefix_path.sh'
+[35.634s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_vel_saltis_bridge/lib'
+[35.634s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_vel_saltis_bridge/bin'
+[35.634s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_vel_saltis_bridge/lib/pkgconfig/kapibara_vel_saltis_bridge.pc'
+[35.634s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_vel_saltis_bridge/lib/python3.10/site-packages'
+[35.634s] Level 1:colcon.colcon_core.environment:checking '/app/install/kapibara_vel_saltis_bridge/bin'
+[35.635s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/package.ps1'
+[35.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/package.dsv'
+[35.636s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/package.sh'
+[35.636s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/package.bash'
+[35.636s] INFO:colcon.colcon_core.shell:Creating package script '/app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/package.zsh'
+[35.637s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/install/kapibara_vel_saltis_bridge/share/colcon-core/packages/kapibara_vel_saltis_bridge)
+[35.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[35.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[35.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[35.637s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[35.641s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[35.641s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[35.641s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[35.641s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[35.643s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[35.644s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[35.644s] INFO:colcon.colcon_core.shell:Creating prefix script '/app/install/local_setup.ps1'
+[35.645s] INFO:colcon.colcon_core.shell:Creating prefix util module '/app/install/_local_setup_util_ps1.py'
+[35.647s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/app/install/setup.ps1'
+[35.647s] INFO:colcon.colcon_core.shell:Creating prefix script '/app/install/local_setup.sh'
+[35.648s] INFO:colcon.colcon_core.shell:Creating prefix util module '/app/install/_local_setup_util_sh.py'
+[35.649s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/app/install/setup.sh'
+[35.651s] INFO:colcon.colcon_core.shell:Creating prefix script '/app/install/local_setup.bash'
+[35.652s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/app/install/setup.bash'
+[35.653s] INFO:colcon.colcon_core.shell:Creating prefix script '/app/install/local_setup.zsh'
+[35.653s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/app/install/setup.zsh'

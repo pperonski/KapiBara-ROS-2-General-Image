@@ -1,0 +1,45 @@
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:[m[K In function ‘[01m[Kvoid can_task(std::shared_ptr<BridgeNode>, uint64_t)[m[K’:
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:132:59:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Ktofs[m[K’ [[01;35m[K-Wvla[m[K]
+  132 |     rclcpp::Publisher<sensor_msgs::msg::Range>::SharedPtr [01;35m[Ktofs[m[K[tofCount];
+      |                                                           [01;35m[K^~~~[m[K
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:[m[K In function ‘[01m[Kvoid get_imu_cfg(std::shared_ptr<vel_saltis_services::srv::GetImuCFG_Request_<std::allocator<void> > >, std::shared_ptr<vel_saltis_services::srv::GetImuCFG_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:336:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kimu_raw_gyro::y[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  336 |     imu_cfg_t cfg = {0[01;35m[K}[m[K;
+      |                       [01;35m[K^[m[K
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:336:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kimu_raw_gyro::z[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:336:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kimu_cfg::accelerometer_offset[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:336:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kimu_cfg::mag_offset[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:336:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kimu_cfg::accel_range[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:319:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  319 | void get_imu_cfg([01;35m[Kstd::shared_ptr<vel_saltis_services::srv::GetImuCFG::Request> request[m[K,
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:[m[K In function ‘[01m[Kvoid get_fusion_cfg(std::shared_ptr<vel_saltis_services::srv::GetFusionCFG_Request_<std::allocator<void> > >, std::shared_ptr<vel_saltis_services::srv::GetFusionCFG_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:439:26:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kfusion_cfg::integral[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  439 |     fusion_cfg_t cfg = {0[01;35m[K}[m[K;
+      |                          [01;35m[K^[m[K
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:439:26:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kfusion_cfg::quaterion[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:422:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  422 | void get_fusion_cfg([01;35m[Kstd::shared_ptr<vel_saltis_services::srv::GetFusionCFG::Request> request[m[K,
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:[m[K In function ‘[01m[Kvoid get_pid_cfg(std::shared_ptr<vel_saltis_services::srv::GetPIDCFG_Request_<std::allocator<void> > >, std::shared_ptr<vel_saltis_services::srv::GetPIDCFG_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:584:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KPID::i[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+  584 |     pid_cfg_t cfg = {0[01;35m[K}[m[K;
+      |                       [01;35m[K^[m[K
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:584:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KPID::d[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:584:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kpid_cfg::pid_right[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:584:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kpid_cfg::open[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:566:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  566 | void get_pid_cfg([01;35m[Kstd::shared_ptr<vel_saltis_services::srv::GetPIDCFG::Request> request[m[K,
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:[m[K In function ‘[01m[Kvoid get_servo_cfg(std::shared_ptr<vel_saltis_services::srv::GetServoCFG_Request_<std::allocator<void> > >, std::shared_ptr<vel_saltis_services::srv::GetServoCFG_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:651:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  651 | void get_servo_cfg([01;35m[Kstd::shared_ptr<vel_saltis_services::srv::GetServoCFG::Request> request[m[K,
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:[m[K In function ‘[01m[Kvoid get_motor_cfg(std::shared_ptr<vel_saltis_services::srv::GetMotorCFG_Request_<std::allocator<void> > >, std::shared_ptr<vel_saltis_services::srv::GetMotorCFG_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:727:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  727 | void get_motor_cfg([01;35m[Kstd::shared_ptr<vel_saltis_services::srv::GetMotorCFG::Request> request[m[K,
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:[m[K In lambda function:
+[01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:804:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignal[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  804 |     shutdown_handler = [&can_thread]([01;35m[Kint signal[m[K)->void    {
+      |                                      [01;35m[K~~~~^~~~~~[m[K

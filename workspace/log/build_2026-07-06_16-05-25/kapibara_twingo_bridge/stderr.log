@@ -1,0 +1,4 @@
+[01m[K/app/src/kapibara_twingo_bridge/src/bridge.cpp:[m[K In lambda function:
+[01m[K/app/src/kapibara_twingo_bridge/src/bridge.cpp:241:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignal[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  241 |     shutdown_handler = [&can_thread]([01;35m[Kint signal[m[K)->void    {
+      |                                      [01;35m[K~~~~^~~~~~[m[K

@@ -1,0 +1,26 @@
+[0.021s] Invoking command in '/app/build/sample_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/build/sample_package -- -j12 -l12
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/hello.dir/src/hello.cpp.o[0m
+[7.680s] [100%] [32m[1mLinking CXX executable hello[0m
+[7.964s] [100%] Built target hello
+[7.973s] Invoked command in '/app/build/sample_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/build/sample_package -- -j12 -l12
+[7.974s] Invoking command in '/app/build/sample_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/build/sample_package
+[7.979s] -- Install configuration: ""
+[7.980s] -- Execute custom install script
+[7.980s] -- Symlinking: /app/install/sample_package/lib/sample_package/hello
+[7.987s] -- Symlinking: /app/install/sample_package/lib/sample_package/hello.py
+[7.995s] -- Symlinking: /app/install/sample_package/share/ament_index/resource_index/package_run_dependencies/sample_package
+[8.001s] -- Symlinking: /app/install/sample_package/share/ament_index/resource_index/parent_prefix_path/sample_package
+[8.008s] -- Symlinking: /app/install/sample_package/share/sample_package/environment/ament_prefix_path.sh
+[8.015s] -- Symlinking: /app/install/sample_package/share/sample_package/environment/ament_prefix_path.dsv
+[8.023s] -- Symlinking: /app/install/sample_package/share/sample_package/environment/path.sh
+[8.030s] -- Symlinking: /app/install/sample_package/share/sample_package/environment/path.dsv
+[8.039s] -- Symlinking: /app/install/sample_package/share/sample_package/local_setup.bash
+[8.046s] -- Symlinking: /app/install/sample_package/share/sample_package/local_setup.sh
+[8.053s] -- Symlinking: /app/install/sample_package/share/sample_package/local_setup.zsh
+[8.060s] -- Symlinking: /app/install/sample_package/share/sample_package/local_setup.dsv
+[8.067s] -- Symlinking: /app/install/sample_package/share/sample_package/package.dsv
+[8.073s] -- Symlinking: /app/install/sample_package/share/ament_index/resource_index/packages/sample_package
+[8.080s] -- Symlinking: /app/install/sample_package/share/sample_package/cmake/sample_packageConfig.cmake
+[8.087s] -- Symlinking: /app/install/sample_package/share/sample_package/cmake/sample_packageConfig-version.cmake
+[8.093s] -- Symlinking: /app/install/sample_package/share/sample_package/package.xml
+[8.102s] Invoked command in '/app/build/sample_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/build/sample_package

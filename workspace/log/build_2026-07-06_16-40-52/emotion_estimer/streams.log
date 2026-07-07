@@ -1,0 +1,36 @@
+[0.040s] Invoking command in '/app/build/emotion_estimer': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/emotion_estimer -- -j12 -l12
+[0.075s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.292s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.298s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.330s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.333s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.339s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.367s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.395s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.396s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.516s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.556s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[0.556s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.587s] -- Found kapibara_interfaces: 0.8.0 (/app/install/kapibara_interfaces/share/kapibara_interfaces/cmake)
+[0.593s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.676s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.676s] -- Configured cppcheck include dirs: 
+[3.676s] -- Configured cppcheck exclude dirs and/or files: 
+[4.064s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.792s] -- Added test 'lint_cmake' to check CMake code style
+[5.174s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.277s] -- Added test 'uncrustify' to check C / C++ code style
+[8.277s] -- Configured uncrustify additional arguments: 
+[8.703s] -- Added test 'xmllint' to check XML markup files
+[8.704s] -- Configuring done
+[8.710s] -- Generating done
+[8.713s] -- Build files have been written to: /app/build/emotion_estimer
+[8.754s] Built target ament_cmake_python_symlink_emotion_estimer
+[8.927s] running egg_info
+[8.927s] writing emotion_estimer.egg-info/PKG-INFO
+[8.927s] writing dependency_links to emotion_estimer.egg-info/dependency_links.txt
+[8.928s] writing top-level names to emotion_estimer.egg-info/top_level.txt
+[8.929s] reading manifest file 'emotion_estimer.egg-info/SOURCES.txt'
+[8.930s] writing manifest file 'emotion_estimer.egg-info/SOURCES.txt'
+[8.952s] Built target ament_cmake_python_build_emotion_estimer_egg

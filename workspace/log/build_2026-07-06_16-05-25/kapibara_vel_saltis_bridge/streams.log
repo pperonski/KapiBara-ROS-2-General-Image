@@ -1,0 +1,120 @@
+[0.014s] Invoking command in '/app/build/kapibara_vel_saltis_bridge': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/kapibara_vel_saltis_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/kapibara_vel_saltis_bridge
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.131s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.203s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.203s] -- Detecting C compile features
+[0.203s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.277s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.398s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.449s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.492s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.541s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.551s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.566s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.581s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.634s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.669s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.707s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.710s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.820s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.860s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.924s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.937s] -- Looking for pthread.h
+[1.016s] -- Looking for pthread.h - found
+[1.016s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.107s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.107s] -- Found Threads: TRUE  
+[1.138s] -- Found kapibara_interfaces: 0.8.0 (/app/install/kapibara_interfaces/share/kapibara_interfaces/cmake)
+[1.145s] -- Found vel_saltis_services: 0.8.0 (/app/install/vel_saltis_services/share/vel_saltis_services/cmake)
+[1.162s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.228s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.228s] -- Configured cppcheck include dirs: /app/src/kapibara_vel_saltis_bridge/include
+[1.228s] -- Configured cppcheck exclude dirs and/or files: 
+[1.228s] -- Added test 'lint_cmake' to check CMake code style
+[1.229s] -- Added test 'uncrustify' to check C / C++ code style
+[1.229s] -- Configured uncrustify additional arguments: 
+[1.230s] -- Added test 'xmllint' to check XML markup files
+[1.231s] -- Configuring done
+[1.241s] -- Generating done
+[1.244s] -- Build files have been written to: /app/build/kapibara_vel_saltis_bridge
+[1.254s] Invoked command in '/app/build/kapibara_vel_saltis_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/kapibara_vel_saltis_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/kapibara_vel_saltis_bridge
+[1.256s] Invoking command in '/app/build/kapibara_vel_saltis_bridge': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/kapibara_vel_saltis_bridge -- -j12 -l12
+[1.307s] [ 25%] [32mBuilding CXX object CMakeFiles/bridge.dir/src/bridge.cpp.o[0m
+[1.307s] [ 50%] [32mBuilding CXX object CMakeFiles/bridge.dir/src/can.cpp.o[0m
+[1.307s] [ 75%] [32mBuilding CXX object CMakeFiles/bridge.dir/src/frame.cpp.o[0m
+[3.578s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:[m[K In function ‘[01m[Kvoid can_task(std::shared_ptr<BridgeNode>, uint64_t)[m[K’:
+[3.578s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:132:59:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Ktofs[m[K’ [[01;35m[K-Wvla[m[K]
+[3.578s]   132 |     rclcpp::Publisher<sensor_msgs::msg::Range>::SharedPtr [01;35m[Ktofs[m[K[tofCount];
+[3.578s]       |                                                           [01;35m[K^~~~[m[K
+[3.593s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:[m[K In function ‘[01m[Kvoid get_imu_cfg(std::shared_ptr<vel_saltis_services::srv::GetImuCFG_Request_<std::allocator<void> > >, std::shared_ptr<vel_saltis_services::srv::GetImuCFG_Response_<std::allocator<void> > >)[m[K’:
+[3.594s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:336:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kimu_raw_gyro::y[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[3.594s]   336 |     imu_cfg_t cfg = {0[01;35m[K}[m[K;
+[3.594s]       |                       [01;35m[K^[m[K
+[3.594s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:336:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kimu_raw_gyro::z[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[3.594s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:336:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kimu_cfg::accelerometer_offset[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[3.594s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:336:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kimu_cfg::mag_offset[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[3.594s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:336:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kimu_cfg::accel_range[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[3.595s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:319:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.595s]   319 | void get_imu_cfg([01;35m[Kstd::shared_ptr<vel_saltis_services::srv::GetImuCFG::Request> request[m[K,
+[3.595s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.604s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:[m[K In function ‘[01m[Kvoid get_fusion_cfg(std::shared_ptr<vel_saltis_services::srv::GetFusionCFG_Request_<std::allocator<void> > >, std::shared_ptr<vel_saltis_services::srv::GetFusionCFG_Response_<std::allocator<void> > >)[m[K’:
+[3.604s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:439:26:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kfusion_cfg::integral[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[3.604s]   439 |     fusion_cfg_t cfg = {0[01;35m[K}[m[K;
+[3.604s]       |                          [01;35m[K^[m[K
+[3.604s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:439:26:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kfusion_cfg::quaterion[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[3.605s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:422:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.605s]   422 | void get_fusion_cfg([01;35m[Kstd::shared_ptr<vel_saltis_services::srv::GetFusionCFG::Request> request[m[K,
+[3.605s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.616s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:[m[K In function ‘[01m[Kvoid get_pid_cfg(std::shared_ptr<vel_saltis_services::srv::GetPIDCFG_Request_<std::allocator<void> > >, std::shared_ptr<vel_saltis_services::srv::GetPIDCFG_Response_<std::allocator<void> > >)[m[K’:
+[3.616s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:584:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KPID::i[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[3.616s]   584 |     pid_cfg_t cfg = {0[01;35m[K}[m[K;
+[3.617s]       |                       [01;35m[K^[m[K
+[3.617s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:584:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[KPID::d[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[3.617s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:584:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kpid_cfg::pid_right[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[3.617s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:584:23:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kpid_cfg::open[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[3.617s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:566:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.617s]   566 | void get_pid_cfg([01;35m[Kstd::shared_ptr<vel_saltis_services::srv::GetPIDCFG::Request> request[m[K,
+[3.617s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.624s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:[m[K In function ‘[01m[Kvoid get_servo_cfg(std::shared_ptr<vel_saltis_services::srv::GetServoCFG_Request_<std::allocator<void> > >, std::shared_ptr<vel_saltis_services::srv::GetServoCFG_Response_<std::allocator<void> > >)[m[K’:
+[3.624s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:651:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.624s]   651 | void get_servo_cfg([01;35m[Kstd::shared_ptr<vel_saltis_services::srv::GetServoCFG::Request> request[m[K,
+[3.624s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.631s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:[m[K In function ‘[01m[Kvoid get_motor_cfg(std::shared_ptr<vel_saltis_services::srv::GetMotorCFG_Request_<std::allocator<void> > >, std::shared_ptr<vel_saltis_services::srv::GetMotorCFG_Response_<std::allocator<void> > >)[m[K’:
+[3.631s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:727:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.631s]   727 | void get_motor_cfg([01;35m[Kstd::shared_ptr<vel_saltis_services::srv::GetMotorCFG::Request> request[m[K,
+[3.631s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.748s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:[m[K In lambda function:
+[3.749s] [01m[K/app/src/kapibara_vel_saltis_bridge/src/bridge.cpp:804:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignal[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.749s]   804 |     shutdown_handler = [&can_thread]([01;35m[Kint signal[m[K)->void    {
+[3.749s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[9.503s] [100%] [32m[1mLinking CXX executable bridge[0m
+[9.899s] [100%] Built target bridge
+[9.908s] Invoked command in '/app/build/kapibara_vel_saltis_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/kapibara_vel_saltis_bridge -- -j12 -l12
+[9.909s] Invoking command in '/app/build/kapibara_vel_saltis_bridge': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/kapibara_vel_saltis_bridge
+[9.915s] -- Install configuration: ""
+[9.915s] -- Execute custom install script
+[9.915s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/lib/kapibara_vel_saltis_bridge/bridge
+[9.922s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/ament_index/resource_index/package_run_dependencies/kapibara_vel_saltis_bridge
+[9.930s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/ament_index/resource_index/parent_prefix_path/kapibara_vel_saltis_bridge
+[9.937s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/environment/ament_prefix_path.sh
+[9.945s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/environment/ament_prefix_path.dsv
+[9.952s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/environment/path.sh
+[9.960s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/environment/path.dsv
+[9.967s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/local_setup.bash
+[9.977s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/local_setup.sh
+[9.984s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/local_setup.zsh
+[9.991s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/local_setup.dsv
+[9.998s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/package.dsv
+[10.005s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/ament_index/resource_index/packages/kapibara_vel_saltis_bridge
+[10.012s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/cmake/kapibara_vel_saltis_bridgeConfig.cmake
+[10.019s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/cmake/kapibara_vel_saltis_bridgeConfig-version.cmake
+[10.026s] -- Symlinking: /app/install/kapibara_vel_saltis_bridge/share/kapibara_vel_saltis_bridge/package.xml
+[10.035s] Invoked command in '/app/build/kapibara_vel_saltis_bridge' returned '0': AMENT_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/vel_saltis_services:/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/vel_saltis_services/lib:/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/vel_saltis_services/local/lib/python3.10/dist-packages:/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/kapibara_vel_saltis_bridge

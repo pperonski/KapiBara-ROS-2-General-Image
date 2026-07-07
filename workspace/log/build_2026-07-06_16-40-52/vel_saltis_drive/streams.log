@@ -1,0 +1,2 @@
+[0.035s] Invoking command in '/app/build/vel_saltis_drive': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_drive -- -j12 -l12
+[0.153s] [100%] Built target vel_saltis_drive

@@ -1,0 +1,8 @@
+Built target ament_cmake_python_symlink_microphone
+running egg_info
+writing microphone.egg-info/PKG-INFO
+writing dependency_links to microphone.egg-info/dependency_links.txt
+writing top-level names to microphone.egg-info/top_level.txt
+reading manifest file 'microphone.egg-info/SOURCES.txt'
+writing manifest file 'microphone.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_microphone_egg

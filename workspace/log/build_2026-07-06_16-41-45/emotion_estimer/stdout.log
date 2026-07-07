@@ -1,0 +1,59 @@
+Built target ament_cmake_python_symlink_emotion_estimer
+running egg_info
+writing emotion_estimer.egg-info/PKG-INFO
+writing dependency_links to emotion_estimer.egg-info/dependency_links.txt
+writing top-level names to emotion_estimer.egg-info/top_level.txt
+reading manifest file 'emotion_estimer.egg-info/SOURCES.txt'
+writing manifest file 'emotion_estimer.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_emotion_estimer_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/environment/pythonpath.sh
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/environment/pythonpath.dsv
+-- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer/DeepIDTFLite.py
+-- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer/TFLiteFaceDetector.py
+-- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer/__init__.py
+-- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer/face_data.py
+-- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer/kapibara_audio.py
+-- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer/midas.py
+-- Up-to-date symlink: /app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer/yunet.py
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/Midas-V2-Quantized.tflite
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/Midas-V2-Quantized_edgetpu.log
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/Midas-V2-Quantized_edgetpu.tflite
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/deepid.tflite
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/deepid_edgetpu.log
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/deepid_edgetpu.tflite
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/face_detection_yunet_2023mar_int8.tflite
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/face_detection_yunet_2023mar_int8_edgetpu.log
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/model.tflite
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/model_edgetpu.log
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/model_edgetpu.tflite
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/slim.tflite
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/slim_edgetpu.log
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/slim_edgetpu.tflite
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/yunet_full_integer_quant_edgetpu.log
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/yunet_integer_quant.tflite
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/yunet_integer_quant_edgetpu.log
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/model/yunet_integer_quant_edgetpu.tflite
+-- Up-to-date symlink: /app/install/emotion_estimer/lib/emotion_estimer/estimator.py
+-- Symlinking: /app/install/emotion_estimer/lib/emotion_estimer/.venv
+-- Up-to-date symlink: /app/install/emotion_estimer/share/ament_index/resource_index/package_run_dependencies/emotion_estimer
+-- Up-to-date symlink: /app/install/emotion_estimer/share/ament_index/resource_index/parent_prefix_path/emotion_estimer
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/environment/path.sh
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/environment/path.dsv
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/local_setup.bash
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/local_setup.sh
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/local_setup.zsh
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/local_setup.dsv
+-- Symlinking: /app/install/emotion_estimer/share/emotion_estimer/package.dsv
+-- Up-to-date symlink: /app/install/emotion_estimer/share/ament_index/resource_index/packages/emotion_estimer
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/cmake/emotion_estimerConfig.cmake
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/cmake/emotion_estimerConfig-version.cmake
+-- Up-to-date symlink: /app/install/emotion_estimer/share/emotion_estimer/package.xml
+Listing '/app/install/emotion_estimer/local/lib/python3.10/dist-packages/emotion_estimer'...

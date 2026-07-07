@@ -1,0 +1,400 @@
+[0.032s] Invoking command in '/app/build/vel_saltis_services': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_services -- -j12 -l12
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target vel_saltis_services__rosidl_generator_c[0m
+[0.111s] [  0%] Built target vel_saltis_services__cpp
+[0.111s] [  1%] Built target vel_saltis_services__rs
+[0.119s] [ 13%] Built target vel_saltis_services__rosidl_generator_c
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target vel_saltis_services__rosidl_typesupport_cpp[0m
+[0.131s] [35m[1mConsolidate compiler generated dependencies of target vel_saltis_services__rosidl_typesupport_introspection_cpp[0m
+[0.158s] [ 13%] Built target ament_cmake_python_symlink_vel_saltis_services
+[0.159s] [35m[1mConsolidate compiler generated dependencies of target vel_saltis_services__rosidl_typesupport_c[0m
+[0.160s] [35m[1mConsolidate compiler generated dependencies of target vel_saltis_services__rosidl_typesupport_introspection_c[0m
+[0.169s] [35m[1mConsolidate compiler generated dependencies of target vel_saltis_services__rosidl_typesupport_fastrtps_c[0m
+[0.169s] [35m[1mConsolidate compiler generated dependencies of target vel_saltis_services__rosidl_typesupport_fastrtps_cpp[0m
+[0.205s] [ 27%] Built target vel_saltis_services__rosidl_typesupport_introspection_cpp
+[0.205s] [ 37%] Built target vel_saltis_services__rosidl_typesupport_cpp
+[0.207s] [ 49%] Built target vel_saltis_services__rosidl_typesupport_introspection_c
+[0.209s] [ 61%] Built target vel_saltis_services__rosidl_typesupport_c
+[0.214s] [ 84%] Built target vel_saltis_services__rosidl_typesupport_fastrtps_cpp
+[0.214s] [ 85%] Built target vel_saltis_services__rosidl_typesupport_fastrtps_c
+[0.242s] [ 85%] Built target vel_saltis_services
+[0.277s] [ 86%] Built target vel_saltis_services__py
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target vel_saltis_services__rosidl_generator_py[0m
+[0.321s] [ 97%] Built target vel_saltis_services__rosidl_generator_py
+[0.334s] [35m[1mConsolidate compiler generated dependencies of target vel_saltis_services__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.334s] [35m[1mConsolidate compiler generated dependencies of target vel_saltis_services__rosidl_typesupport_introspection_c__pyext[0m
+[0.334s] [35m[1mConsolidate compiler generated dependencies of target vel_saltis_services__rosidl_typesupport_c__pyext[0m
+[0.350s] [100%] Built target vel_saltis_services__rosidl_typesupport_c__pyext
+[0.350s] [100%] Built target vel_saltis_services__rosidl_typesupport_introspection_c__pyext
+[0.350s] [100%] Built target vel_saltis_services__rosidl_typesupport_fastrtps_c__pyext
+[0.402s] running egg_info
+[0.402s] writing vel_saltis_services.egg-info/PKG-INFO
+[0.402s] writing dependency_links to vel_saltis_services.egg-info/dependency_links.txt
+[0.403s] writing top-level names to vel_saltis_services.egg-info/top_level.txt
+[0.404s] reading manifest file 'vel_saltis_services.egg-info/SOURCES.txt'
+[0.405s] writing manifest file 'vel_saltis_services.egg-info/SOURCES.txt'
+[0.427s] [100%] Built target ament_cmake_python_build_vel_saltis_services_egg
+[0.438s] Invoked command in '/app/build/vel_saltis_services' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_services -- -j12 -l12
+[0.440s] Invoking command in '/app/build/vel_saltis_services': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_services
+[0.446s] -- Install configuration: ""
+[0.447s] -- Execute custom install script
+[0.447s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/ament_index/resource_index/rosidl_interfaces/vel_saltis_services
+[0.448s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__functions.h
+[0.448s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__struct.h
+[0.448s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__type_support.h
+[0.448s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__functions.h
+[0.448s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__struct.h
+[0.448s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__type_support.h
+[0.448s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__functions.h
+[0.448s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__struct.h
+[0.449s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__type_support.h
+[0.449s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__functions.h
+[0.449s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__struct.h
+[0.449s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__type_support.h
+[0.449s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__functions.h
+[0.449s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__struct.h
+[0.450s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__type_support.h
+[0.450s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/fusion_cfg.h
+[0.451s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/imu_cfg.h
+[0.451s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/motor_cfg.h
+[0.451s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/pidcfg.h
+[0.451s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/rosidl_generator_c__visibility_control.h
+[0.452s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/servo_cfg.h
+[0.452s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__functions.h
+[0.452s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__struct.h
+[0.452s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__type_support.h
+[0.453s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__functions.h
+[0.453s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__struct.h
+[0.453s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__type_support.h
+[0.453s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__functions.h
+[0.453s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__struct.h
+[0.453s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__type_support.h
+[0.453s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__functions.h
+[0.454s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__struct.h
+[0.454s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__type_support.h
+[0.454s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__functions.h
+[0.454s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__struct.h
+[0.454s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__type_support.h
+[0.454s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__functions.h
+[0.454s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__struct.h
+[0.454s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__type_support.h
+[0.454s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__functions.h
+[0.454s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__struct.h
+[0.455s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__type_support.h
+[0.455s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__functions.h
+[0.455s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__struct.h
+[0.455s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__type_support.h
+[0.455s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__functions.h
+[0.455s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__struct.h
+[0.455s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__type_support.h
+[0.455s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__functions.h
+[0.455s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__struct.h
+[0.455s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__type_support.h
+[0.456s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_fusion_cfg.h
+[0.456s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_imu_cfg.h
+[0.456s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_motor_cfg.h
+[0.456s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_pidcfg.h
+[0.456s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_servo_cfg.h
+[0.456s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_fusion_cfg.h
+[0.456s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_imu_cfg.h
+[0.457s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_motor_cfg.h
+[0.457s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_pidcfg.h
+[0.457s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_servo_cfg.h
+[0.457s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/environment/library_path.sh
+[0.457s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/environment/library_path.dsv
+[0.458s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__rosidl_typesupport_fastrtps_c.h
+[0.458s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__rosidl_typesupport_fastrtps_c.h
+[0.458s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__rosidl_typesupport_fastrtps_c.h
+[0.458s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__rosidl_typesupport_fastrtps_c.h
+[0.458s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__rosidl_typesupport_fastrtps_c.h
+[0.458s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.458s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__rosidl_typesupport_fastrtps_c.h
+[0.458s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__rosidl_typesupport_fastrtps_c.h
+[0.459s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__rosidl_typesupport_fastrtps_c.h
+[0.459s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__rosidl_typesupport_fastrtps_c.h
+[0.459s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__rosidl_typesupport_fastrtps_c.h
+[0.459s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__rosidl_typesupport_fastrtps_c.h
+[0.459s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__rosidl_typesupport_fastrtps_c.h
+[0.459s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__rosidl_typesupport_fastrtps_c.h
+[0.459s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__rosidl_typesupport_fastrtps_c.h
+[0.459s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__rosidl_typesupport_fastrtps_c.h
+[0.460s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__builder.hpp
+[0.460s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__struct.hpp
+[0.460s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__traits.hpp
+[0.460s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__type_support.hpp
+[0.460s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__builder.hpp
+[0.461s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__struct.hpp
+[0.461s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__traits.hpp
+[0.461s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__type_support.hpp
+[0.461s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__builder.hpp
+[0.461s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__struct.hpp
+[0.461s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__traits.hpp
+[0.461s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__type_support.hpp
+[0.461s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__builder.hpp
+[0.461s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__struct.hpp
+[0.461s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__traits.hpp
+[0.462s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__type_support.hpp
+[0.462s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__builder.hpp
+[0.462s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__struct.hpp
+[0.462s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__traits.hpp
+[0.462s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__type_support.hpp
+[0.462s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/fusion_cfg.hpp
+[0.462s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/imu_cfg.hpp
+[0.462s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/motor_cfg.hpp
+[0.463s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/pidcfg.hpp
+[0.463s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.463s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/servo_cfg.hpp
+[0.463s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__builder.hpp
+[0.463s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__struct.hpp
+[0.463s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__traits.hpp
+[0.463s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__type_support.hpp
+[0.463s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__builder.hpp
+[0.464s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__struct.hpp
+[0.464s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__traits.hpp
+[0.464s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__type_support.hpp
+[0.464s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__builder.hpp
+[0.464s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__struct.hpp
+[0.464s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__traits.hpp
+[0.464s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__type_support.hpp
+[0.465s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__builder.hpp
+[0.465s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__struct.hpp
+[0.465s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__traits.hpp
+[0.465s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__type_support.hpp
+[0.465s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__builder.hpp
+[0.465s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__struct.hpp
+[0.465s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__traits.hpp
+[0.465s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__type_support.hpp
+[0.465s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__builder.hpp
+[0.465s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__struct.hpp
+[0.465s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__traits.hpp
+[0.465s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__type_support.hpp
+[0.466s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__builder.hpp
+[0.466s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__struct.hpp
+[0.466s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__traits.hpp
+[0.466s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__type_support.hpp
+[0.466s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__builder.hpp
+[0.466s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__struct.hpp
+[0.466s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__traits.hpp
+[0.466s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__type_support.hpp
+[0.466s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__builder.hpp
+[0.466s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__struct.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__traits.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__type_support.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__builder.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__struct.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__traits.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__type_support.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_fusion_cfg.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_imu_cfg.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_motor_cfg.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_pidcfg.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_servo_cfg.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_fusion_cfg.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_imu_cfg.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_motor_cfg.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_pidcfg.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_servo_cfg.hpp
+[0.467s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.468s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.468s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.468s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.468s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.468s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.468s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.468s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.468s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.468s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.468s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.468s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.468s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.469s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.469s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.469s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.469s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__rosidl_typesupport_introspection_c.h
+[0.469s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__rosidl_typesupport_introspection_c.h
+[0.469s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__rosidl_typesupport_introspection_c.h
+[0.470s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__rosidl_typesupport_introspection_c.h
+[0.470s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__rosidl_typesupport_introspection_c.h
+[0.470s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.470s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__rosidl_typesupport_introspection_c.h
+[0.470s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__rosidl_typesupport_introspection_c.h
+[0.470s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__rosidl_typesupport_introspection_c.h
+[0.470s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__rosidl_typesupport_introspection_c.h
+[0.470s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__rosidl_typesupport_introspection_c.h
+[0.470s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__rosidl_typesupport_introspection_c.h
+[0.470s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__rosidl_typesupport_introspection_c.h
+[0.470s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__rosidl_typesupport_introspection_c.h
+[0.471s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__rosidl_typesupport_introspection_c.h
+[0.471s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__rosidl_typesupport_introspection_c.h
+[0.471s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__rosidl_typesupport_introspection_cpp.hpp
+[0.471s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__rosidl_typesupport_introspection_cpp.hpp
+[0.471s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__rosidl_typesupport_introspection_cpp.hpp
+[0.471s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__rosidl_typesupport_introspection_cpp.hpp
+[0.471s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__rosidl_typesupport_introspection_cpp.hpp
+[0.471s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__rosidl_typesupport_introspection_cpp.hpp
+[0.472s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__rosidl_typesupport_introspection_cpp.hpp
+[0.472s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__rosidl_typesupport_introspection_cpp.hpp
+[0.472s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__rosidl_typesupport_introspection_cpp.hpp
+[0.472s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__rosidl_typesupport_introspection_cpp.hpp
+[0.472s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__rosidl_typesupport_introspection_cpp.hpp
+[0.472s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__rosidl_typesupport_introspection_cpp.hpp
+[0.472s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__rosidl_typesupport_introspection_cpp.hpp
+[0.472s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__rosidl_typesupport_introspection_cpp.hpp
+[0.472s] -- Up-to-date symlink: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__rosidl_typesupport_introspection_cpp.hpp
+[0.472s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/environment/pythonpath.sh
+[0.472s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/environment/pythonpath.dsv
+[0.473s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services-0.8.0-py3.10.egg-info/PKG-INFO
+[0.473s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services-0.8.0-py3.10.egg-info/SOURCES.txt
+[0.473s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services-0.8.0-py3.10.egg-info/dependency_links.txt
+[0.473s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services-0.8.0-py3.10.egg-info/top_level.txt
+[0.474s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/__init__.py
+[0.474s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/_vel_saltis_services_s.ep.rosidl_typesupport_c.c
+[0.474s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/_vel_saltis_services_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.474s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/_vel_saltis_services_s.ep.rosidl_typesupport_introspection_c.c
+[0.474s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/libvel_saltis_services__rosidl_generator_py.so
+[0.474s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/__init__.py
+[0.474s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_fusion_cfg.py
+[0.474s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_fusion_cfg_s.c
+[0.474s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_imu_cfg.py
+[0.475s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_imu_cfg_s.c
+[0.475s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_motor_cfg.py
+[0.475s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_motor_cfg_s.c
+[0.475s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_pidcfg.py
+[0.475s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_pidcfg_s.c
+[0.475s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_servo_cfg.py
+[0.475s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_servo_cfg_s.c
+[0.475s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/__init__.py
+[0.475s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_fusion_cfg.py
+[0.476s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_fusion_cfg_s.c
+[0.476s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_imu_cfg.py
+[0.476s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_imu_cfg_s.c
+[0.476s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_motor_cfg.py
+[0.476s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_motor_cfg_s.c
+[0.476s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_pidcfg.py
+[0.476s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_pidcfg_s.c
+[0.476s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_servo_cfg.py
+[0.477s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_servo_cfg_s.c
+[0.477s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_fusion_cfg.py
+[0.477s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_fusion_cfg_s.c
+[0.477s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_imu_cfg.py
+[0.477s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_imu_cfg_s.c
+[0.477s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_motor_cfg.py
+[0.477s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_motor_cfg_s.c
+[0.477s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_pidcfg.py
+[0.477s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_pidcfg_s.c
+[0.477s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_servo_cfg.py
+[0.478s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_servo_cfg_s.c
+[0.478s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.478s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.478s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.478s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.478s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.479s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.479s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/ament_index/resource_index/rust_packages/vel_saltis_services
+[0.480s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/rust/Cargo.toml
+[0.480s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/rust/build.rs
+[0.480s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/rust/src/lib.rs
+[0.480s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/rust/src/msg.rs
+[0.480s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/rust/src/msg/rmw.rs
+[0.480s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/rust/src/srv.rs
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/rust/src/srv/rmw.rs
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/msg/ImuCFG.idl
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/msg/FusionCFG.idl
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/msg/MotorCFG.idl
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/msg/PIDCFG.idl
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/msg/ServoCFG.idl
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetFusionCFG.idl
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetFusionCFG.idl
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetImuCFG.idl
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetImuCFG.idl
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetMotorCFG.idl
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetMotorCFG.idl
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetPIDCFG.idl
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetPIDCFG.idl
+[0.481s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetServoCFG.idl
+[0.482s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetServoCFG.idl
+[0.482s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/msg/ImuCFG.msg
+[0.482s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/msg/FusionCFG.msg
+[0.482s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/msg/MotorCFG.msg
+[0.482s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/msg/PIDCFG.msg
+[0.482s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/msg/ServoCFG.msg
+[0.482s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetFusionCFG.srv
+[0.482s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetFusionCFG_Request.msg
+[0.482s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetFusionCFG_Response.msg
+[0.482s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetFusionCFG.srv
+[0.482s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetFusionCFG_Request.msg
+[0.483s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetFusionCFG_Response.msg
+[0.483s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetImuCFG.srv
+[0.483s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetImuCFG_Request.msg
+[0.483s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetImuCFG_Response.msg
+[0.483s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetImuCFG.srv
+[0.483s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetImuCFG_Request.msg
+[0.483s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetImuCFG_Response.msg
+[0.483s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetMotorCFG.srv
+[0.483s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetMotorCFG_Request.msg
+[0.484s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetMotorCFG_Response.msg
+[0.484s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetMotorCFG.srv
+[0.484s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetMotorCFG_Request.msg
+[0.484s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetMotorCFG_Response.msg
+[0.484s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetPIDCFG.srv
+[0.484s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetPIDCFG_Request.msg
+[0.484s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetPIDCFG_Response.msg
+[0.484s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetPIDCFG.srv
+[0.484s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetPIDCFG_Request.msg
+[0.485s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetPIDCFG_Response.msg
+[0.485s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetServoCFG.srv
+[0.485s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetServoCFG_Request.msg
+[0.485s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetServoCFG_Response.msg
+[0.485s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetServoCFG.srv
+[0.486s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetServoCFG_Request.msg
+[0.486s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetServoCFG_Response.msg
+[0.486s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/ament_index/resource_index/package_run_dependencies/vel_saltis_services
+[0.486s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/ament_index/resource_index/parent_prefix_path/vel_saltis_services
+[0.486s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/environment/ament_prefix_path.sh
+[0.486s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/environment/ament_prefix_path.dsv
+[0.486s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/environment/path.sh
+[0.486s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/environment/path.dsv
+[0.486s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/local_setup.bash
+[0.486s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/local_setup.sh
+[0.486s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/local_setup.zsh
+[0.486s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/local_setup.dsv
+[0.487s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/package.dsv
+[0.495s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/ament_index/resource_index/packages/vel_saltis_services
+[0.495s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/rosidl_cmake-extras.cmake
+[0.496s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.496s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.496s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/ament_cmake_export_libraries-extras.cmake
+[0.496s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/ament_cmake_export_targets-extras.cmake
+[0.496s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.496s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.496s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_servicesConfig.cmake
+[0.496s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_servicesConfig-version.cmake
+[0.496s] -- Up-to-date symlink: /app/install/vel_saltis_services/share/vel_saltis_services/package.xml
+[0.496s] -- Up-to-date: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_generator_c.so
+[0.497s] -- Up-to-date: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_fastrtps_c.so
+[0.497s] -- Up-to-date: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_fastrtps_cpp.so
+[0.497s] -- Up-to-date: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_introspection_c.so
+[0.497s] -- Up-to-date: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_c.so
+[0.497s] -- Up-to-date: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_introspection_cpp.so
+[0.498s] -- Up-to-date: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_cpp.so
+[0.524s] Listing '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services'...
+[0.524s] Listing '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg'...
+[0.525s] Listing '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv'...
+[0.529s] -- Up-to-date: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_generator_py.so
+[0.529s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_generator_cExport.cmake
+[0.529s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_generator_cExport-noconfig.cmake
+[0.529s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_typesupport_fastrtps_cExport.cmake
+[0.529s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.529s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_generator_cppExport.cmake
+[0.529s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.529s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.529s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_introspection_cExport.cmake
+[0.529s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.529s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_cExport.cmake
+[0.530s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_cExport-noconfig.cmake
+[0.530s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_introspection_cppExport.cmake
+[0.530s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.530s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_cppExport.cmake
+[0.530s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_cppExport-noconfig.cmake
+[0.530s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_generator_pyExport.cmake
+[0.530s] -- Up-to-date: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_generator_pyExport-noconfig.cmake
+[0.532s] Invoked command in '/app/build/vel_saltis_services' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_services

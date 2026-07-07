@@ -1,0 +1,52 @@
+[0.021s] Invoking command in '/app/build/kinect_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /app/src/kinect_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/kinect_ros2
+[0.194s] -- The C compiler identification is GNU 11.4.0
+[0.303s] -- The CXX compiler identification is GNU 11.4.0
+[0.314s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.388s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.388s] -- Detecting C compile features
+[0.390s] -- Detecting C compile features - done
+[0.394s] -- Detecting CXX compiler ABI info
+[0.478s] -- Detecting CXX compiler ABI info - done
+[0.485s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.485s] -- Detecting CXX compile features
+[0.486s] -- Detecting CXX compile features - done
+[0.490s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.613s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.714s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.763s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.833s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.837s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.845s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.856s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.866s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.937s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.941s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.034s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.070s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.121s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.136s] -- Looking for pthread.h
+[1.212s] -- Looking for pthread.h - found
+[1.212s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.275s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.276s] -- Found Threads: TRUE  
+[1.352s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[1.352s]   By not providing "Findlibfreenect.cmake" in CMAKE_MODULE_PATH this project
+[1.352s]   has asked CMake to find a package configuration file provided by
+[1.352s]   "libfreenect", but CMake did not find one.
+[1.352s] 
+[1.352s]   Could not find a package configuration file provided by "libfreenect" with
+[1.353s]   any of the following names:
+[1.353s] 
+[1.353s]     libfreenectConfig.cmake
+[1.353s]     libfreenect-config.cmake
+[1.353s] 
+[1.353s]   Add the installation prefix of "libfreenect" to CMAKE_PREFIX_PATH or set
+[1.353s]   "libfreenect_DIR" to a directory containing one of the above files.  If
+[1.353s]   "libfreenect" provides a separate development package or SDK, be sure it
+[1.353s]   has been installed.
+[1.353s] 
+[1.353s] [0m
+[1.353s] -- Configuring incomplete, errors occurred!
+[1.353s] See also "/app/build/kinect_ros2/CMakeFiles/CMakeOutput.log".
+[1.360s] Invoked command in '/app/build/kinect_ros2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /app/src/kinect_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/kinect_ros2

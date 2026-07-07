@@ -1,0 +1,25 @@
+[0.056s] Invoking command in '/app/build/vel_saltis_drive': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_drive -- -j12 -l12
+[0.164s] [100%] Built target vel_saltis_drive
+[0.198s] Invoked command in '/app/build/vel_saltis_drive' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_drive -- -j12 -l12
+[0.200s] Invoking command in '/app/build/vel_saltis_drive': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_drive
+[0.208s] -- Install configuration: ""
+[0.210s] -- Execute custom install script
+[0.210s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/vel_saltis_drive//vel_saltis_drive.xml
+[0.210s] -- Up-to-date symlink: /app/install/vel_saltis_drive/lib/libvel_saltis_drive.so
+[0.210s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/ament_index/resource_index/package_run_dependencies/vel_saltis_drive
+[0.210s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/ament_index/resource_index/parent_prefix_path/vel_saltis_drive
+[0.211s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/vel_saltis_drive/environment/ament_prefix_path.sh
+[0.211s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/vel_saltis_drive/environment/ament_prefix_path.dsv
+[0.211s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/vel_saltis_drive/environment/path.sh
+[0.211s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/vel_saltis_drive/environment/path.dsv
+[0.211s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/vel_saltis_drive/local_setup.bash
+[0.211s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/vel_saltis_drive/local_setup.sh
+[0.211s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/vel_saltis_drive/local_setup.zsh
+[0.212s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/vel_saltis_drive/local_setup.dsv
+[0.212s] -- Symlinking: /app/install/vel_saltis_drive/share/vel_saltis_drive/package.dsv
+[0.225s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/ament_index/resource_index/packages/vel_saltis_drive
+[0.225s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/vel_saltis_drive
+[0.225s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/vel_saltis_drive/cmake/vel_saltis_driveConfig.cmake
+[0.225s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/vel_saltis_drive/cmake/vel_saltis_driveConfig-version.cmake
+[0.226s] -- Up-to-date symlink: /app/install/vel_saltis_drive/share/vel_saltis_drive/package.xml
+[0.233s] Invoked command in '/app/build/vel_saltis_drive' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_drive

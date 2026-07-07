@@ -1,0 +1,125 @@
+[0.031s] Invoking command in '/app/build/vel_saltis_ears': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/vel_saltis_ears -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/vel_saltis_ears
+[0.092s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.162s] -- Detecting C compiler ABI info
+[0.230s] -- Detecting C compiler ABI info - done
+[0.240s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.240s] -- Detecting C compile features
+[0.241s] -- Detecting C compile features - done
+[0.245s] -- Detecting CXX compiler ABI info
+[0.331s] -- Detecting CXX compiler ABI info - done
+[0.341s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.342s] -- Detecting CXX compile features
+[0.342s] -- Detecting CXX compile features - done
+[0.345s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.490s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.564s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.616s] -- Found hardware_interface: 2.54.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.684s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.690s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.701s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.076s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.078s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.113s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.186s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.191s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.211s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.217s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.228s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.240s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.257s] -- Looking for pthread.h
+[1.342s] -- Looking for pthread.h - found
+[1.342s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.453s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.455s] -- Found Threads: TRUE  
+[1.538s] -- Found controller_manager: 2.54.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.602s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.706s] -- Found kapibara_interfaces: 0.8.0 (/app/install/kapibara_interfaces/share/kapibara_interfaces/cmake)
+[1.744s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.745s] -- Configured cppcheck include dirs: /app/src/vel_saltis_ears/include
+[1.745s] -- Configured cppcheck exclude dirs and/or files: 
+[1.747s] -- Added test 'lint_cmake' to check CMake code style
+[1.749s] -- Added test 'uncrustify' to check C / C++ code style
+[1.749s] -- Configured uncrustify additional arguments: 
+[1.750s] -- Added test 'xmllint' to check XML markup files
+[1.753s] -- Configuring done
+[1.791s] -- Generating done
+[1.800s] -- Build files have been written to: /app/build/vel_saltis_ears
+[1.827s] Invoked command in '/app/build/vel_saltis_ears' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/vel_saltis_ears -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/vel_saltis_ears
+[1.830s] Invoking command in '/app/build/vel_saltis_ears': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_ears -- -j12 -l12
+[1.944s] [ 25%] [32mBuilding CXX object CMakeFiles/vel_saltis_ears.dir/src/vel_saltis_ears.cpp.o[0m
+[1.944s] [ 50%] [32mBuilding CXX object CMakeFiles/vel_saltis_ears.dir/src/frame.cpp.o[0m
+[1.948s] [ 75%] [32mBuilding CXX object CMakeFiles/vel_saltis_ears.dir/src/can.cpp.o[0m
+[8.008s] In file included from [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:5[m[K:
+[8.009s] [01m[K/app/src/vel_saltis_ears/include/vel_saltis_ears/vel_saltis_ears.hpp:42:53:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.009s]    42 |         RCLCPP_SHARED_PTR_DEFINITIONS(VelSaltisEars)[01;35m[K;[m[K
+[8.010s]       |                                                     [01;35m[K^[m[K
+[8.011s]       |                                                     [31m[K-[m[K
+[8.011s] [01m[K/app/src/vel_saltis_ears/include/vel_saltis_ears/vel_saltis_ears.hpp:[m[K In member function ‘[01m[Kvoid vel_saltis_ears::VelSaltisEars::send_servo_msg()[m[K’:
+[8.011s] [01m[K/app/src/vel_saltis_ears/include/vel_saltis_ears/vel_saltis_ears.hpp:78:17:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.012s]    78 |                 [01;35m[K.[m[Kleft = static_cast<uint8_t>(this->left_servo.getAngle()),
+[8.012s]       |                 [01;35m[K^[m[K
+[8.012s] [01m[K/app/src/vel_saltis_ears/include/vel_saltis_ears/vel_saltis_ears.hpp:79:17:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.012s]    79 |                 [01;35m[K.[m[Kright = static_cast<uint8_t>(this->right_servo.getAngle())
+[8.012s]       |                 [01;35m[K^[m[K
+[8.018s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_ears::VelSaltisEars::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[8.018s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:64:97:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.018s]    64 |     hardware_interface::CallbackReturn VelSaltisEars::on_cleanup([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[8.018s]       |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[8.018s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_ears::VelSaltisEars::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[8.018s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:69:98:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.019s]    69 |     hardware_interface::CallbackReturn VelSaltisEars::on_shutdown([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[8.019s]       |                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[8.019s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_ears::VelSaltisEars::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[8.019s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:74:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.019s]    74 |     hardware_interface::CallbackReturn VelSaltisEars::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[8.019s]       |                                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[8.019s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_ears::VelSaltisEars::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[8.019s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:79:98:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.019s]    79 |     hardware_interface::CallbackReturn VelSaltisEars::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[8.019s]       |                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[8.020s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn vel_saltis_ears::VelSaltisEars::on_error(const rclcpp_lifecycle::State&)[m[K’:
+[8.020s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:84:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.020s]    84 |     hardware_interface::CallbackReturn VelSaltisEars::on_error([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[8.021s]       |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[8.027s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type vel_saltis_ears::VelSaltisEars::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[8.027s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:117:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.029s]   117 |     hardware_interface::return_type VelSaltisEars::read([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+[8.029s]       |                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.029s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:117:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.029s]   117 |     hardware_interface::return_type VelSaltisEars::read(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+[8.029s]       |                                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[8.030s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type vel_saltis_ears::VelSaltisEars::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[8.030s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:125:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.030s]   125 |     hardware_interface::return_type VelSaltisEars::write([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+[8.030s]       |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.030s] [01m[K/app/src/vel_saltis_ears/src/vel_saltis_ears.cpp:125:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.030s]   125 |     hardware_interface::return_type VelSaltisEars::write(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+[8.030s]       |                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[9.871s] [100%] [32m[1mLinking CXX shared library libvel_saltis_ears.so[0m
+[10.395s] [100%] Built target vel_saltis_ears
+[10.423s] Invoked command in '/app/build/vel_saltis_ears' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_ears -- -j12 -l12
+[10.423s] Invoking command in '/app/build/vel_saltis_ears': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_ears
+[10.446s] -- Install configuration: ""
+[10.448s] -- Execute custom install script
+[10.448s] -- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears//vel_saltis_ears.xml
+[10.471s] -- Symlinking: /app/install/vel_saltis_ears/lib/libvel_saltis_ears.so
+[10.493s] -- Symlinking: /app/install/vel_saltis_ears/share/ament_index/resource_index/package_run_dependencies/vel_saltis_ears
+[10.517s] -- Symlinking: /app/install/vel_saltis_ears/share/ament_index/resource_index/parent_prefix_path/vel_saltis_ears
+[10.548s] -- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears/environment/ament_prefix_path.sh
+[10.573s] -- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears/environment/ament_prefix_path.dsv
+[10.596s] -- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears/environment/path.sh
+[10.620s] -- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears/environment/path.dsv
+[10.649s] -- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears/local_setup.bash
+[10.676s] -- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears/local_setup.sh
+[10.703s] -- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears/local_setup.zsh
+[10.730s] -- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears/local_setup.dsv
+[10.757s] -- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears/package.dsv
+[10.777s] -- Symlinking: /app/install/vel_saltis_ears/share/ament_index/resource_index/packages/vel_saltis_ears
+[10.817s] -- Symlinking: /app/install/vel_saltis_ears/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/vel_saltis_ears
+[10.846s] -- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears/cmake/vel_saltis_earsConfig.cmake
+[10.866s] -- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears/cmake/vel_saltis_earsConfig-version.cmake
+[10.893s] -- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears/package.xml
+[10.923s] Invoked command in '/app/build/vel_saltis_ears' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_ears

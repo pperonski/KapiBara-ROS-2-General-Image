@@ -1,0 +1,21 @@
+[100%] Built target vel_saltis_ears
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears//vel_saltis_ears.xml
+-- Up-to-date symlink: /app/install/vel_saltis_ears/lib/libvel_saltis_ears.so
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/ament_index/resource_index/package_run_dependencies/vel_saltis_ears
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/ament_index/resource_index/parent_prefix_path/vel_saltis_ears
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/environment/path.sh
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/environment/path.dsv
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/local_setup.bash
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/local_setup.sh
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/local_setup.zsh
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/local_setup.dsv
+-- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears/package.dsv
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/ament_index/resource_index/packages/vel_saltis_ears
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/vel_saltis_ears
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/cmake/vel_saltis_earsConfig.cmake
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/cmake/vel_saltis_earsConfig-version.cmake
+-- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/package.xml

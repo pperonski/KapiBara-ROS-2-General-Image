@@ -1,0 +1,602 @@
+[0.027s] Invoking command in '/app/build/vel_saltis_services': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/vel_saltis_services -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/vel_saltis_services
+[0.099s] -- The C compiler identification is GNU 11.4.0
+[0.158s] -- The CXX compiler identification is GNU 11.4.0
+[0.168s] -- Detecting C compiler ABI info
+[0.242s] -- Detecting C compiler ABI info - done
+[0.248s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.251s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.341s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.342s] -- Detecting CXX compile features
+[0.342s] -- Detecting CXX compile features - done
+[0.345s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.487s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.561s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.637s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.691s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.703s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.717s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.754s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.810s] -- Found kapibara_interfaces: 0.8.0 (/app/install/kapibara_interfaces/share/kapibara_interfaces/cmake)
+[0.817s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.222s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.788s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.072s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.117s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.125s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.171s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.171s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.172s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.172s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.231s] -- Found PythonExtra: .so  
+[2.532s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.580s] -- Added test 'lint_cmake' to check CMake code style
+[2.584s] -- Added test 'xmllint' to check XML markup files
+[2.592s] -- Configuring done
+[2.706s] -- Generating done
+[2.734s] -- Build files have been written to: /app/build/vel_saltis_services
+[2.755s] Invoked command in '/app/build/vel_saltis_services' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/vel_saltis_services -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/vel_saltis_services
+[2.761s] Invoking command in '/app/build/vel_saltis_services': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_services -- -j12 -l12
+[2.861s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.870s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.900s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.934s] [  2%] Built target ament_cmake_python_symlink_vel_saltis_services
+[3.425s] running egg_info
+[3.425s] creating vel_saltis_services.egg-info
+[3.425s] writing vel_saltis_services.egg-info/PKG-INFO
+[3.425s] writing dependency_links to vel_saltis_services.egg-info/dependency_links.txt
+[3.426s] writing top-level names to vel_saltis_services.egg-info/top_level.txt
+[3.428s] writing manifest file 'vel_saltis_services.egg-info/SOURCES.txt'
+[3.428s] reading manifest file 'vel_saltis_services.egg-info/SOURCES.txt'
+[3.428s] writing manifest file 'vel_saltis_services.egg-info/SOURCES.txt'
+[3.489s] [  2%] Built target ament_cmake_python_build_vel_saltis_services_egg
+[4.320s] [  2%] Built target vel_saltis_services__rs
+[5.465s] [  2%] Built target vel_saltis_services__cpp
+[5.510s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.514s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.520s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.619s] [  5%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/msg/detail/imu_cfg__functions.c.o[0m
+[5.619s] [  6%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/srv/detail/get_fusion_cfg__functions.c.o[0m
+[5.621s] [  6%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/srv/detail/set_fusion_cfg__functions.c.o[0m
+[5.624s] [  6%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/msg/detail/pidcfg__functions.c.o[0m
+[5.625s] [  7%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/msg/detail/servo_cfg__functions.c.o[0m
+[5.626s] [  8%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/msg/detail/fusion_cfg__functions.c.o[0m
+[5.626s] [  9%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/msg/detail/motor_cfg__functions.c.o[0m
+[5.632s] [ 10%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/srv/detail/set_imu_cfg__functions.c.o[0m
+[5.634s] [ 11%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/srv/detail/get_imu_cfg__functions.c.o[0m
+[5.756s] [ 12%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/srv/detail/get_motor_cfg__functions.c.o[0m
+[5.761s] [ 12%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/srv/detail/set_motor_cfg__functions.c.o[0m
+[5.766s] [ 13%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/srv/detail/get_pidcfg__functions.c.o[0m
+[5.770s] [ 13%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/srv/detail/get_servo_cfg__functions.c.o[0m
+[5.794s] [ 14%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/srv/detail/set_pidcfg__functions.c.o[0m
+[5.807s] [ 15%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_c.dir/rosidl_generator_c/vel_saltis_services/srv/detail/set_servo_cfg__functions.c.o[0m
+[5.953s] [ 16%] [32m[1mLinking C shared library libvel_saltis_services__rosidl_generator_c.so[0m
+[6.048s] [ 16%] Built target vel_saltis_services__rosidl_generator_c
+[6.079s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.079s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.084s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.918s] [ 19%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/msg/pidcfg__type_support.cpp.o[0m
+[6.918s] [ 19%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/msg/imu_cfg__type_support.cpp.o[0m
+[6.921s] [ 20%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/msg/motor_cfg__type_support.cpp.o[0m
+[6.922s] [ 21%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/msg/fusion_cfg__type_support.cpp.o[0m
+[6.922s] [ 22%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/msg/servo_cfg__type_support.cpp.o[0m
+[6.932s] [ 23%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/srv/get_fusion_cfg__type_support.cpp.o[0m
+[6.934s] [ 24%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/srv/set_fusion_cfg__type_support.cpp.o[0m
+[7.586s] [ 24%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/srv/get_imu_cfg__type_support.cpp.o[0m
+[7.608s] [ 25%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/srv/set_imu_cfg__type_support.cpp.o[0m
+[7.688s] [ 25%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/srv/set_motor_cfg__type_support.cpp.o[0m
+[7.698s] [ 25%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/msg/imu_cfg__type_support.cpp.o[0m
+[7.705s] [ 26%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/srv/get_motor_cfg__type_support.cpp.o[0m
+[7.778s] [ 27%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/msg/fusion_cfg__type_support.cpp.o[0m
+[7.817s] [ 28%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/srv/get_pidcfg__type_support.cpp.o[0m
+[7.844s] [ 29%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/srv/set_pidcfg__type_support.cpp.o[0m
+[7.858s] [ 30%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/msg/motor_cfg__type_support.cpp.o[0m
+[7.879s] [ 30%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/msg/pidcfg__type_support.cpp.o[0m
+[7.981s] [ 31%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/msg/servo_cfg__type_support.cpp.o[0m
+[7.984s] [ 31%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/srv/get_servo_cfg__type_support.cpp.o[0m
+[8.008s] [ 31%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/msg/detail/dds_fastrtps/imu_cfg__type_support.cpp.o[0m
+[8.083s] [ 32%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/srv/get_fusion_cfg__type_support.cpp.o[0m
+[8.111s] [ 33%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/msg/detail/dds_fastrtps/fusion_cfg__type_support.cpp.o[0m
+[8.119s] [ 34%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vel_saltis_services/srv/set_servo_cfg__type_support.cpp.o[0m
+[8.145s] [ 34%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/srv/set_fusion_cfg__type_support.cpp.o[0m
+[8.154s] [ 34%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/msg/detail/imu_cfg__type_support.cpp.o[0m
+[8.247s] [ 35%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/srv/get_imu_cfg__type_support.cpp.o[0m
+[8.331s] [ 36%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/srv/set_imu_cfg__type_support.cpp.o[0m
+[8.340s] [ 37%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/msg/detail/fusion_cfg__type_support.cpp.o[0m
+[8.410s] [ 38%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/msg/detail/motor_cfg__type_support.cpp.o[0m
+[8.417s] [ 38%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/srv/get_motor_cfg__type_support.cpp.o[0m
+[8.497s] [ 39%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/srv/set_motor_cfg__type_support.cpp.o[0m
+[8.515s] [ 39%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/msg/detail/pidcfg__type_support.cpp.o[0m
+[8.551s] [ 40%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/srv/get_pidcfg__type_support.cpp.o[0m
+[8.586s] [ 41%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/srv/set_pidcfg__type_support.cpp.o[0m
+[8.618s] [ 41%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/srv/get_servo_cfg__type_support.cpp.o[0m
+[8.658s] [ 42%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/msg/detail/servo_cfg__type_support.cpp.o[0m
+[8.659s] [ 44%] [32m[1mLinking CXX shared library libvel_saltis_services__rosidl_typesupport_cpp.so[0m
+[8.664s] [ 44%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/msg/detail/dds_fastrtps/motor_cfg__type_support.cpp.o[0m
+[8.672s] [ 44%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/msg/detail/imu_cfg__type_support.c.o[0m
+[8.695s] [ 45%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/srv/detail/get_fusion_cfg__type_support.cpp.o[0m
+[8.716s] [ 46%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/msg/detail/fusion_cfg__type_support.c.o[0m
+[8.728s] [ 47%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_c.dir/rosidl_typesupport_c/vel_saltis_services/srv/set_servo_cfg__type_support.cpp.o[0m
+[8.782s] [ 48%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/msg/detail/motor_cfg__type_support.c.o[0m
+[8.793s] [ 48%] Built target vel_saltis_services__rosidl_typesupport_cpp
+[8.818s] [ 48%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/srv/detail/get_imu_cfg__type_support.cpp.o[0m
+[8.818s] [ 48%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/msg/detail/pidcfg__type_support.c.o[0m
+[8.819s] [ 49%] [32m[1mLinking CXX shared library libvel_saltis_services__rosidl_typesupport_c.so[0m
+[8.834s] [ 50%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/srv/detail/set_fusion_cfg__type_support.cpp.o[0m
+[8.854s] [ 51%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/msg/detail/servo_cfg__type_support.c.o[0m
+[8.934s] [ 52%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/srv/detail/set_imu_cfg__type_support.cpp.o[0m
+[8.956s] [ 52%] Built target vel_saltis_services__rosidl_typesupport_c
+[8.965s] [ 53%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/srv/detail/get_fusion_cfg__type_support.c.o[0m
+[8.983s] [ 53%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/msg/detail/dds_fastrtps/pidcfg__type_support.cpp.o[0m
+[9.001s] [ 54%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/srv/detail/get_motor_cfg__type_support.cpp.o[0m
+[9.026s] [ 54%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/msg/detail/imu_cfg__type_support_c.cpp.o[0m
+[9.082s] [ 54%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/srv/detail/set_fusion_cfg__type_support.c.o[0m
+[9.188s] [ 55%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/msg/detail/fusion_cfg__type_support_c.cpp.o[0m
+[9.189s] [ 56%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/srv/detail/get_imu_cfg__type_support.c.o[0m
+[9.204s] [ 57%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/msg/detail/dds_fastrtps/servo_cfg__type_support.cpp.o[0m
+[9.216s] [ 58%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/srv/detail/dds_fastrtps/get_fusion_cfg__type_support.cpp.o[0m
+[9.304s] [ 59%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/msg/detail/motor_cfg__type_support_c.cpp.o[0m
+[9.311s] [ 60%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/srv/detail/set_imu_cfg__type_support.c.o[0m
+[9.432s] [ 60%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/srv/detail/get_motor_cfg__type_support.c.o[0m
+[9.442s] [ 60%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/msg/detail/pidcfg__type_support_c.cpp.o[0m
+[9.543s] [ 61%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/srv/detail/set_motor_cfg__type_support.c.o[0m
+[9.554s] [ 62%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/srv/detail/get_pidcfg__type_support.c.o[0m
+[9.571s] [ 63%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/msg/detail/servo_cfg__type_support_c.cpp.o[0m
+[9.587s] [ 64%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/srv/detail/get_fusion_cfg__type_support_c.cpp.o[0m
+[9.624s] [ 65%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/srv/detail/set_pidcfg__type_support.c.o[0m
+[9.630s] [ 66%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/srv/detail/dds_fastrtps/set_fusion_cfg__type_support.cpp.o[0m
+[9.701s] [ 66%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/srv/detail/get_servo_cfg__type_support.c.o[0m
+[9.728s] [ 66%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/srv/detail/set_motor_cfg__type_support.cpp.o[0m
+[9.753s] [ 67%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vel_saltis_services/srv/detail/set_servo_cfg__type_support.c.o[0m
+[9.831s] [ 67%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/srv/detail/dds_fastrtps/get_imu_cfg__type_support.cpp.o[0m
+[9.834s] [ 68%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/srv/detail/dds_fastrtps/set_imu_cfg__type_support.cpp.o[0m
+[9.871s] [ 69%] [32m[1mLinking C shared library libvel_saltis_services__rosidl_typesupport_introspection_c.so[0m
+[9.873s] [ 69%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/srv/detail/set_fusion_cfg__type_support_c.cpp.o[0m
+[9.909s] [ 70%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/srv/detail/get_imu_cfg__type_support_c.cpp.o[0m
+[9.945s] [ 71%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/srv/detail/set_imu_cfg__type_support_c.cpp.o[0m
+[9.966s] [ 71%] Built target vel_saltis_services__rosidl_typesupport_introspection_c
+[9.971s] [ 72%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/srv/detail/get_pidcfg__type_support.cpp.o[0m
+[10.003s] [ 73%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/srv/detail/set_pidcfg__type_support.cpp.o[0m
+[10.115s] [ 73%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/srv/detail/get_motor_cfg__type_support_c.cpp.o[0m
+[10.135s] [ 74%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/srv/detail/dds_fastrtps/get_motor_cfg__type_support.cpp.o[0m
+[10.163s] [ 75%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/srv/detail/set_motor_cfg__type_support_c.cpp.o[0m
+[10.337s] [ 75%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/srv/detail/dds_fastrtps/set_motor_cfg__type_support.cpp.o[0m
+[10.401s] [ 75%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/srv/detail/get_servo_cfg__type_support.cpp.o[0m
+[10.443s] [ 76%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/srv/detail/dds_fastrtps/get_pidcfg__type_support.cpp.o[0m
+[10.509s] [ 77%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/srv/detail/get_pidcfg__type_support_c.cpp.o[0m
+[10.575s] [ 78%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/srv/detail/set_pidcfg__type_support_c.cpp.o[0m
+[10.625s] [ 78%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/srv/detail/get_servo_cfg__type_support_c.cpp.o[0m
+[10.686s] [ 79%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/srv/detail/dds_fastrtps/set_pidcfg__type_support.cpp.o[0m
+[10.732s] [ 80%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vel_saltis_services/srv/detail/set_servo_cfg__type_support.cpp.o[0m
+[10.736s] [ 81%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vel_saltis_services/srv/detail/set_servo_cfg__type_support_c.cpp.o[0m
+[10.823s] [ 81%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/srv/detail/dds_fastrtps/get_servo_cfg__type_support.cpp.o[0m
+[10.867s] [ 82%] [32mBuilding CXX object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vel_saltis_services/srv/detail/dds_fastrtps/set_servo_cfg__type_support.cpp.o[0m
+[11.280s] [ 83%] [32m[1mLinking CXX shared library libvel_saltis_services__rosidl_typesupport_fastrtps_c.so[0m
+[11.371s] [ 84%] [32m[1mLinking CXX shared library libvel_saltis_services__rosidl_typesupport_introspection_cpp.so[0m
+[11.389s] [ 84%] Built target vel_saltis_services__rosidl_typesupport_fastrtps_c
+[11.424s] [ 85%] [32m[1mLinking CXX shared library libvel_saltis_services__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.482s] [ 85%] Built target vel_saltis_services__rosidl_typesupport_introspection_cpp
+[11.506s] [ 85%] Built target vel_saltis_services__rosidl_typesupport_fastrtps_cpp
+[11.525s] [ 85%] Built target vel_saltis_services
+[11.545s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.011s] [ 86%] Built target vel_saltis_services__py
+[13.033s] [ 88%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/msg/_imu_cfg_s.c.o[0m
+[13.033s] [ 88%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/msg/_servo_cfg_s.c.o[0m
+[13.033s] [ 88%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/msg/_pidcfg_s.c.o[0m
+[13.033s] [ 89%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/msg/_fusion_cfg_s.c.o[0m
+[13.033s] [ 89%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/msg/_motor_cfg_s.c.o[0m
+[13.033s] [ 90%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/srv/_get_fusion_cfg_s.c.o[0m
+[13.041s] [ 91%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/srv/_set_fusion_cfg_s.c.o[0m
+[13.042s] [ 92%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/srv/_get_motor_cfg_s.c.o[0m
+[13.044s] [ 92%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/srv/_get_imu_cfg_s.c.o[0m
+[13.054s] [ 93%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/srv/_set_imu_cfg_s.c.o[0m
+[13.071s] [ 93%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/srv/_set_motor_cfg_s.c.o[0m
+[13.071s] [ 94%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/srv/_get_pidcfg_s.c.o[0m
+[13.195s] [ 95%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/srv/_set_pidcfg_s.c.o[0m
+[13.206s] [ 95%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/srv/_get_servo_cfg_s.c.o[0m
+[13.219s] [ 96%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_generator_py.dir/rosidl_generator_py/vel_saltis_services/srv/_set_servo_cfg_s.c.o[0m
+[13.331s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/vel_saltis_services/libvel_saltis_services__rosidl_generator_py.so[0m
+[13.373s] [ 97%] Built target vel_saltis_services__rosidl_generator_py
+[13.393s] [ 97%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vel_saltis_services/_vel_saltis_services_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.393s] [ 97%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vel_saltis_services/_vel_saltis_services_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.394s] [ 97%] [32mBuilding C object CMakeFiles/vel_saltis_services__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vel_saltis_services/_vel_saltis_services_s.ep.rosidl_typesupport_c.c.o[0m
+[13.540s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.574s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.586s] [ 99%] Built target vel_saltis_services__rosidl_typesupport_introspection_c__pyext
+[13.607s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.614s] [100%] Built target vel_saltis_services__rosidl_typesupport_fastrtps_c__pyext
+[13.647s] [100%] Built target vel_saltis_services__rosidl_typesupport_c__pyext
+[13.664s] Invoked command in '/app/build/vel_saltis_services' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_services -- -j12 -l12
+[13.666s] Invoking command in '/app/build/vel_saltis_services': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_services
+[13.673s] -- Install configuration: ""
+[13.674s] -- Execute custom install script
+[13.674s] -- Symlinking: /app/install/vel_saltis_services/share/ament_index/resource_index/rosidl_interfaces/vel_saltis_services
+[13.683s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__functions.h
+[13.691s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__struct.h
+[13.699s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__type_support.h
+[13.707s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__functions.h
+[13.715s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__struct.h
+[13.723s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__type_support.h
+[13.731s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__functions.h
+[13.738s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__struct.h
+[13.746s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__type_support.h
+[13.756s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__functions.h
+[13.768s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__struct.h
+[13.777s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__type_support.h
+[13.789s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__functions.h
+[13.796s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__struct.h
+[13.804s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__type_support.h
+[13.812s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/fusion_cfg.h
+[13.820s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/imu_cfg.h
+[13.827s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/motor_cfg.h
+[13.835s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/pidcfg.h
+[13.843s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/rosidl_generator_c__visibility_control.h
+[13.850s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/servo_cfg.h
+[13.862s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__functions.h
+[13.871s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__struct.h
+[13.878s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__type_support.h
+[13.887s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__functions.h
+[13.895s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__struct.h
+[13.903s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__type_support.h
+[13.911s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__functions.h
+[13.919s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__struct.h
+[13.927s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__type_support.h
+[13.934s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__functions.h
+[13.942s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__struct.h
+[13.951s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__type_support.h
+[13.963s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__functions.h
+[13.971s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__struct.h
+[13.979s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__type_support.h
+[13.987s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__functions.h
+[13.995s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__struct.h
+[14.004s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__type_support.h
+[14.012s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__functions.h
+[14.019s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__struct.h
+[14.027s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__type_support.h
+[14.034s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__functions.h
+[14.042s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__struct.h
+[14.049s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__type_support.h
+[14.059s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__functions.h
+[14.068s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__struct.h
+[14.077s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__type_support.h
+[14.086s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__functions.h
+[14.097s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__struct.h
+[14.106s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__type_support.h
+[14.115s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_fusion_cfg.h
+[14.122s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_imu_cfg.h
+[14.130s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_motor_cfg.h
+[14.138s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_pidcfg.h
+[14.146s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_servo_cfg.h
+[14.154s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_fusion_cfg.h
+[14.164s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_imu_cfg.h
+[14.172s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_motor_cfg.h
+[14.180s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_pidcfg.h
+[14.189s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_servo_cfg.h
+[14.197s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/environment/library_path.sh
+[14.205s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/environment/library_path.dsv
+[14.214s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__rosidl_typesupport_fastrtps_c.h
+[14.222s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__rosidl_typesupport_fastrtps_c.h
+[14.229s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__rosidl_typesupport_fastrtps_c.h
+[14.237s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__rosidl_typesupport_fastrtps_c.h
+[14.245s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__rosidl_typesupport_fastrtps_c.h
+[14.253s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.264s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__rosidl_typesupport_fastrtps_c.h
+[14.272s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__rosidl_typesupport_fastrtps_c.h
+[14.280s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__rosidl_typesupport_fastrtps_c.h
+[14.289s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__rosidl_typesupport_fastrtps_c.h
+[14.296s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__rosidl_typesupport_fastrtps_c.h
+[14.305s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__rosidl_typesupport_fastrtps_c.h
+[14.313s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__rosidl_typesupport_fastrtps_c.h
+[14.320s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__rosidl_typesupport_fastrtps_c.h
+[14.329s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__rosidl_typesupport_fastrtps_c.h
+[14.337s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__rosidl_typesupport_fastrtps_c.h
+[14.345s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__builder.hpp
+[14.353s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__struct.hpp
+[14.364s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__traits.hpp
+[14.373s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__type_support.hpp
+[14.381s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__builder.hpp
+[14.389s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__struct.hpp
+[14.397s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__traits.hpp
+[14.405s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__type_support.hpp
+[14.413s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__builder.hpp
+[14.421s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__struct.hpp
+[14.429s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__traits.hpp
+[14.436s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__type_support.hpp
+[14.444s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__builder.hpp
+[14.453s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__struct.hpp
+[14.465s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__traits.hpp
+[14.473s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__type_support.hpp
+[14.482s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__builder.hpp
+[14.490s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__struct.hpp
+[14.498s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__traits.hpp
+[14.506s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__type_support.hpp
+[14.514s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/fusion_cfg.hpp
+[14.521s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/imu_cfg.hpp
+[14.529s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/motor_cfg.hpp
+[14.537s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/pidcfg.hpp
+[14.544s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.552s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/servo_cfg.hpp
+[14.563s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__builder.hpp
+[14.572s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__struct.hpp
+[14.580s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__traits.hpp
+[14.589s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__type_support.hpp
+[14.598s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__builder.hpp
+[14.607s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__struct.hpp
+[14.617s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__traits.hpp
+[14.626s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__type_support.hpp
+[14.635s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__builder.hpp
+[14.643s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__struct.hpp
+[14.651s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__traits.hpp
+[14.660s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__type_support.hpp
+[14.668s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__builder.hpp
+[14.677s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__struct.hpp
+[14.685s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__traits.hpp
+[14.694s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__type_support.hpp
+[14.703s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__builder.hpp
+[14.711s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__struct.hpp
+[14.720s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__traits.hpp
+[14.729s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__type_support.hpp
+[14.736s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__builder.hpp
+[14.744s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__struct.hpp
+[14.752s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__traits.hpp
+[14.761s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__type_support.hpp
+[14.769s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__builder.hpp
+[14.777s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__struct.hpp
+[14.785s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__traits.hpp
+[14.793s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__type_support.hpp
+[14.801s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__builder.hpp
+[14.810s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__struct.hpp
+[14.817s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__traits.hpp
+[14.825s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__type_support.hpp
+[14.833s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__builder.hpp
+[14.840s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__struct.hpp
+[14.848s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__traits.hpp
+[14.858s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__type_support.hpp
+[14.867s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__builder.hpp
+[14.875s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__struct.hpp
+[14.883s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__traits.hpp
+[14.891s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__type_support.hpp
+[14.899s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_fusion_cfg.hpp
+[14.907s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_imu_cfg.hpp
+[14.915s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_motor_cfg.hpp
+[14.922s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_pidcfg.hpp
+[14.930s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/get_servo_cfg.hpp
+[14.937s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_fusion_cfg.hpp
+[14.945s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_imu_cfg.hpp
+[14.953s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_motor_cfg.hpp
+[14.965s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_pidcfg.hpp
+[14.973s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/set_servo_cfg.hpp
+[14.982s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[14.990s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[14.998s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.006s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.014s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.021s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.029s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.036s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.044s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.051s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.062s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.071s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.080s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.088s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.097s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.105s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.113s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__rosidl_typesupport_introspection_c.h
+[15.121s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__rosidl_typesupport_introspection_c.h
+[15.130s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__rosidl_typesupport_introspection_c.h
+[15.138s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__rosidl_typesupport_introspection_c.h
+[15.145s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__rosidl_typesupport_introspection_c.h
+[15.153s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.165s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__rosidl_typesupport_introspection_c.h
+[15.173s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__rosidl_typesupport_introspection_c.h
+[15.181s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__rosidl_typesupport_introspection_c.h
+[15.190s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__rosidl_typesupport_introspection_c.h
+[15.198s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__rosidl_typesupport_introspection_c.h
+[15.207s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__rosidl_typesupport_introspection_c.h
+[15.215s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__rosidl_typesupport_introspection_c.h
+[15.222s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__rosidl_typesupport_introspection_c.h
+[15.230s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__rosidl_typesupport_introspection_c.h
+[15.238s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__rosidl_typesupport_introspection_c.h
+[15.247s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/fusion_cfg__rosidl_typesupport_introspection_cpp.hpp
+[15.255s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/imu_cfg__rosidl_typesupport_introspection_cpp.hpp
+[15.270s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/motor_cfg__rosidl_typesupport_introspection_cpp.hpp
+[15.282s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/pidcfg__rosidl_typesupport_introspection_cpp.hpp
+[15.297s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/msg/detail/servo_cfg__rosidl_typesupport_introspection_cpp.hpp
+[15.306s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_fusion_cfg__rosidl_typesupport_introspection_cpp.hpp
+[15.315s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_imu_cfg__rosidl_typesupport_introspection_cpp.hpp
+[15.326s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_motor_cfg__rosidl_typesupport_introspection_cpp.hpp
+[15.334s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_pidcfg__rosidl_typesupport_introspection_cpp.hpp
+[15.343s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/get_servo_cfg__rosidl_typesupport_introspection_cpp.hpp
+[15.351s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_fusion_cfg__rosidl_typesupport_introspection_cpp.hpp
+[15.362s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_imu_cfg__rosidl_typesupport_introspection_cpp.hpp
+[15.371s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_motor_cfg__rosidl_typesupport_introspection_cpp.hpp
+[15.380s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_pidcfg__rosidl_typesupport_introspection_cpp.hpp
+[15.389s] -- Symlinking: /app/install/vel_saltis_services/include/vel_saltis_services/vel_saltis_services/srv/detail/set_servo_cfg__rosidl_typesupport_introspection_cpp.hpp
+[15.397s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/environment/pythonpath.sh
+[15.406s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/environment/pythonpath.dsv
+[15.415s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services-0.8.0-py3.10.egg-info/PKG-INFO
+[15.423s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services-0.8.0-py3.10.egg-info/SOURCES.txt
+[15.431s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services-0.8.0-py3.10.egg-info/dependency_links.txt
+[15.439s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services-0.8.0-py3.10.egg-info/top_level.txt
+[15.448s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/__init__.py
+[15.458s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/_vel_saltis_services_s.ep.rosidl_typesupport_c.c
+[15.468s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/_vel_saltis_services_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.477s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/_vel_saltis_services_s.ep.rosidl_typesupport_introspection_c.c
+[15.485s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/libvel_saltis_services__rosidl_generator_py.so
+[15.494s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/__init__.py
+[15.503s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_fusion_cfg.py
+[15.511s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_fusion_cfg_s.c
+[15.519s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_imu_cfg.py
+[15.526s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_imu_cfg_s.c
+[15.535s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_motor_cfg.py
+[15.543s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_motor_cfg_s.c
+[15.550s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_pidcfg.py
+[15.561s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_pidcfg_s.c
+[15.570s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_servo_cfg.py
+[15.578s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_servo_cfg_s.c
+[15.587s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/__init__.py
+[15.595s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_fusion_cfg.py
+[15.604s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_fusion_cfg_s.c
+[15.613s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_imu_cfg.py
+[15.621s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_imu_cfg_s.c
+[15.630s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_motor_cfg.py
+[15.639s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_motor_cfg_s.c
+[15.647s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_pidcfg.py
+[15.655s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_pidcfg_s.c
+[15.666s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_servo_cfg.py
+[15.675s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_servo_cfg_s.c
+[15.683s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_fusion_cfg.py
+[15.691s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_fusion_cfg_s.c
+[15.699s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_imu_cfg.py
+[15.706s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_imu_cfg_s.c
+[15.714s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_motor_cfg.py
+[15.722s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_motor_cfg_s.c
+[15.730s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_pidcfg.py
+[15.737s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_pidcfg_s.c
+[15.745s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_servo_cfg.py
+[15.753s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_servo_cfg_s.c
+[15.764s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.773s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.781s] -- Symlinking: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.790s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.790s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.791s] -- Up-to-date symlink: /app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/vel_saltis_services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.791s] -- Symlinking: /app/install/vel_saltis_services/share/ament_index/resource_index/rust_packages/vel_saltis_services
+[15.799s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/rust/Cargo.toml
+[15.807s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/rust/build.rs
+[15.815s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/rust/src/lib.rs
+[15.823s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/rust/src/msg.rs
+[15.831s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/rust/src/msg/rmw.rs
+[15.839s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/rust/src/srv.rs
+[15.846s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/rust/src/srv/rmw.rs
+[15.854s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/msg/ImuCFG.idl
+[15.866s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/msg/FusionCFG.idl
+[15.875s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/msg/MotorCFG.idl
+[15.883s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/msg/PIDCFG.idl
+[15.892s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/msg/ServoCFG.idl
+[15.900s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetFusionCFG.idl
+[15.908s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetFusionCFG.idl
+[15.916s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetImuCFG.idl
+[15.923s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetImuCFG.idl
+[15.931s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetMotorCFG.idl
+[15.939s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetMotorCFG.idl
+[15.947s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetPIDCFG.idl
+[15.954s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetPIDCFG.idl
+[15.966s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetServoCFG.idl
+[15.974s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetServoCFG.idl
+[15.982s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/msg/ImuCFG.msg
+[15.990s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/msg/FusionCFG.msg
+[15.998s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/msg/MotorCFG.msg
+[16.006s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/msg/PIDCFG.msg
+[16.014s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/msg/ServoCFG.msg
+[16.021s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetFusionCFG.srv
+[16.028s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetFusionCFG_Request.msg
+[16.036s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetFusionCFG_Response.msg
+[16.043s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetFusionCFG.srv
+[16.050s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetFusionCFG_Request.msg
+[16.060s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetFusionCFG_Response.msg
+[16.069s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetImuCFG.srv
+[16.077s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetImuCFG_Request.msg
+[16.086s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetImuCFG_Response.msg
+[16.095s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetImuCFG.srv
+[16.105s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetImuCFG_Request.msg
+[16.114s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetImuCFG_Response.msg
+[16.122s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetMotorCFG.srv
+[16.130s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetMotorCFG_Request.msg
+[16.138s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetMotorCFG_Response.msg
+[16.145s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetMotorCFG.srv
+[16.153s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetMotorCFG_Request.msg
+[16.163s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetMotorCFG_Response.msg
+[16.171s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetPIDCFG.srv
+[16.178s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetPIDCFG_Request.msg
+[16.186s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetPIDCFG_Response.msg
+[16.193s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetPIDCFG.srv
+[16.201s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetPIDCFG_Request.msg
+[16.208s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetPIDCFG_Response.msg
+[16.216s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetServoCFG.srv
+[16.223s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetServoCFG_Request.msg
+[16.230s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/GetServoCFG_Response.msg
+[16.238s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetServoCFG.srv
+[16.245s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetServoCFG_Request.msg
+[16.252s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/srv/SetServoCFG_Response.msg
+[16.263s] -- Symlinking: /app/install/vel_saltis_services/share/ament_index/resource_index/package_run_dependencies/vel_saltis_services
+[16.272s] -- Symlinking: /app/install/vel_saltis_services/share/ament_index/resource_index/parent_prefix_path/vel_saltis_services
+[16.279s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/environment/ament_prefix_path.sh
+[16.287s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/environment/ament_prefix_path.dsv
+[16.295s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/environment/path.sh
+[16.302s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/environment/path.dsv
+[16.310s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/local_setup.bash
+[16.318s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/local_setup.sh
+[16.326s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/local_setup.zsh
+[16.333s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/local_setup.dsv
+[16.341s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/package.dsv
+[16.349s] -- Symlinking: /app/install/vel_saltis_services/share/ament_index/resource_index/packages/vel_saltis_services
+[16.358s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/rosidl_cmake-extras.cmake
+[16.368s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.376s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.384s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/ament_cmake_export_libraries-extras.cmake
+[16.392s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/ament_cmake_export_targets-extras.cmake
+[16.400s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.407s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.415s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_servicesConfig.cmake
+[16.423s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_servicesConfig-version.cmake
+[16.430s] -- Symlinking: /app/install/vel_saltis_services/share/vel_saltis_services/package.xml
+[16.438s] -- Installing: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_generator_c.so
+[16.438s] -- Set runtime path of "/app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_generator_c.so" to ""
+[16.439s] -- Installing: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_fastrtps_c.so
+[16.439s] -- Set runtime path of "/app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_fastrtps_c.so" to ""
+[16.439s] -- Installing: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_fastrtps_cpp.so
+[16.440s] -- Set runtime path of "/app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.440s] -- Installing: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_introspection_c.so
+[16.440s] -- Set runtime path of "/app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_introspection_c.so" to ""
+[16.440s] -- Installing: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_c.so
+[16.440s] -- Set runtime path of "/app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_c.so" to ""
+[16.441s] -- Installing: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_introspection_cpp.so
+[16.441s] -- Set runtime path of "/app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_introspection_cpp.so" to ""
+[16.441s] -- Installing: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_cpp.so
+[16.442s] -- Set runtime path of "/app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_typesupport_cpp.so" to ""
+[16.470s] Listing '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services'...
+[16.470s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/__init__.py'...
+[16.471s] Listing '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg'...
+[16.471s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/__init__.py'...
+[16.471s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_fusion_cfg.py'...
+[16.472s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_imu_cfg.py'...
+[16.474s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_motor_cfg.py'...
+[16.474s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_pidcfg.py'...
+[16.475s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/msg/_servo_cfg.py'...
+[16.476s] Listing '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv'...
+[16.476s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/__init__.py'...
+[16.476s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_fusion_cfg.py'...
+[16.477s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_imu_cfg.py'...
+[16.478s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_motor_cfg.py'...
+[16.479s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_pidcfg.py'...
+[16.480s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_get_servo_cfg.py'...
+[16.481s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_fusion_cfg.py'...
+[16.482s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_imu_cfg.py'...
+[16.483s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_motor_cfg.py'...
+[16.484s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_pidcfg.py'...
+[16.485s] Compiling '/app/install/vel_saltis_services/local/lib/python3.10/dist-packages/vel_saltis_services/srv/_set_servo_cfg.py'...
+[16.490s] -- Installing: /app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_generator_py.so
+[16.491s] -- Set runtime path of "/app/install/vel_saltis_services/lib/libvel_saltis_services__rosidl_generator_py.so" to ""
+[16.491s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_generator_cExport.cmake
+[16.491s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_generator_cExport-noconfig.cmake
+[16.491s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_typesupport_fastrtps_cExport.cmake
+[16.491s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.491s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_generator_cppExport.cmake
+[16.491s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.491s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.492s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_introspection_cExport.cmake
+[16.492s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.492s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_cExport.cmake
+[16.492s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_cExport-noconfig.cmake
+[16.492s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_introspection_cppExport.cmake
+[16.492s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.493s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_cppExport.cmake
+[16.493s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/vel_saltis_services__rosidl_typesupport_cppExport-noconfig.cmake
+[16.493s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_generator_pyExport.cmake
+[16.493s] -- Installing: /app/install/vel_saltis_services/share/vel_saltis_services/cmake/export_vel_saltis_services__rosidl_generator_pyExport-noconfig.cmake
+[16.496s] Invoked command in '/app/build/vel_saltis_services' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_services

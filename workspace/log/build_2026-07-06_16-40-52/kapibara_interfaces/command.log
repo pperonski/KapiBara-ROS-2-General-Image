@@ -1,0 +1,4 @@
+Invoking command in '/app/build/kapibara_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/build/kapibara_interfaces -- -j12 -l12
+Invoked command in '/app/build/kapibara_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/build/kapibara_interfaces -- -j12 -l12
+Invoking command in '/app/build/kapibara_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/build/kapibara_interfaces
+Invoked command in '/app/build/kapibara_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/build/kapibara_interfaces

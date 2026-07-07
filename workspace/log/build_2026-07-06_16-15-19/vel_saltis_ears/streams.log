@@ -1,0 +1,26 @@
+[0.034s] Invoking command in '/app/build/vel_saltis_ears': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_ears -- -j12 -l12
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target vel_saltis_ears[0m
+[0.181s] [100%] Built target vel_saltis_ears
+[0.214s] Invoked command in '/app/build/vel_saltis_ears' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/vel_saltis_ears -- -j12 -l12
+[0.215s] Invoking command in '/app/build/vel_saltis_ears': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_ears
+[0.231s] -- Install configuration: ""
+[0.231s] -- Execute custom install script
+[0.231s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears//vel_saltis_ears.xml
+[0.231s] -- Up-to-date symlink: /app/install/vel_saltis_ears/lib/libvel_saltis_ears.so
+[0.231s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/ament_index/resource_index/package_run_dependencies/vel_saltis_ears
+[0.231s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/ament_index/resource_index/parent_prefix_path/vel_saltis_ears
+[0.231s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/environment/ament_prefix_path.sh
+[0.231s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/environment/ament_prefix_path.dsv
+[0.231s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/environment/path.sh
+[0.231s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/environment/path.dsv
+[0.231s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/local_setup.bash
+[0.231s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/local_setup.sh
+[0.231s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/local_setup.zsh
+[0.231s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/local_setup.dsv
+[0.232s] -- Symlinking: /app/install/vel_saltis_ears/share/vel_saltis_ears/package.dsv
+[0.245s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/ament_index/resource_index/packages/vel_saltis_ears
+[0.245s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/vel_saltis_ears
+[0.246s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/cmake/vel_saltis_earsConfig.cmake
+[0.246s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/cmake/vel_saltis_earsConfig-version.cmake
+[0.247s] -- Up-to-date symlink: /app/install/vel_saltis_ears/share/vel_saltis_ears/package.xml
+[0.253s] Invoked command in '/app/build/vel_saltis_ears' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/vel_saltis_ears

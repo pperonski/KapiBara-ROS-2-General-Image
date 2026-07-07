@@ -1,0 +1,84 @@
+[0.025s] Invoking command in '/app/build/microphone': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/microphone -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/microphone
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.162s] -- The CXX compiler identification is GNU 11.4.0
+[0.171s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.247s] -- Detecting C compile features
+[0.249s] -- Detecting C compile features - done
+[0.252s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.340s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.343s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.487s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.560s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.636s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.701s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.707s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.716s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.735s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.761s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.819s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.821s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.937s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.978s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.044s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.058s] -- Looking for pthread.h
+[1.143s] -- Looking for pthread.h - found
+[1.143s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.235s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.237s] -- Found Threads: TRUE  
+[1.313s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[1.314s] -- Found kapibara_interfaces: 0.8.0 (/app/install/kapibara_interfaces/share/kapibara_interfaces/cmake)
+[1.326s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.460s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.460s] -- Added test 'lint_cmake' to check CMake code style
+[1.461s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.462s] -- Added test 'xmllint' to check XML markup files
+[1.465s] -- Configuring done
+[1.473s] -- Generating done
+[1.477s] -- Build files have been written to: /app/build/microphone
+[1.498s] Invoked command in '/app/build/microphone' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /app/src/microphone -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/microphone
+[1.499s] Invoking command in '/app/build/microphone': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/microphone -- -j12 -l12
+[1.595s] Built target ament_cmake_python_symlink_microphone
+[1.882s] running egg_info
+[1.883s] creating microphone.egg-info
+[1.884s] writing microphone.egg-info/PKG-INFO
+[1.884s] writing dependency_links to microphone.egg-info/dependency_links.txt
+[1.885s] writing top-level names to microphone.egg-info/top_level.txt
+[1.885s] writing manifest file 'microphone.egg-info/SOURCES.txt'
+[1.888s] reading manifest file 'microphone.egg-info/SOURCES.txt'
+[1.888s] writing manifest file 'microphone.egg-info/SOURCES.txt'
+[1.955s] Built target ament_cmake_python_build_microphone_egg
+[1.975s] Invoked command in '/app/build/microphone' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /app/build/microphone -- -j12 -l12
+[1.981s] Invoking command in '/app/build/microphone': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/microphone
+[2.004s] -- Install configuration: ""
+[2.006s] -- Execute custom install script
+[2.007s] -- Symlinking: /app/install/microphone/share/microphone/environment/pythonpath.sh
+[2.037s] -- Symlinking: /app/install/microphone/share/microphone/environment/pythonpath.dsv
+[2.064s] -- Symlinking: /app/install/microphone/local/lib/python3.10/dist-packages/microphone-0.0.0-py3.10.egg-info/PKG-INFO
+[2.132s] -- Symlinking: /app/install/microphone/local/lib/python3.10/dist-packages/microphone-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.159s] -- Symlinking: /app/install/microphone/local/lib/python3.10/dist-packages/microphone-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.194s] -- Symlinking: /app/install/microphone/local/lib/python3.10/dist-packages/microphone-0.0.0-py3.10.egg-info/top_level.txt
+[2.226s] -- Symlinking: /app/install/microphone/local/lib/python3.10/dist-packages/microphone/__init__.py
+[2.253s] -- Symlinking: /app/install/microphone/lib/microphone/mic.py
+[2.274s] -- Symlinking: /app/install/microphone/share/ament_index/resource_index/package_run_dependencies/microphone
+[2.291s] -- Symlinking: /app/install/microphone/share/ament_index/resource_index/parent_prefix_path/microphone
+[2.315s] -- Symlinking: /app/install/microphone/share/microphone/environment/ament_prefix_path.sh
+[2.337s] -- Symlinking: /app/install/microphone/share/microphone/environment/ament_prefix_path.dsv
+[2.360s] -- Symlinking: /app/install/microphone/share/microphone/environment/path.sh
+[2.372s] -- Symlinking: /app/install/microphone/share/microphone/environment/path.dsv
+[2.394s] -- Symlinking: /app/install/microphone/share/microphone/local_setup.bash
+[2.411s] -- Symlinking: /app/install/microphone/share/microphone/local_setup.sh
+[2.427s] -- Symlinking: /app/install/microphone/share/microphone/local_setup.zsh
+[2.439s] -- Symlinking: /app/install/microphone/share/microphone/local_setup.dsv
+[2.455s] -- Symlinking: /app/install/microphone/share/microphone/package.dsv
+[2.479s] -- Symlinking: /app/install/microphone/share/ament_index/resource_index/packages/microphone
+[2.491s] -- Symlinking: /app/install/microphone/share/microphone/cmake/microphoneConfig.cmake
+[2.513s] -- Symlinking: /app/install/microphone/share/microphone/cmake/microphoneConfig-version.cmake
+[2.524s] -- Symlinking: /app/install/microphone/share/microphone/package.xml
+[2.606s] Listing '/app/install/microphone/local/lib/python3.10/dist-packages/microphone'...
+[2.606s] Compiling '/app/install/microphone/local/lib/python3.10/dist-packages/microphone/__init__.py'...
+[2.617s] Invoked command in '/app/build/microphone' returned '0': AMENT_PREFIX_PATH=/app/install/kapibara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/app/install/kapibara_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/app/install/kapibara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/app/install/kapibara_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /app/build/microphone

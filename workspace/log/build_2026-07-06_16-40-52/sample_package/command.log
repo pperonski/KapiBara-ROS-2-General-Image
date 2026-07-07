@@ -1,0 +1,4 @@
+Invoking command in '/app/build/sample_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/build/sample_package -- -j12 -l12
+Invoked command in '/app/build/sample_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/build/sample_package -- -j12 -l12
+Invoking command in '/app/build/sample_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/build/sample_package
+Invoked command in '/app/build/sample_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/build/sample_package

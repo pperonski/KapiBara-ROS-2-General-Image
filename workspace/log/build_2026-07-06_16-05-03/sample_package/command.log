@@ -1,0 +1,1 @@
+Invoking command in '/app/build/sample_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /app/src/sample_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/sample_package

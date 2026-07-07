@@ -1,0 +1,150 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found kapibara_interfaces: 0.8.0 (/app/install/kapibara_interfaces/share/kapibara_interfaces/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /app/src/kapibara/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /app/build/kapibara
+[ 50%] [32mBuilding CXX object CMakeFiles/atractor.dir/src/actractor.cpp.o[0m
+[ 50%] Built target ament_cmake_python_symlink_kapibara
+running egg_info
+creating kapibara.egg-info
+writing kapibara.egg-info/PKG-INFO
+writing dependency_links to kapibara.egg-info/dependency_links.txt
+writing top-level names to kapibara.egg-info/top_level.txt
+writing manifest file 'kapibara.egg-info/SOURCES.txt'
+reading manifest file 'kapibara.egg-info/SOURCES.txt'
+writing manifest file 'kapibara.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_kapibara_egg
+[100%] [32m[1mLinking CXX executable atractor[0m
+[100%] Built target atractor
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /app/install/kapibara/share/kapibara/description/camera.xacro
+-- Symlinking: /app/install/kapibara/share/kapibara/description/imu.xacro
+-- Symlinking: /app/install/kapibara/share/kapibara/description/inertial_macros.xacro
+-- Symlinking: /app/install/kapibara/share/kapibara/description/kapibara.urdf.xacro
+-- Symlinking: /app/install/kapibara/share/kapibara/description/lasers_def.xacro
+-- Symlinking: /app/install/kapibara/share/kapibara/description/lasers_joints.xacro
+-- Symlinking: /app/install/kapibara/share/kapibara/description/robot_core.xacro
+-- Symlinking: /app/install/kapibara/share/kapibara/description/ros2_control.xacro
+-- Symlinking: /app/install/kapibara/share/kapibara/meshes/Bottom.stl
+-- Symlinking: /app/install/kapibara/share/kapibara/meshes/Top.stl
+-- Symlinking: /app/install/kapibara/share/kapibara/meshes/Top1.stl
+-- Symlinking: /app/install/kapibara/share/kapibara/meshes/Top3.stl
+-- Symlinking: /app/install/kapibara/share/kapibara/meshes/Wing.stl
+-- Symlinking: /app/install/kapibara/share/kapibara/meshes/Wing1.stl
+-- Symlinking: /app/install/kapibara/share/kapibara/meshes/Wing2.stl
+-- Symlinking: /app/install/kapibara/share/kapibara/config/gazebo.yaml
+-- Symlinking: /app/install/kapibara/share/kapibara/config/lidar3d-gicp.yaml
+-- Symlinking: /app/install/kapibara/share/kapibara/config/lidar3d-icp.yaml
+-- Symlinking: /app/install/kapibara/share/kapibara/config/mola_cfg.yaml
+-- Symlinking: /app/install/kapibara/share/kapibara/config/my_controllers.yaml
+-- Symlinking: /app/install/kapibara/share/kapibara/config/my_controllers_sim.yaml
+-- Symlinking: /app/install/kapibara/share/kapibara/config/state-estimator.yaml
+-- Symlinking: /app/install/kapibara/share/kapibara/launch/launch.kapibara.can.py
+-- Symlinking: /app/install/kapibara/share/kapibara/launch/launch.mapper.sim.py
+-- Symlinking: /app/install/kapibara/share/kapibara/launch/launch.sim.py
+-- Symlinking: /app/install/kapibara/share/kapibara/model/Midas-V2-Quantized.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/Midas-V2-Quantized_edgetpu.log
+-- Symlinking: /app/install/kapibara/share/kapibara/model/Midas-V2-Quantized_edgetpu.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/calibration_image_sample_data_20x128x128x3_float32.npy
+-- Symlinking: /app/install/kapibara/share/kapibara/model/deepid.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/deepid_edgetpu.log
+-- Symlinking: /app/install/kapibara/share/kapibara/model/deepid_edgetpu.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/face_detection_yunet_2023mar_int8.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/face_detection_yunet_2023mar_int8_edgetpu.log
+-- Symlinking: /app/install/kapibara/share/kapibara/model/model.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/model_edgetpu.log
+-- Symlinking: /app/install/kapibara/share/kapibara/model/model_edgetpu.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/slim.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/slim_edgetpu.log
+-- Symlinking: /app/install/kapibara/share/kapibara/model/slim_edgetpu.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/yolov11n-face.onnx
+-- Symlinking: /app/install/kapibara/share/kapibara/model/yolov11n-face.pt
+-- Symlinking: /app/install/kapibara/share/kapibara/model/yolov11n-face_float32.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/yolov8n-cls_full_integer_quant.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/yolov8n-cls_full_integer_quant_edgetpu.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/yolov8n_full_integer_quant.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/yolov8n_full_integer_quant_edgetpu.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/yunet_full_integer_quant_edgetpu.log
+-- Symlinking: /app/install/kapibara/share/kapibara/model/yunet_integer_quant.tflite
+-- Symlinking: /app/install/kapibara/share/kapibara/model/yunet_integer_quant_edgetpu.log
+-- Symlinking: /app/install/kapibara/share/kapibara/model/yunet_integer_quant_edgetpu.tflite
+-- Symlinking: /app/install/kapibara/lib/kapibara/atractor
+-- Symlinking: /app/install/kapibara/share/kapibara/environment/pythonpath.sh
+-- Symlinking: /app/install/kapibara/share/kapibara/environment/pythonpath.dsv
+-- Symlinking: /app/install/kapibara/local/lib/python3.10/dist-packages/kapibara-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /app/install/kapibara/local/lib/python3.10/dist-packages/kapibara-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /app/install/kapibara/local/lib/python3.10/dist-packages/kapibara-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /app/install/kapibara/local/lib/python3.10/dist-packages/kapibara-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /app/install/kapibara/local/lib/python3.10/dist-packages/kapibara/DeepIDTFLite.py
+-- Symlinking: /app/install/kapibara/local/lib/python3.10/dist-packages/kapibara/__init__.py
+-- Symlinking: /app/install/kapibara/local/lib/python3.10/dist-packages/kapibara/kapi_graphs.py
+-- Symlinking: /app/install/kapibara/lib/kapibara/camera_sim.py
+-- Symlinking: /app/install/kapibara/lib/kapibara/map_mind.py
+-- Symlinking: /app/install/kapibara/lib/kapibara/sensor_broadcaster.py
+-- Symlinking: /app/install/kapibara/lib/kapibara/map_scene.py
+-- Symlinking: /app/install/kapibara/lib/kapibara/imu_calib.py
+-- Symlinking: /app/install/kapibara/lib/kapibara/quanterion_decoder.py
+-- Symlinking: /app/install/kapibara/lib/kapibara/atractor.py
+-- Symlinking: /app/install/kapibara/share/ament_index/resource_index/package_run_dependencies/kapibara
+-- Symlinking: /app/install/kapibara/share/ament_index/resource_index/parent_prefix_path/kapibara
+-- Symlinking: /app/install/kapibara/share/kapibara/environment/ament_prefix_path.sh
+-- Symlinking: /app/install/kapibara/share/kapibara/environment/ament_prefix_path.dsv
+-- Symlinking: /app/install/kapibara/share/kapibara/environment/path.sh
+-- Symlinking: /app/install/kapibara/share/kapibara/environment/path.dsv
+-- Symlinking: /app/install/kapibara/share/kapibara/local_setup.bash
+-- Symlinking: /app/install/kapibara/share/kapibara/local_setup.sh
+-- Symlinking: /app/install/kapibara/share/kapibara/local_setup.zsh
+-- Symlinking: /app/install/kapibara/share/kapibara/local_setup.dsv
+-- Symlinking: /app/install/kapibara/share/kapibara/package.dsv
+-- Symlinking: /app/install/kapibara/share/ament_index/resource_index/packages/kapibara
+-- Symlinking: /app/install/kapibara/share/kapibara/cmake/kapibaraConfig.cmake
+-- Symlinking: /app/install/kapibara/share/kapibara/cmake/kapibaraConfig-version.cmake
+-- Symlinking: /app/install/kapibara/share/kapibara/package.xml
+Listing '/app/install/kapibara/local/lib/python3.10/dist-packages/kapibara'...
+Compiling '/app/install/kapibara/local/lib/python3.10/dist-packages/kapibara/DeepIDTFLite.py'...
+Compiling '/app/install/kapibara/local/lib/python3.10/dist-packages/kapibara/__init__.py'...
+Compiling '/app/install/kapibara/local/lib/python3.10/dist-packages/kapibara/kapi_graphs.py'...
