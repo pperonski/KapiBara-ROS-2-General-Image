@@ -3,11 +3,11 @@ FROM althack/ros2:humble-base
 # SHELL ["/bin/bash", "-c"]
 
 
-ENV DEBIAN_FRONTEND noninteractive
+ENV DEBIAN_FRONTEND=noninteractive
 
-ENV BUILD_LOCATION ./build
-ENV INSTALL_LOCATION ./install
-ENV ROS_DISTRO humble
+ENV BUILD_LOCATION=./build
+ENV INSTALL_LOCATION=./install
+ENV ROS_DISTRO=humble
 
 # Install dependencies
 
