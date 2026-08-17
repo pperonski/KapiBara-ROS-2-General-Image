@@ -38,7 +38,7 @@ install(
 )
 
 install(PROGRAMS
-  scripts/estimator.py
+  scripts/estimator.py .venv
   DESTINATION lib/${PROJECT_NAME}
 )
 ament_package()

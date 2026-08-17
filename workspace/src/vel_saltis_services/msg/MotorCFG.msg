@@ -1,2 +1,0 @@
-int16 velocities_left
-int16 velocities_right

@@ -1,3 +1,0 @@
-kapibara_interfaces/PID left
-kapibara_interfaces/PID right
-uint8 open
