@@ -1,2 +1,5 @@
 #!/bin/bash
+path=$(dirname -- "$@");
+pushd $path
 /usr/bin/env -S uv run "$@"
+popd
